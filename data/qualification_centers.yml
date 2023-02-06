@@ -46,8 +46,8 @@
   place: Universiteit Gent
   address: |
     Campus Sterre
-    Vergaderzaal 0.7 Miami
-    Krijgslaan 281 - S9
+    PC / laptoplokaal 1.1 Grace Hopper
+    Krijgslaan 281 - Gebouw S5
     9000 Gent
   # address: |Te bepalen / A déterminer
   #   Faculteit Wetenschappen
@@ -62,7 +62,7 @@
     Lokaal B17
     3590 Diepenbeek
   #   address: | Te bepalen / A déterminer
-  route_link: https://drive.google.com/a/uhasselt.be/open?id=1zXIf7GVO8ILyyZWhAxpnhnuAHEZO80-i&usp=sharing
+  route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
   pos:
     lat: 50.9253703
     lng: 5.3912436
@@ -95,7 +95,7 @@
 -
   city: Libramont
   place: Haute École Robert Schuman (HERS)
-  address: Te bepalen / A déterminer
+  address: Geannuleerd / Annulé
 #   address: |
 #     Local B1
 #     Rue de la Cité, 64
