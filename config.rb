@@ -11,7 +11,7 @@ set :beoi_year, 2023
 # - :qualif_results_published -- Qualif results available, final in future
 # - :waiting_final_results -- Final past, waiting for results to be available
 # - :final_results_published -- Final results available
-set :contest_state, :registration
+set :contest_state, :waiting_qualif_results
 
 # some config depending on the contest state
 set :show_qualif_results, %i[qualif_results_published waiting_final_results final_results_published].include?(config.contest_state)
