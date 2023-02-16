@@ -1,13 +1,14 @@
 ---
 title: Final Results
 trianglify_colors: '"RdYlGn"'
+result_file: results_2022_final
 ---
 <section class="page-title page-title-4 image-bg">
   <%=page_header_empty_image_holder %>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h3 class="uppercase mb0"><%= t(:final_result_title) %> <%= config.beoi_year %></h3>
+        <h3 class="uppercase mb0"><%= t(:final_result_title) %>&nbsp;<%= results.year %></h3>
       </div>
     </div>
     <!--end of row-->
@@ -37,12 +38,12 @@ trianglify_colors: '"RdYlGn"'
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
         <!--
-        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2022_final.contestants.cadet_top.length %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.cadet_top.length %></h5>
 
         <table class="table table-striped-cadet">
           <tbody>
             <tr><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th></tr>
-            <% data.results_2022_final.contestants.cadet_top.each do |r| %>
+            <% results.contestants.cadet_top.each do |r| %>
             <tr>
               <td nowrap="nowrap"><%= r.name %></td>
               <td><%= r.school %> (<%= t(r.year) %>)</td>
@@ -51,15 +52,15 @@ trianglify_colors: '"RdYlGn"'
           </tbody>
         </table>
 
-        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2022_final.contestants.cadet_top.length %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.cadet_top.length %></h5>
         -->
 
-        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2022_final.contestants.cadet_max %></p>
+        <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.cadet_max %></p>
 
         <table class="table table-striped-cadet">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2022_final.contestants.cadet.each do |r| %>
+            <% results.contestants.cadet.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
@@ -87,12 +88,12 @@ trianglify_colors: '"RdYlGn"'
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
         <!--
-        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2022_final.contestants.junior_top.length %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.junior_top.length %></h5>
 
         <table class="table table-striped-junior">
           <tbody>
             <tr><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th></tr>
-            <% data.results_2022_final.contestants.junior_top.each do |r| %>
+            <% results.contestants.junior_top.each do |r| %>
             <tr>
               <td nowrap="nowrap"><%= r.name %></td>
               <td><%= r.school %> (<%= t(r.year) %>)</td>
@@ -101,15 +102,15 @@ trianglify_colors: '"RdYlGn"'
           </tbody>
         </table>
 
-        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2022_final.contestants.junior_top.length %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.junior_top.length %></h5>
         -->
-       
-        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2022_final.contestants.junior_max %></p>
+
+        <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.junior_max %></p>
 
         <table class="table table-striped-junior">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2022_final.contestants.junior.each do |r| %>
+            <% results.contestants.junior.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
@@ -137,12 +138,12 @@ trianglify_colors: '"RdYlGn"'
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
         <!--
-        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2022_final.contestants.senior_top.length %></h5>
-        
+        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.senior_top.length %></h5>
+
         <table class="table table-striped-senior">
           <tbody>
             <tr><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th></tr>
-            <% data.results_2022_final.contestants.senior_top.each do |r| %>
+            <% results.contestants.senior_top.each do |r| %>
             <tr>
               <td nowrap="nowrap"><%= r.name %></td>
               <td><%= r.school %> (<%= t(r.year) %>)</td>
@@ -151,15 +152,15 @@ trianglify_colors: '"RdYlGn"'
           </tbody>
         </table>
 
-        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2022_final.contestants.senior_top.length %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.senior_top.length %></h5>
         -->
-        
-        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2022_final.contestants.senior_max %></p>
+
+        <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.senior_max %></p>
 
         <table class="table table-striped-senior">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2022_final.contestants.senior.each do |r| %>
+            <% results.contestants.senior.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>

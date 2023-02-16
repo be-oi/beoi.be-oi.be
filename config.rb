@@ -94,6 +94,10 @@ helpers do
     scores.lines.map(&:chomp).count { |s| s.to_i >= threshold }
   end
 
+  def results
+    data[current_page.data.result_file]
+  end
+
 end
 
 set :markdown_engine
