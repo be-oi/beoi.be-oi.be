@@ -256,7 +256,8 @@ fr:
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
-    L'éliminatoire de l'olympiade 2022 a eu lieu la semaine du 16 février dans les écoles et centre régionaux.
+    L'éliminatoire de l'olympiade 2023 a eu lieu la semaine du 8 février dans les écoles et centre régionaux. Cette page résume les
+    principaux résultats.
   qualif_chart_nbcontestants: Nombre de participants
   qualif_chart_lang: Langue
   qualif_chart_lang_fr: Francophones
@@ -266,7 +267,7 @@ fr:
   results_max_score: Le score maximum possible était de %d points.
   qualif_result_summary: En résumé
   qualif_result_stat_contestants: Nombre de participants
-  qualif_result_stat_contestants_text: L'édition %d a compté %d participants officiels venant de plus de %d écoles différentes.
+  qualif_result_stat_contestants_text: L'édition %d a compté %d élèves et %d écoles participantes.
   qualif_result_stat_results: Résultats
   qualif_result_stat_graph_expl: |
     Les graphiques ci-dessous représentent les scores de chaque participants.

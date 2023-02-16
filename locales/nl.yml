@@ -254,7 +254,7 @@ nl:
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
   qualif_intro_text: |
-    De eerste ronde van de olympiade 2022 vond plaats op 16 februari in verschillende scholen en regionale centra.
+    De eerste ronde van de olympiade 2023 vond plaats op 8 februari in verschillende scholen en regionale centra.
     Op deze pagina staan de resultaten van en enkele statistieken over deze ronde.
   qualif_chart_nbcontestants: Aantal deelnemers
   qualif_chart_lang: Taal
@@ -265,7 +265,7 @@ nl:
   results_max_score: De maximumscore was %d punten.
   qualif_result_summary: Samenvatting
   qualif_result_stat_contestants: Aantal deelnemers
-  qualif_result_stat_contestants_text: De editie %d telde %d officiële deelnemers uit %d verschillende scholen.
+  qualif_result_stat_contestants_text: De editie %d telde %d leerlingen en %d deelnemende scholen.
   qualif_result_stat_results: Resultaten
   qualif_result_stat_graph_expl: |
     De grafieken hieronder geven de resultaten van de deelnemers weer.
