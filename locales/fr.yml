@@ -246,13 +246,13 @@ fr:
 
   final_result_title: "Finale: Résultats"
   final_results_expl_past: |
-    La finale de l'olympiade 2022 a eu lieu le 23 avril à Bruxelles.<br>
+    La finale de l'olympiade 2023 a eu lieu le 18 mars à Bruxelles.<br>
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
   final_results_expl_future: |
-    La finale de l'olympiade 2022 a eu lieu le 23 avril à Bruxelles.<br>
+    La finale de l'olympiade 2023 a eu lieu le 18 mars à Bruxelles.<br>
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
     Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score.<br>
-    Ils recevront leur classement final et un prix lors de la proclamation prévue le 14 mai à Bruxelles.<br>
+    Ils recevront leur classement final et un prix lors de la proclamation prévue le 13 mai à Bruxelles.<br>
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
