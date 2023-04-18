@@ -76,6 +76,20 @@ trianglify_colors: '["#5e4fa2","#3288bd","#66c2a5","#abdda4","#e6f598","#ffffbf"
   <!--end of container-->
 </section>
 
+
+<% if Date.today < Date.new(2023,5,15) %>
+<section class="bg-dark pb0">
+  <div class="container">
+    <div class="row mb64 mb-xs-32">
+      <div class="col-md-12 col-sm-12 text-center">
+        <h3 class="large"><%= t("becp_registration_deadline") %></h3>
+      </div>
+    </div>
+  </div>
+</section>
+<% end %>
+
+
 <!--<section class="bg-secondary">
   <div class="container">
     <div class="row mb64 mb-xs-32">
@@ -240,7 +254,7 @@ trianglify_colors: '["#5e4fa2","#3288bd","#66c2a5","#abdda4","#e6f598","#ffffbf"
   <div class="col-md-6 content"><%= partial "index_learn_prog" %></div>
 </section>
 
-<%= partial "becp_ranking" %>
+<%# partial "becp_ranking" %>
 
 <a name="questions"></a>
 <!-- ################ 2016 ################ -->
