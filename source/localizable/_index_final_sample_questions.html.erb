@@ -1,5 +1,5 @@
 <a name="sample-questions-final"></a>
-<section class="bg-secondary">
+<section class="altern"> <!-- class="bg-secondary" -->
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -29,173 +29,119 @@
         <!--end of button tabs-->
       </div>
 
-    </div>
-    <!--end of row-->
+    </div><!--end of row-->
+  </div>
+</section>
 
+<a name="questions-solutions"></a>
+<!-- Questions finale 2023 -->
+   <section class="altern">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb12"><%= t(:final_task_descriptions_title)%2023 %></h5>
 
-    <a name="questions-solutions"></a>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2016 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2016]["final"].each do |e| %>
+        <% data.task_descriptions[2023]["final"].each do |e| %>
         <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
         <% end %>
-      </div>
-    </div>
 
-    <a name="questions-2017"></a>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2017 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2017]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
+		  <br><b>Dateien auf Deutsch</b><br>
+        <% data.task_descriptions[2023]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+ 
+		  <br><b>English Files</b><br>
+        <% data.task_descriptions[2023]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["en"]}" , class:"btn btn-sm", target:"_blank" %>
         <% end %>
       </div>
-    </div>
-    <!--end of row-->
+   </section>
     
-    <a name="questions-2018"></a>
-    <div class="row">
+<!-- Questions finale 2022 -->
+   <section class="altern">
       <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2018 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
+        <h4 class="uppercase mb12"><%= t(:final_task_descriptions_title)%2022 %></h5>
+
+        <% data.task_descriptions[2022]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+
+		  <br><b>Dateien auf Deutsch</b><br>
+        <% data.task_descriptions[2022]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+
+		  <br><b>English Files</b><br>
+        <% data.task_descriptions[2022]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["en"]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
       </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
+   </section>
+
+<!-- Questions finale 2020 -->
+   <section class="altern">
       <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb12"><%= t(:final_task_descriptions_title)%2020 %></h5>
+
+        <% data.task_descriptions[2020]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+        
+		  <br><b>Dateien auf Deutsch</b><br>
+        <% data.task_descriptions[2020]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+
+		  <br><b>English Files</b><br>
+        <% data.task_descriptions[2020]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["en"]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+      </div>
+   </section>
+
+<!-- Questions finale 2019 -->
+   <section class="altern">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb12"><%= t(:final_task_descriptions_title)%2019 %></h5>
+
+        <% data.task_descriptions[2019]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+
+		  <br><b>Dateien auf Deutsch</b><br>
+        <% data.task_descriptions[2019]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+      </div>
+   </section>
+    
+<!-- Questions finale 2018 -->
+   <section class="altern">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb12"><%= t(:final_task_descriptions_title)%2018 %></h5>
+
         <% data.task_descriptions[2018]["final"].each do |e| %>
         <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
         <% end %>
       </div>
-    </div>
-    <!--end of row-->
+   </section>
 
-    <a name="questions-2019"></a>
-    <div class="row">
+<!-- Questions finale 2017 -->
+   <section class="altern">
       <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2019 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2019]["final"].each do |e| %>
+        <h4 class="uppercase mb12"><%= t(:final_task_descriptions_title)%2017 %></h5>
+
+        <% data.task_descriptions[2017]["final"].each do |e| %>
         <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
         <% end %>
       </div>
-	  
-      <div class="col-sm-12 text-center">
-		<b>Dateien auf Deutsch</b><br>
-        <% data.task_descriptions[2019]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-    </div>
-    <!--end of row-->
+   </section>
 
-    <a name="questions-2020"></a>
-    <div class="row">
+<!-- Questions finale 2016 -->
+   <section class="altern">
       <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2020 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2020]["final"].each do |e| %>
+        <h4 class="uppercase mb12"><%= t(:final_task_descriptions_title)%2016 %></h5>
+
+        <% data.task_descriptions[2016]["final"].each do |e| %>
         <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
         <% end %>
       </div>
-
-      <div class="col-sm-12 text-center">
-		<b>Dateien auf Deutsch</b><br>
-        <% data.task_descriptions[2020]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-
-      <div class="col-sm-12 text-center">
-		<b>English Files</b><br>
-        <% data.task_descriptions[2020]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["en"]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-    </div>
-    <!--end of row-->
-
-    <a name="questions-2022"></a>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2022 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2022]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-
-      <div class="col-sm-12 text-center">
-		<b>Dateien auf Deutsch</b><br>
-        <% data.task_descriptions[2022]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-
-      <div class="col-sm-12 text-center">
-		<b>English Files</b><br>
-        <% data.task_descriptions[2022]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["en"]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-    </div>
-    <!--end of row-->
-
-    <a name="questions-2023"></a>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2023 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2023]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-
-      <div class="col-sm-12 text-center">
-		<b>Dateien auf Deutsch</b><br>
-        <% data.task_descriptions[2023]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-
-      <div class="col-sm-12 text-center">
-		<b>English Files</b><br>
-        <% data.task_descriptions[2023]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["en"]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-    </div>
-    <!--end of row-->    
-  </div>
-  <!--end of container-->
-</section>
+   </section>

@@ -23,6 +23,7 @@
           <h3 class="large"><%= t("index_result_link") %> <%= config.beoi_year %></h3>
           <% if config.show_qualif_results %><%= link_to t(:index_qualif_result_title), 'qualif_results', class:'btn btn-lg btn-filled' %><% end %>
           <% if config.show_final_results %><%= link_to t(:index_final_result_title), 'final_results', class:'btn btn-lg btn-filled' %><% end %>
+          <% if config.becp_results_available %><%= link_to 'beCP', 'becp#results', class:'btn btn-lg btn-filled' %><% end %>
 
         <%
         end
