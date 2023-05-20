@@ -209,7 +209,7 @@
       official: parkour
       fr: Parkour
       nl: Parkour
-      en: Parkour (EN)
+      en: Parkour
     file:
       fr: beCP22-parkour-fr.pdf
       nl: beCP22-parkour-nl.pdf
@@ -219,7 +219,7 @@
       official: rangemin
       fr: Rangemin
       nl: Rangemin
-      en: Rangemin (EN)
+      en: Rangemin
     file:
       fr: beCP22-rangemin-fr.pdf
       nl: beCP22-rangemin-nl.pdf
@@ -229,7 +229,7 @@
       official: slogans
       fr: Slogans
       nl: Slogans
-      en: Slogans (EN)
+      en: Slogans
     file:
       fr: beCP22-slogans-fr.pdf
       nl: beCP22-slogans-nl.pdf
@@ -239,7 +239,7 @@
       official: secretagents
       fr: Agents secrets
       nl: Secret Agents
-      en: Secret Agents (EN)
+      en: Secret Agents
     file:
       fr: beCP22-secretagents-fr.pdf
       nl: beCP22-secretagents-nl.pdf
@@ -249,7 +249,7 @@
       official: periodictable
       fr: Memes de tableau periodique
       nl: Periodic Table Memes
-      en: Periodic Table Memes (EN)
+      en: Periodic Table Memes
     file:
       fr: beCP22-periodictable-fr.pdf
       nl: beCP22-periodictable-nl.pdf
@@ -259,9 +259,69 @@
       official: souvenirs
       fr: Souvenirs
       nl: Souvenirs
-      en: Souvenirs (EN)
+      en: Souvenirs
     file:
       fr: beCP22-souvenirs-fr.pdf
       nl: beCP22-souvenirs-nl.pdf
       en: beCP22-souvenirs-en.pdf
-      
+"2023":
+  -
+    title:
+      official: translation
+      fr: Q1 Entraînement à la traduction
+      nl: Q1 Vertaaltraining
+      en: Q1 Translation Training
+    file:
+      fr: beCP23-translation-fr.pdf
+      nl: beCP23-translation-nl.pdf
+      en: beCP23-translation-en.pdf
+  -
+    title:
+      official: speedrunning
+      fr: Q2 Speed running
+      nl: Q2 Speed running
+      en: Q2 Speed running
+    file:
+      fr: beCP23-speedrunning-fr.pdf
+      nl: beCP23-speedrunning-nl.pdf
+      en: beCP23-speedrunning-en.pdf
+  -
+    title:
+      official: password
+      fr: Q3 Password
+      nl: Q3 Password
+      en: Q3 Password
+    file:
+      fr: beCP23-password-fr.pdf
+      nl: beCP23-password-nl.pdf
+      en: beCP23-password-en.pdf
+  -
+    title:
+      official: stackcity
+      fr: Q4 Stack city
+      nl: Q4 Stapelstad
+      en: Q4 Stack city
+    file:
+      fr: beCP23-stackcity-fr.pdf
+      nl: beCP23-stackcity-nl.pdf
+      en: beCP23-stackcity-en.pdf
+  -
+    title:
+      official: power
+      fr: Q5 Puissance limitée
+      nl: Q5 Beperkt vermogen
+      en: Q5 Limited power
+    file:
+      fr: beCP23-power-fr.pdf
+      nl: beCP23-power-nl.pdf
+      en: beCP23-power-en.pdf
+  -
+    title:
+      official: movies
+      fr: Q6 Cinéphilie
+      nl: Q6 Cinefilie
+      en: Q6 Cinephilia
+    file:
+      fr: beCP23-movies-fr.pdf
+      nl: beCP23-movies-nl.pdf
+      en: beCP23-movies-en.pdf

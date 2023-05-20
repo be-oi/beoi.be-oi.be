@@ -36,7 +36,7 @@ contestants:
     - position: 0
       score: 999
       name: Paul Van Schaftingen
-      school: École communlae de la Croix, Ottignies
+      school: École communale de la Croix, Ottignies
       year: year_6th_prim
     - position: 0
       score: 999
@@ -55,6 +55,56 @@ contestants:
       year: year_1st
 
   cadet:
+    - position: 1
+      score: 83
+      name: Mikhail Skvortsov
+      school: Athénée Royal Marguerite Bervoets, Mons
+      year: year_2nd
+    - position: 2
+      score: 74
+      name: Clément Dubois
+      school: Sint-Jan-Berchmanscollege, Brussel
+      year: year_2nd
+    - position: 3
+      score: 69
+      name: Thomas De Bruyn
+      school: ASO Spijker, Hoogstraten
+      year: year_2nd
+    - position: 4
+      score: 65
+      name: Daniel Verrier
+      school: École Européenne III, Ixelles
+      year: year_2nd
+    - position: 5
+      score: 61
+      name: Lotte Wagemans
+      school: Regina Pacis ASO, Hove
+      year: year_2nd
+    - position: 6
+      score: 59
+      name: Tibo Geeraerts
+      school: De Spiegel, Gent
+      year: year_6th_prim
+    - position: 7
+      score: 58
+      name: Henri Delvenne
+      school: École Européenne III, Ixelles
+      year: year_6th_prim
+    - position: "-"
+      score: 58
+      name: Paul Van Schaftingen
+      school: École communale de la Croix, Ottignies
+      year: year_6th_prim
+    - position: "-"
+      score: 58
+      name: Tijs Van Nuffel
+      school: SPRING-STOF vzw, Kessel-Lo
+      year: year_6th_prim
+    - position: 10
+      score: 55
+      name: Jens Wilkenhuysen
+      school: Virga Jesse College, Hasselt
+      year: year_2nd  
     - position: 11
       score: 53
       name: Diane Dulait
@@ -440,6 +490,61 @@ contestants:
       year: year_4th
 
   junior:
+    - position: 1
+      score: 119
+      name: Noé Zech
+      school: Collège du Christ-Roi, Ottignies
+      year: year_3rd
+    - position: 2
+      score: 118
+      name: Stefan Andrian Albescu
+      school: École Européenne III, Ixelles
+      year: year_4th
+    - position: 3
+      score: 111
+      name: Alban Van Vyve
+      school: Institut de la Vierge Fidèle, Bruxelles
+      year: year_4th
+    - position: 4
+      score: 108
+      name: Stijn Patroons
+      school: Sint-Gabrielcollege, Boechout
+      year: year_3rd
+    - position: "-"
+      score: 108
+      name: Thibault Guignard
+      school: Centre Scolaire Saint-Michel, Etterbeek
+      year: year_4th
+    - position: 6
+      score: 105
+      name: Hoang-Nam Ho
+      school: Lycée Martin V, Louvain-la-Neuve
+      year: year_4th
+    - position: "-"
+      score: 105
+      name: Rares Bota
+      school: École Européenne de Bruxelles IV, Bruxelles
+      year: year_4th
+    - position: 8
+      score: 88
+      name: Simon Pieters
+      school: Sint-Bavohumaniora, Gent
+      year: year_4th
+    - position: 9
+      score: 86
+      name: San Diego Velz
+      school: Bischöfliches Institut Büllingen, Büllingen
+      year: year_4th
+    - position: 10
+      score: 84
+      name: Leander Gabriël
+      school: Atheneum Voskenslaan, Gent
+      year: year_4th
+    - position: "-"
+      score: 84
+      name: Thijs Giebens
+      school: CoderDojo, Lier
+      year: year_4th
     - position: 12
       score: 81
       name: Alexandros Chytas
@@ -855,6 +960,56 @@ contestants:
       year: year_6th
 
   senior:
+    - position: 1
+      score: 135
+      name: Zhiyi Luo
+      school: College Paters Jozefieten Melle, Melle
+      year: year_6th
+    - position: 2
+      score: 126
+      name: Rune De Clercq
+      school: atheneum Voskenslaan, Gent
+      year: year_6th
+    - position: 3
+      score: 122
+      name: Siebe Van de Weyer
+      school: Sint Dimpna Geel College, Geel
+      year: year_6th
+    - position: 4
+      score: 119
+      name: Luka Sebbag
+      school: Leiepoort campus Sint-Hendrik, Deinze
+      year: year_6th
+    - position: 5
+      score: 116
+      name: Adrian Bernabeu
+      school: École Européenne III, Ixelles
+      year: year_5th
+    - position: "-"
+      score: 116
+      name: Mathijs Van Laeken
+      school: Heilig Hart Van Maria Berlaar, Berlaar
+      year: year_5th
+    - position: 7
+      score: 113
+      name: Maurits Van Mol
+      school: Jan-Van-Ruusbroeckollege, Laken
+      year: year_6th
+    - position: 8
+      score: 112
+      name: Akram Zakine
+      school: Athénée Robert Catteau, Bruxelles
+      year: year_5th
+    - position: 9
+      score: 111
+      name: Samuel Poivre
+      school: Centre scolaire Saint-Stanislas, Mons
+      year: year_6th
+    - position: 10
+      score: 104
+      name: Klaas Botterman
+      school: Leiepoort campus Sint-Hendrik, Deinze
+      year: year_6th
     - position: 11
       score: 97
       name: Viktor Cloes

@@ -26,8 +26,9 @@ result_file: results_2023_final
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2 text-center">
-        <p class="mb16 text-center lead"><%= t(:final_results_expl_future) %></p>
-        <!-- <p class="mb16 text-center lead"><%= t(:final_results_expl_past) %></p> -->
+        <!-- Commenter une des 2 lignes ci-dessous : top-10 à part (proclamation future ) OU classement complet (proclamation passée). -->
+        <!-- <p class="mb16 text-center lead"><%= t(:final_results_expl_future) %></p> -->
+        <p class="mb16 text-center lead"><%= t(:final_results_expl_past) %></p>
       </div>
     </div>
   </div>
@@ -42,7 +43,7 @@ result_file: results_2023_final
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- -->
+        <!-- -> Ajouter ou enlever un tiret pour compléter ou annuler la balise de fermeture de commentaire. Si ce commentaire est "fermé", le top-10 est publié séparément.
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.cadet_top.length %></h5>
 
         <table class="table table-striped-cadet">
@@ -92,7 +93,7 @@ result_file: results_2023_final
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- -->
+        <!-- -> Ajouter ou enlever un tiret pour compléter ou annuler la balise de fermeture de commentaire. Si ce commentaire est "fermé", le top-10 est publié séparément.
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.junior_top.length %></h5>
 
         <table class="table table-striped-junior">
@@ -142,7 +143,7 @@ result_file: results_2023_final
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- -->
+        <!-- -> Ajouter ou enlever un tiret pour compléter ou annuler la balise de fermeture de commentaire. Si ce commentaire est "fermé", le top-10 est publié séparément.
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.senior_top.length %></h5>
 
         <table class="table table-striped-senior">
