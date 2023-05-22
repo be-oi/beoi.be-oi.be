@@ -495,8 +495,8 @@ contestants:
       name: Noé Zech
       school: Collège du Christ-Roi, Ottignies
       year: year_3rd
-    - position: 2
-      score: 118
+    - position: "-"
+      score: 119
       name: Stefan Andrian Albescu
       school: École Européenne III, Ixelles
       year: year_4th
@@ -546,7 +546,7 @@ contestants:
       school: CoderDojo, Lier
       year: year_4th
     - position: 12
-      score: 81
+      score: 82
       name: Alexandros Chytas
       school: École Européenne III, Ixelles
       year: year_4th
