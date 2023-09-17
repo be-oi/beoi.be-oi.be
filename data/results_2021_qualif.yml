@@ -17,6 +17,320 @@ stats:
   count_male: 1032
   count_female: 398
 
+contestants:
+  cadet:
+    - position: 1
+      score: 390
+      name: Mats Van Couteren
+      school: Heilig Hart Van Maria Berlaar, Berlaar
+      year: year_2nd
+    - position: 2
+      score: 382
+      name: Rares Bota
+      school: École Européenne de Bruxelles IV
+      year: year_2nd
+    - position: 2
+      score: 382
+      name: Noé Zech
+      school: Centres régionaux francophones
+      year: year_1st
+    - position: 2
+      score: 382
+      name: Dries Gouwkens
+      school: Nederlandstalige Regionale Centra
+      year: year_2nd
+    - position: 5
+      score: 380
+      name: Alban Van Vyve
+      school: Institut de la Vierge Fidèle, Bruxelles
+      year: year_2nd
+    - position: 6
+      score: 375
+      name: Simon Pieters
+      school: Sint-Bavohumaniora, Gent
+      year: year_2nd
+    - position: 7
+      score: 372
+      name: Job Vernik
+      school: École Européenne de Bruxelles IV
+      year: year_2nd
+    - position: 7
+      score: 372
+      name: Elias Gijbels
+      school: Sint-Bavohumaniora, Gent
+      year: year_2nd
+    - position: 7
+      score: 372
+      name: Lander Decroos
+      school: Sint-Lievenscollege Humaniora, Gent
+      year: year_2nd
+    - position: 7
+      score: 372
+      name: Oriana Estela
+      school: Sint-Bavohumaniora, Gent
+      year: year_2nd
+    - position: 11
+      score: 370
+      name: Vendel Arnould
+      school: Centres régionaux francophones
+      year: year_6th_prim
+    - position: 11
+      score: 370
+      name: Emmanuelle Verhasselt
+      school: Nederlandstalige Regionale Centra
+      year: year_2nd
+    - position: 11
+      score: 370
+      name: Aidan Ryniers
+      school: Sint-Lievenscollege Humaniora, Gent
+      year: year_2nd
+  junior:
+    - position: 1
+      score: 400
+      name: Samuel Poivre
+      school: Centres régionaux francophones
+      year: year_4th
+    - position: 2
+      score: 392
+      name: Christian Ome
+      school: Institut Notre-Dame de Bertrix
+      year: year_4th
+    - position: 2
+      score: 392
+      name: Siebe Van de Weyer
+      school: Nederlandstalige Regionale Centra
+      year: year_3rd
+    - position: 2
+      score: 392
+      name: Zhiyi Luo
+      school: Nederlandstalige Regionale Centra
+      year: year_4th
+    - position: 5
+      score: 390
+      name: Enya Leroy
+      school: Centres régionaux francophones
+      year: year_3rd
+    - position: 5
+      score: 390
+      name: Cyril Zech
+      school: Centres régionaux francophones
+      year: year_4th
+    - position: 5
+      score: 390
+      name: Mark Maquestiaux
+      school: Athénée Royal Neufchâteau-Bertrix
+      year: year_3rd
+    - position: 5
+      score: 390
+      name: Mathieu Maurage
+      school: Centres régionaux francophones
+      year: year_3rd
+    - position: 5
+      score: 390
+      name: Hidde De Ridder
+      school: Heilig Hart Van Maria Berlaar
+      year: year_3rd
+    - position: 5
+      score: 390
+      name: Mathijs Van Laeken
+      school: Heilig Hart Van Maria Berlaar
+      year: year_3rd
+    - position: 5
+      score: 390
+      name: Rune De Clercq
+      school: Sint Laurensschool, Zelzate
+      year: year_4th
+    - position: 5
+      score: 390
+      name: Lowie Goossens
+      school: Sint-Bavohumaniora, Gent
+      year: year_4th
+    - position: 13
+      score: 385
+      name: Beau Ramsey
+      school: Centres régionaux francophones
+      year: year_3rd
+    - position: 14
+      score: 382
+      name: Benoît Van Schaftingen
+      school: Centres régionaux francophones
+      year: year_4th
+    - position: 14
+      score: 382
+      name: Cas Van Herbruggen
+      school: Nederlandstalige Regionale Centra
+      year: year_4th
+    - position: 14
+      score: 382
+      name: Nicolas Stynen
+      school: Collège Hagelstein, Sint-Katelijne-Waver
+      year: year_4th
+    - position: 14
+      score: 382
+      name: Joren Vansteenkiste
+      school: SIGO Gistel-Eernegem, Gistel
+      year: year_4th
+    - position: 18
+      score: 380
+      name: Céline Leonard
+      school: Institut de la Vierge Fidèle, Bruxelles
+      year: year_4th
+    - position: 18
+      score: 380
+      name: Kobe Vanderschueren
+      school: Regina Pacis ASO, Hove
+      year: year_4th
+    - position: 18
+      score: 380
+      name: Milo Vermeulen
+      school: GO! Erasmusatheneum Deinze, Deinze
+      year: year_4th
+  senior:
+    - position: 1
+      score: 400
+      name: Alžběta Kocmanová
+      school: Centres régionaux francophones
+      year: year_6th
+    - position: 1
+      score: 400
+      name: Vladislav Morozov
+      school: Centres régionaux francophones
+      year: year_5th
+    - position: 1
+      score: 400
+      name: Aaron Sys
+      school: Immaculata secundair, Sint-Michiels
+      year: year_5th
+    - position: 1
+      score: 400
+      name: Alexander Van Haastrecht
+      school: Vita et Pax-Collège, Schoten
+      year: year_6th
+    - position: 1
+      score: 400
+      name: Jolien Stoffelen
+      school: Sint-Michielscollege Schoten
+      year: year_6th
+    - position: 1
+      score: 400
+      name: Mathis Poppe
+      school: Nederlandstalige Regionale Centra
+      year: year_5th
+    - position: 1
+      score: 400
+      name: Milan Pickavet
+      school: Nederlandstalige Regionale Centra
+      year: year_5th
+    - position: 8
+      score: 392
+      name: Corentin Michaux
+      school: Athénée Royal Air Pur de Seraing, Seraing
+      year: year_6th
+    - position: 8
+      score: 392
+      name: Sil Leirens
+      school: Scheppersinstituut, Wetteren
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Maxim Shcherbina
+      school: Centres régionaux francophones
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Cédric De Vinck
+      school: Centres régionaux francophones
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Charles Van Hees
+      school: Centres régionaux francophones
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Thomas Lambert
+      school: Institut Notre-Dame de Bertrix
+      year: year_5th
+    - position: 10
+      score: 390
+      name: Bauwen De Ron
+      school: GTI Beveren, Beveren
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Brent Silkyn
+      school: Sint-Bavohumaniora, Gent
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Jonas De Catelle
+      school: Nederlandstalige Regionale Centra
+      year: year_5th
+    - position: 10
+      score: 390
+      name: Lolita Struyve
+      school: Nederlandstalige Regionale Centra
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Michiel Segers
+      school: Nederlandstalige Regionale Centra
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Pieter-Jan Hofman
+      school: VLOT-vti, Lokeren
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Robbe Jaeken
+      school: WICO, Pelt
+      year: year_5th
+    - position: 10
+      score: 390
+      name: Sander Vermeulen
+      school: Scheppersinstituut, Wetteren
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Sander Verwimp
+      school: Heilig Hart Van Maria Berlaar
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Tim Janssens
+      school: Maris Stella Instituut, Oostmalle
+      year: year_5th
+    - position: 10
+      score: 390
+      name: Torben Deleu
+      school: Talentenschool Turnhout campus Zenit, Turnhout
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Vincent Matheï
+      school: Maris Stella Instituut, Oostmalle
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Wannes Croes
+      school: Vrije St.Lambertusscholen, Westerlo
+      year: year_6th
+    - position: 10
+      score: 390
+      name: Willem Vanderhaeghe
+      school: Óscar Romerocollege campus T&EW, Dendermonde
+      year: year_5th
+    - position: 10
+      score: 390
+      name: Yuxia Evens
+      school: Leiepoort campus Sint-Hendrik, Deinze
+      year: year_5th
+    - position: 10
+      score: 390
+      name: Dora Chen
+      school: Sint-Jozefcollege, Turnhout
+      year: year_5th
 schools:
   nb_contestants:
     -

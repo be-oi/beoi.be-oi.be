@@ -30,12 +30,11 @@ trianglify_colors: '"RdBu"'
 
           De best geklasseerden in elke leeftijdscategorie zijn uitgenodigd tot de finale op papier en 147 moedige leerlingen zijn naar Brussel afgezakt op 7 maart.<br>
 
-		  Er heeft in 2020 geen proclamatie plaatsgevonden vanwege de COVID-19-pandemie.
-          De 5 eerste beloften, de 9 eerste junioren, en de 9 eerste senioren hebben felicitaties ontvangen en hun diploma's zijn per post verzonden.
-		  De eerste in elke categorie ontving ook een cadeaubon voor een stage bij het Euro Space Center.
+		    Er heeft in 2020 geen proclamatie plaatsgevonden vanwege de COVID-19-pandemie. De 5 eerste beloften, de 9 eerste junioren, en de 9 eerste senioren hebben felicitaties ontvangen en hun diploma's zijn per post verzonden.
+		    De eerste in elke categorie ontving ook een cadeaubon voor een stage bij het Euro Space Center.
 		</p>
 
-        <h2 class="mt64">Internationale wedstrijden</h2>
+      <h2 class="mt64">Internationale wedstrijden</h2>
 		<p class="lead">
             In oktober 2019 hebben we deelgenomen aan de tweede <%= link_to "Benelux Olympiade in Informatica (BxOI)", "beoi20.html#bxoi" %> in Nijmegen, Nederland.<br>
             Ze bracht 6 Belgen, 7 Nederlanders, en 7 Luxemburgers samen.<br>
@@ -63,10 +62,10 @@ trianglify_colors: '"RdBu"'
 
         <p>De uitgave 2020 telde 1322 officiële deelnemers uit meer dan 90 verschillende scholen.</p>
 
-                <h3>Enkele cijfers</h3>
+        <h3>Enkele cijfers</h3>
 
         <p>De minimumscore om te kwalificeren voor de finale was <strong>270 punten voor de categorie Beloften</strong> (42 kandidaten), <strong>300 punten voor de categorie Junioren</strong> (63 kandidaten) en <strong>324 punten voor de categorie Senioren</strong> (73 kandidaten).<br>
-		De hoogst mogelijke score was 360 punten.</p>
+		  De hoogst mogelijke score was 360 punten.</p>
       </div>
     </div>
 
@@ -382,7 +381,6 @@ trianglify_colors: '"RdBu"'
 </section>
 
 
-
 <section class="altern" id="bxoi">
   <div class="container">
     <div class="row ">
@@ -430,20 +428,21 @@ trianglify_colors: '"RdBu"'
 		Het Belgische team nam deel vanuit UMONS. Van links naar rechts: Petar, Zhiyi, Oscar, Jérôme.</p>
 		
         <p>342 deelnemers uit 87 landen namen deel aan de IOI 2020.<br>
-		De resultaten van het Belgische team zijn als volgt (op een maximumscore van 600 punten):
-        </p>
-        <ul>
-          <li>72e: Oscar Jocqué - 360.24 ptn (<b>Zilveren medaille</b>)</li>
-          <li>234e: Zhiyi Luo - 168.32 ptn</li>
-          <li>288e: Jérôme Mayolet - 85.00 ptn</li>
-		  <li>300e: Petar Vitorac - 71.00 ptn</li>
-        </ul>
-		<b>Dit is uitstekend aangezien Oscar de tweede Zilveren medaille behaalt op een IOI voor België.</b>
+		     De resultaten van het Belgische team zijn als volgt (op een maximumscore van 600 punten):
+          <ul>
+            <li>72e: Oscar Jocqué - 360.24 ptn (<b>Zilveren medaille</b>)</li>
+            <li>234e: Zhiyi Luo - 168.32 ptn</li>
+            <li>288e: Jérôme Mayolet - 85.00 ptn</li>
+		      <li>300e: Petar Vitorac - 71.00 ptn</li>
+          </ul>
+		    <b>Dit is uitstekend aangezien Oscar de tweede Zilveren medaille behaalt op een IOI voor België.</b>
 		</p>
-		
-        <p>Denk je dat je beter kunt?<br>
-		Download de vragen en probeer ze op te lossen binnen de 10 uren! 
-        (<%= link_to "dag 1", "/archives/IOI20-Questions-day1-en.zip" %>, <%= link_to "dag 2", "/archives/IOI20-Questions-day2-en.zip" %>)
+		<p><%= image_tag "archives/2020/ioi2020-Oscar-silver.jpg", class:"cast-shadow", width:740 %></p>
+      
+      <p>Denk je dat je beter kunt?<br>
+		   Download de vragen en probeer ze op te lossen binnen de 10 uren! 
+         <%= link_to "dag 1", "/archives/IOI20-Questions-day1-en.zip" %>,
+         <%= link_to "dag 2", "/archives/IOI20-Questions-day2-en.zip" %>)
 		</p>
 
       </div>
@@ -1514,7 +1513,7 @@ google.charts.setOnLoadCallback(function() {
     ['<%= t(:qualif_chart_lang_fr) %>',    699],
     ['<%= t(:qualif_chart_lang_nl) %>',    670],
     ['<%= t(:qualif_chart_lang_de) %>',     34],
-	['Engelstaligen',                       11]
+	 ['<%= t(:qualif_chart_lang_en) %>',     11]
   ]);
   var options = {
     slices: {
