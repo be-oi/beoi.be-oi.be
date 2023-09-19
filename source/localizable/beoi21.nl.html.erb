@@ -1,0 +1,642 @@
+---
+title: beOI 2021
+trianglify_colors: '"RdBu"'
+---
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<section class="page-title page-title-4 image-bg">
+  <%=page_header_empty_image_holder %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="uppercase mb0"><%= t(:previous_olympiad_edition_tile)%2021 %></h3>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+
+<section class="altern">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+		<h2>Nationale Olympiades</h2>
+        <p class="lead"><!-- FR
+          En raison du COVID, l'éliminatoire de l'Olympiade belge d'Informatique (beOI) a été organisée par les écoles du 1 au 5 février 2021 (en présentiel ou à distance) ou le mercredi 3 février à 14h pour les élèves participants seuls depuis leur domicile.<br>
+		    L'épreuve, accessible à tous, consistait à résoudre des problèmes de logique et de programmation à l'aide de blocs graphiques à glisser avec la souris.<br>
+		    Il y avait 1430 participants.<br>
+		    Hélas, à cause de la pandémie, la finale et la proclamation beOI ainsi que le Concours de programmation belge (beCP) n'ont pas pu être organisés.<br> -->
+          Omwille van COVID werd de voorronde van de Belgische Informatica-olympiade (beOI) georganiseerd door de scholen van 1 tot 5 februari 2021 (face-to-face of afstandsonderwijs) of op woensdag 3 februari om 14u voor leerlingen die alleen van thuis uit deelnemen.<br>
+          De proef, toegankelijk voor allen, bestond uit het oplossen van logische vraagstukken en programmeervraagstukken door het verslepen van grafische blokken met de muis.<br>
+          Er waren 1430 deelnemers.<br>
+          Door de pandemie konden de beOI-finale en -proclamatie en de Belgische Programmeerwedstrijd (beCP) helaas niet doorgaan.
+		</p>
+
+		<h2 class="mt64">Internationale wedstrijden</h2>
+		<p class="lead" id="bxoi">
+		  <!-- La troisième <%= link_to "Benelux Olympiade in Informatica (BxOI)", "beoi21.html#bxoi" %>, qui devait avoir lieu en automne 2020, a été déplacée au samedi 8 mai 2021 à cause de la pandémie.<br> La compétition a été organisée séparément dans chaque pays du Benelux.<br>
+		  12 belges, 13 néerlandais et 7 luxembourgeois y participaient.<br> -->
+
+      De derde <%= link_to "Benelux Olympiade in Informatica (BxOI)", "beoi21.html#bxoi" %>, die gepland was om plaats te vinden in de herfst van 2020, werd verplaatst naar zaterdag 8 mei 2021 omwille van de pandemie.<br> De wedstrijd werd apart in elk land van de Benelux georganiseerd.<br>
+      12 Belgen, 13 Nederlanders en 7 Luxemburgers hebben eraan deelgenomen.<br>
+
+      <b>België heeft 3 medailles behaald:
+        <ul>
+          <li>Zhiyi Luo - tweede plaats - gouden medaille,</li>
+          <li>Petar Vitorac - vijfde plaats - bronzen medaille,</li>
+          <li>Vladislav Morozov - negende plaats - bronzen medaille.</li>
+        </ul></b>
+		  <!--<b>La Belgique a obtenu 3 médailles:
+        <ul>
+           <li>Zhiyi Luo - deuxième place - médaille d'Or,</li>
+           <li>Petar Vitorac - cinquième place - médaille de Bronze,</li>
+           <li>Vladislav Morozov - neuvième place - médaille de Bronze.</li>
+        </ul></b>-->
+		</p>
+
+		<p class="lead">
+		  <!-- L'<%= link_to "Internationale Olympiade in Informatica (IOI)", "beoi21.html#ioi" %> était, comme en 2020, organisée on-line par Singapour.<br>
+        Zhiyi Luo a obtenu une médaille de Bronze. -->
+
+      De <%= link_to "Internationale Olympiade in Informatica (IOI)", "beoi21.html#ioi" %> werd, zoals in 2020, online georganiseerd door Singapore.<br>
+        Zhiyi Luo heeft er een bronzen medaille behaald.
+    </p>
+
+		<p class="lead" id="ejoi">
+		  <!-- La cinquième <%= link_to "Europese Junior-olympiade in Informatica (eJOI)", "beoi21.html#ejoi" %> a aussi été perturbée par le COVID.<br>
+        Elle a été organisée on-line par la Roumanie du 24 au 28 août 2021.<br>
+        Tibor Varga (2e) est le seul belge a y avoir participé.<br>
+        Il se classe 94ème sur 107 participants. -->
+      
+      De vijfde <%= link_to "Europese Junior-olympiade in Informatica (eJOI)", "beoi21.html#ejoi" %> is ook verstoord door COVID.<br>
+        Ze werd online georganiseerd door Roemenië van 24 tot 28 augustus 2021.<br>
+        Tibor Varga (2e secundair) is de enige Belg die eraan deelgenomen heeft.<br>
+        Hij heeft de 94e plaats behaald op 107 deelnemers.
+		</p>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+<section class="altern">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+        <h2>Voorronde beOI</h2>
+
+        <p>De uitgave 2021 telde 1430 deelnemers uit meer dan 65 verschillende scholen.</p>
+
+		  <h3>Enkele cijfers</h3>
+        <p>De hoogst mogelijke score was 400 punten.</p>
+      </div>
+    </div>
+
+	<div class="row">
+      <div id="chart-cat" class="col-md-4" style="height: 200px;"></div>
+      <div id="chart-lang" class="col-md-4" style="height: 200px;"></div>
+      <div id="chart-gender" class="col-md-4" style="height: 200px;"></div>
+    </div>
+    
+  </div><!--end of container-->
+</section>
+
+<section class="altern">
+  <div class="container">
+	<div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Voorronde Kadetten</h4>
+        <h5 class="uppercase mb16 text-center">Top 13 - Op een totaal van 273 deelnemers</h5>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <table class="table table-striped-cadet">
+          <tbody>
+            <tr><th>#</th><th>Naam</th><th>School (jaar)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Mats Van Couteren</td>
+              <td>Heilig Hart Van Maria Berlaar, Berlaar (2e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Rares Bota</td>
+              <td>École Européenne de Bruxelles IV (2e)</td>
+              <td><strong>382</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Noé Zech</td>
+              <td>Centres régionaux francophones (1e)</td>
+              <td><strong>382</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Dries Gouwkens</td>
+              <td>Nederlandstalige Regionale Centra (2e)</td>
+              <td><strong>382</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Alban Van Vyve</td>
+              <td>Institut de la Vierge Fidèle, Bruxelles (2e)</td>
+              <td><strong>380</strong></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td nowrap="nowrap">Simon Pieters</td>
+              <td>Sint-Bavohumaniora, Gent (2e)</td>
+              <td><strong>375</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Job Vernik</td>
+              <td>École Européenne de Bruxelles IV (2e)</td>
+              <td><strong>372</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Elias Gijbels</td>
+              <td>Sint-Bavohumaniora, Gent (2e)</td>
+              <td><strong>372</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Lander Decroos</td>
+              <td>Sint-Lievenscollege Humaniora, Gent (2e)</td>
+              <td><strong>372</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Oriana Estela</td>
+              <td>Sint-Bavohumaniora, Gent (2e)</td>
+              <td><strong>372</strong></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td nowrap="nowrap">Vendel Arnould</td>
+              <td>Centres régionaux francophones (6e lager)</td>
+              <td><strong>370</strong></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td nowrap="nowrap">Emmanuelle Verhasselt</td>
+              <td>Nederlandstalige Regionale Centra (2e)</td>
+              <td><strong>370</strong></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td nowrap="nowrap">Aidan Ryniers</td>
+              <td>Sint-Lievenscollege Humaniora, Gent (2e)</td>
+              <td><strong>370</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Voorronde Junioren</h4>
+        <h5 class="uppercase mb16 text-center">Top 20 - Op een totaal van 528 deelnemers</h5>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <table class="table table-striped-junior">
+          <tbody>
+            <tr><th>#</th><th>Naam</th><th>School (jaar)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Samuel Poivre</td>
+              <td>Centres régionaux francophones (4e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Christian Ome</td>
+              <td>Institut Notre-Dame de Bertrix (4e)</td>
+              <td><strong>392</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Siebe Van de Weyer</td>
+              <td>Nederlandstalige Regionale Centra (3e)</td>
+              <td><strong>392</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Zhiyi Luo</td>
+              <td>Nederlandstalige Regionale Centra (4e)</td>
+              <td><strong>392</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Enya Leroy</td>
+              <td>Centres régionaux francophones (3e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Cyril Zech</td>
+              <td>Centres régionaux francophones (4e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Mark Maquestiaux</td>
+              <td>Athénée Royal Neufchâteau-Bertrix (3e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Mathieu Maurage</td>
+              <td>Centres régionaux francophones (3e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Hidde De Ridder</td>
+              <td>Heilig Hart Van Maria Berlaar (3e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Mathijs Van Laeken</td>
+              <td>Heilig Hart Van Maria Berlaar (3e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Rune De Clercq</td>
+              <td>Sint Laurensschool, Zelzate (4e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Lowie Goossens</td>
+              <td>Sint-Bavohumaniora, Gent (4e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td nowrap="nowrap">Beau Ramsey</td>
+              <td>Centres régionaux francophones (3e)</td>
+              <td><strong>385</strong></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td nowrap="nowrap">Benoît Van Schaftingen</td>
+              <td>Centres régionaux francophones (4e)</td>
+              <td><strong>382</strong></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td nowrap="nowrap">Cas Van Herbruggen</td>
+              <td>Nederlandstalige Regionale Centra (4e)</td>
+              <td><strong>382</strong></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td nowrap="nowrap">Nicolas Stynen</td>
+              <td>Collège Hagelstein, Sint-Katelijne-Waver (4e)</td>
+              <td><strong>382</strong></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td nowrap="nowrap">Joren Vansteenkiste</td>
+              <td>SIGO Gistel-Eernegem, Gistel (4e)</td>
+              <td><strong>382</strong></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td nowrap="nowrap">Céline Leonard</td>
+              <td>Institut de la Vierge Fidèle, Bruxelles (4e)</td>
+              <td><strong>380</strong></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td nowrap="nowrap">Kobe Vanderschueren</td>
+              <td>Regina Pacis ASO, Hove (4e)</td>
+              <td><strong>380</strong></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td nowrap="nowrap">Milo Vermeulen</td>
+              <td>GO! Erasmusatheneum Deinze, Deinze (4e)</td>
+              <td><strong>380</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Voorronde Senioren</h4>
+        <h5 class="uppercase mb16 text-center">Top 29 - Op een totaal van 629 deelnemers</h5>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <table class="table table-striped-senior">
+          <tbody>
+            <tr><th>#</th><th>Naam</th><th>School (jaar)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Alžběta Kocmanová</td>
+              <td>Centres régionaux francophones (6e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Vladislav Morozov</td>
+              <td>Centres régionaux francophones (5e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Aaron Sys</td>
+              <td>Immaculata secundair, Sint-Michiels (5e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Alexander Van Haastrecht</td>
+              <td>Vita et Pax-Collège, Schoten (6e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Jolien Stoffelen</td>
+              <td>Sint-Michielscollege Schoten (6e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Mathis Poppe</td>
+              <td>Nederlandstalige Regionale Centra (5e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Milan Pickavet</td>
+              <td>Nederlandstalige Regionale Centra (5e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Corentin Michaux</td>
+              <td>Athénée Royal Air Pur de Seraing, Seraing (6e)</td>
+              <td><strong>392</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Sil Leirens</td>
+              <td>Scheppersinstituut, Wetteren (6e)</td>
+              <td><strong>392</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Maxim Shcherbina</td>
+              <td>Centres régionaux francophones (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Cédric De Vinck</td>
+              <td>Centres régionaux francophones (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Charles Van Hees</td>
+              <td>Centres régionaux francophones (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Thomas Lambert</td>
+              <td>Institut Notre-Dame de Bertrix (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Bauwen De Ron</td>
+              <td>GTI Beveren, Beveren (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Brent Silkyn</td>
+              <td>Sint-Bavohumaniora, Gent (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Jonas De Catelle</td>
+              <td>Nederlandstalige Regionale Centra (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Lolita Struyve</td>
+              <td>Nederlandstalige Regionale Centra (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Michiel Segers</td>
+              <td>Nederlandstalige Regionale Centra (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Pieter-Jan Hofman</td>
+              <td>VLOT-vti, Lokeren (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Robbe Jaeken</td>
+              <td>WICO, Pelt (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Sander Vermeulen</td>
+              <td>Scheppersinstituut, Wetteren (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Sander Verwimp</td>
+              <td>Heilig Hart Van Maria Berlaar (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Tim Janssens</td>
+              <td>Maris Stella Instituut, Oostmalle (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Torben Deleu</td>
+              <td>Talentenschool Turnhout campus Zenit, Turnhout (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Vincent Matheï</td>
+              <td>Maris Stella Instituut, Oostmalle (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Wannes Croes</td>
+              <td>Vrije St.Lambertusscholen, Westerlo (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Willem Vanderhaeghe</td>
+              <td>Óscar Romerocollege campus T&EW, Dendermonde (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Yuxia Evens</td>
+              <td>Leiepoort campus Sint-Hendrik, Deinze (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Dora Chen</td>
+              <td>Sint-Jozefcollege, Turnhout (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Scholen</h4>
+        <h5 class="mb16 text-center">Klassement van de scholen o.b.v. het aantal deelnemers aan de voorronde</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 feature bordered" style="padding-bottom:8px;">
+        <ol class="dl-horizontal category-list">
+          <li>Institut de la Providence (GPH), Gosselies: 91 deelnemers</li>
+          <li>Institut Notre-Dame de Bertrix: 87 deelnemers</li>
+          <li>Bischöfliches Institut Büllingen: 86 deelnemers</li>
+        </ol>
+      </div>
+    </div>
+  </div><!--end of container-->
+</section>
+
+<section class="altern" id="ioi">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+        <h2>Internationale Olympiade (IOI)</h2>
+
+        <p><%= image_tag "archives/2021/ioi2021-logo.png", class:"cast-shadow", width:740 %></p>
+		<p>De 33e Internationale Informatica-olympiade had zoals het voorgaande jaar moeten plaatsvinden in Singapore.
+      <br>Maar zoals het voorgaande jaar is ze online georganiseerd vanuit UMONS omwille van de COVID-19-pandemie.</p>
+		
+        <p><%= image_tag "archives/2021/ioi2021-team-UMONS.jpg", class:"img-polaroid center cast-shadow", width:740, title:"Belgische delegatie voor IOI 2021"  %><br>
+    De Belgische delegatie bestond uit (van links naar rechts op de foto) Vlad Morozov (5e), Daniel Smolders (6e), Zhiyi Luo (4e) en Petar Vitorac (5e) begeleid door Damien Leroy (vanop afstand) en Bruno Ploumhans (ter plekke). Zhiyi nam voor de derde keer deel, Petar voor de tweede keer en het was de eerste IOI voor Daniel en Vlad.</p>
+		
+		<p>351 deelnemers uit 88 landen namen deel aan IOI 2021.<br>
+      De <%= link_to "uitslagen van het Belgische team", "https://stats.ioinformatics.org/delegations/BEL/2021", target:"_blank" %> zijn als volgt (op een totaal van 600 te behalen punten):
+      <b>
+        <ul>
+          <li>170e: Zhiyi Luo - 203 ptn (<b>Bronzen medaille</b>)</li>
+          <li>258e: Vladislav Morozov - 159 ptn</li>
+          <li>299e: Petar Vitorac - 130 ptn</li>
+		    <li>330e: Daniel Smolders - 84 ptn</li>
+        </ul>
+      </b>
+		</p>
+
+        <p>Denk je dat je beter kunt?<br>
+		Download de vragen en probeer ze op te lossen binnen de 10 uren! 
+        (<%= link_to "jour 1", "/archives/IOI21-tasks-d1-en.zip" %>,
+		   <%= link_to "jour 2", "/archives/IOI21-tasks-d2-en.zip" %>)
+		</p>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+<!--- Script for graphics -->
+<script type="text/javascript">
+google.charts.load('current', {'packages':['corechart','bar']});
+google.charts.setOnLoadCallback(function() {
+  var data = google.visualization.arrayToDataTable([
+    ['<%= t(:Categories) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
+    ['<%= t(:Cadet) %>',     273],
+    ['<%= t(:Junior) %>',    528],
+    ['<%= t(:Senior) %>',    629]
+  ]);
+  var options = {
+    slices: {
+      0: { color: '#e31d3b' },
+      1: { color: '#f46d43' },
+      2: { color: '#fdae61' }
+    },
+    backgroundColor: "transparent"
+  };
+  var chart = new google.visualization.PieChart(document.getElementById('chart-cat'));
+  chart.draw(data, options);
+});
+google.charts.setOnLoadCallback(function() {
+  var data = google.visualization.arrayToDataTable([
+    ['<%= t(:qualif_chart_lang) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
+    ['<%= t(:qualif_chart_lang_fr) %>', 524],
+    ['<%= t(:qualif_chart_lang_nl) %>', 776],
+    ['<%= t(:qualif_chart_lang_de) %>',  95],
+    ['<%= t(:qualif_chart_lang_en) %>',  35]
+  ]);
+  var options = {
+    slices: {
+      0: { color: '#f46d43' },
+      1: { color: '#fdae61' },
+      2: { color: '#e31d3b' }
+    },
+    backgroundColor: "transparent"
+  };
+  var chart = new google.visualization.PieChart(document.getElementById('chart-lang'));
+  chart.draw(data, options);
+});
+google.charts.setOnLoadCallback(function() {
+  var data = google.visualization.arrayToDataTable([
+    ['<%= t(:gender_field) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
+    ['<%= t(:gender_men) %>',     1032],
+    ['<%= t(:gender_women) %>',    398],
+  ]);
+  var options = {
+    slices: {
+      0: { color: '#fdae61' },
+      1: { color: '#f46d43' },
+    },
+    backgroundColor: "transparent"
+  };
+  var chart = new google.visualization.PieChart(document.getElementById('chart-gender'));
+  chart.draw(data, options);
+});
+</script>
