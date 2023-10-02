@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row mb0 mb-xs-32">
       <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-        <h4 class="uppercase large"><%= t(:Calendar) %> 2022-2023</h4>
+        <h4 class="uppercase large"><%= t(:Calendar) %> 2023-2024</h4>
       </div>
 
       <div class="col-sm-10 col-md-8 col-md-offset-2">
@@ -28,7 +28,7 @@
           <li class="mb0 mb-xs-16">
             <div class="overflow-hidden mb0 pt8">
               <div class="col-sm-4">
-                <h4 class="uppercase pt8 mb0">8 <%= t(:Feb)%> 2023</h4>
+                <h4 class="uppercase pt8 mb0">7 <%= t(:Feb)%> 2024</h4>
               </div>
               <div class="col-sm-8 mb8">
                 <h6 class="uppercase mb0"><%= t(:qualif_round).capitalize %></h6>
@@ -63,7 +63,7 @@
           <li class="mb0 mb-xs-16">
             <div class="overflow-hidden mb0 pt8">
               <div class="col-sm-4">
-                <h4 class="uppercase pt8 mb0">18 <%= t(:Mar)%> 2023</h4>
+                <h4 class="uppercase pt8 mb0">23 <%= t(:Mar)%> 2024</h4>
               </div>
               <div class="col-sm-8 mb8">
                 <h6 class="uppercase mb0"><%= t(:final_round).capitalize %></h6>
@@ -76,7 +76,7 @@
 		  <li class="mb0 mb-xs-16">
             <div class="overflow-hidden mb0 pt8">
               <div class="col-sm-4">
-                <h4 class="uppercase pt8 mb0">13 <%= t(:May)%> 2023</h4>
+                <h4 class="uppercase pt8 mb0">25 <%= t(:May)%> 2024</h4>
               </div>
               <div class="col-sm-8 mb8">
                 <h6 class="uppercase mb0"><%= t(:selection_contest).capitalize %></h6>
@@ -89,30 +89,41 @@
           <li class="mb0 mb-xs-16">
             <div class="overflow-hidden mb0 pt8">
               <div class="col-sm-4">
-                <h4 class="uppercase pt8 mb0">28 <%= t(:Aug)%> - 4 <%= t(:Sep)%></h4>
+                <h4 class="uppercase pt8 mb0">1 - 8 <%= t(:Jul)%> 2024</h4>
               </div>
               <div class="col-sm-8 mb8">
-                <h6 class="uppercase mb0"><%= t(:ioi_full).capitalize %></h6>
-                <span><%= ext_link_to t(:ioi_details), "https://ioi2023.hu/" %></span>
+                <h6 class="uppercase mb0"><%= t(:weoi_full).capitalize %></h6>
+                <span><%= ext_link_to t(:weoi_details), "https://weoi.org/" %></span>
               </div>
             </div>
             <hr class="fade-half mb0">
           </li>
 
-         <!--
           <li class="mb0 mb-xs-16">
             <div class="overflow-hidden mb0 pt8">
               <div class="col-sm-4">
-                <h4 class="uppercase pt8 mb0">?</h4>
+                <h4 class="uppercase pt8 mb0"><%= t(:Aug)%> 2024</h4>
               </div>
               <div class="col-sm-8 mb8">
                 <h6 class="uppercase mb0"><%= t(:ejoi_full).capitalize %></h6>
-                <span><%= t(:ejoi_details) %></span>
+                <span><%= ext_link_to t(:ejoi_details), "https://ejoi2024.gov.md/" %></span>
               </div>
             </div>
             <hr class="fade-half mb0">
           </li>
-         -->
+          
+          <li class="mb0 mb-xs-16">
+            <div class="overflow-hidden mb0 pt8">
+              <div class="col-sm-4">
+                <h4 class="uppercase pt8 mb0">1 - 8 <%= t(:Sep)%> 2024</h4>
+              </div>
+              <div class="col-sm-8 mb8">
+                <h6 class="uppercase mb0"><%= t(:ioi_full).capitalize %></h6>
+                <span><%= ext_link_to t(:ioi_details), "https://ioinformatics.org/" %></span>
+              </div>
+            </div>
+            <hr class="fade-half mb0">
+          </li>
         </ul>
 
       </div>
