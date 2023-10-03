@@ -20,13 +20,12 @@
   #   Bd de la Plaine 2 / Pleinlaan 2
   #   1050 Ixelles / 1050 Brussel
   # route_link: https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/campus-map
-# --------------------------------------
-address: Te bepalen / A déterminer
-#   Département des Sciences Informatiques
-#   Campus HE2B–ESI
-#   Rue Royale 67
-#   1000 Bruxelles
-# route_link: https://www.he2b.be/campus-esi
+  address: Te bepalen / A déterminer
+  #   Département des Sciences Informatiques
+  #   Campus HE2B–ESI
+  #   Rue Royale 67
+  #   1000 Bruxelles
+  # route_link: https://www.he2b.be/campus-esi
   pos:
     lat: 50.8495931
     lng: 4.3618954
