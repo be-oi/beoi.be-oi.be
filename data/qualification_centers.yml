@@ -61,7 +61,7 @@
   #   Lokaal B17
   #   3590 Diepenbeek
   address: Te bepalen / A déterminer
-  route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
+  # route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
   pos:
     lat: 50.9253703
     lng: 5.3912436
@@ -75,7 +75,7 @@
 #     Lokaal 61.09
 #     (via receptie in centrale gebouw 't Forum)
   address: Te bepalen / A déterminer
-  route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
+  # route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
   pos:
     lat: 50.8058796
     lng: 3.2840281
@@ -88,7 +88,7 @@
   #   Celestijnenlaan 200A
   #   3001 Leuven
   address: Te bepalen / A déterminer
-  route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
+  # route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
   pos:
     lat: 50.86411
     lng: 4.6786777
@@ -115,7 +115,7 @@
   #   Allée de la découverte, 10
   #   4000 Liège
   address: Te bepalen / A déterminer
-  route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
+  # route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
   pos:
     lat: 50.586300427727544
     lng: 5.5597130611686225
@@ -128,7 +128,7 @@
   #   rue croix du SUD
   #   1348 Louvain-la-Neuve
   address: Te bepalen / A déterminer
-  route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
+  # route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
   pos:
     lat: 50.6671189
     lng: 4.6195422
@@ -142,7 +142,7 @@
   #    Avenue Victor Maistriau, 15
   #    7000 Mons
   address: Te bepalen / A déterminer
-  route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
+  # route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
   pos:
     lat: 50.465386309824076
     lng: 3.957460607554272
@@ -155,7 +155,7 @@
   #   Rue Grandgagnage, 21
   #   5000 Namur
   address: Te bepalen / A déterminer
-  route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
+  # route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
   pos:
     lat: 50.4658487
     lng: 4.8576964
