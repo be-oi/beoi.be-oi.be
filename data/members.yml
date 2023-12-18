@@ -22,10 +22,10 @@
   name: UGent
   href: http://www.ugent.be/
   image: ugent-logo.jpg
-#-
-#  name: UHasselt
-#  href: http://www.uhasselt.be/
-#  image: uhasselt-logo.png
+-
+  name: UHasselt
+  href: http://www.uhasselt.be/
+  image: uhasselt-logo.png
 -
   name: ULg
   href: https://www.uliege.be
