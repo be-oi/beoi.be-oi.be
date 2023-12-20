@@ -108,7 +108,7 @@ trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c"
     <div class="row mt16">
       <% data.members.each do |m| %>
         <% link_to m.href, target:"_blank" do %>
-        <div class="col-md-2 col-sm-4 col-xs-6" style="height:130px;" class="text-center">
+        <div class="col-md-2 col-sm-4 col-xs-6" style="display: flex; height:130px; align-items: center; justify-content: center; padding-left:25px; padding-right:25px;">
           <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:120px;"  %>
         </div>
         <% end %>
