@@ -1,41 +1,57 @@
 fr:
-  - name: Variables
-    id: 2016-FR-19-minmax-variables-fr
-  - name: Mobiles
-    id: 2016-FR-20-mobiles-fr
-  - name: Flocon
-    id: 2016-FR-21-snowflake-fr
-  - name: Dessin
-    id: 2016-FR-22-nested-pattern-fr
-  - name: Leçon de pilotage
-    id: 2016-blockly-simple-fr
-  - name: Cela dépend...
-    id: 2016-blockly-cond-fr
+  -
+    name: Développeurs
+    url: https://be-oi.be/demo/friendship/
+  -
+    name: Association de tailles
+    url: https://be-oi.be/demo/differences/
+  -
+    name: Peinture
+    url: https://be-oi.be/demo/peinture/
+  -
+    name: Outils partagés
+    url: https://be-oi.be/demo/planning/
+  -
+    name: Pollution
+    url: https://be-oi.be/demo/pollution/
+  -
+    name: Dessin interactif
+    url: https://be-oi.be/demo/rectangles/
+  -
+    name: Image compressée
+    url: https://be-oi.be/demo/encoding/
+  -
+    name: Robot peintre
+    url: https://be-oi.be/demo/paint-robot/
+  -
+    name: Robot trieur
+    url: https://be-oi.be/demo/sorted/
 
 nl:
-  - name: Variabelen
-    id: 2016-FR-19-minmax-variables-nl
-  - name: Mobiles
-    id: 2016-FR-20-mobiles-nl
-  - name: Sneeuwvlok
-    id: 2016-FR-21-snowflake-nl
-  - name: Tekening
-    id: 2016-FR-22-nested-pattern-nl
-  - name: Robot-rijles
-    id: 2016-blockly-simple-nl
-  - name: Het hangt er van af...
-    id: 2016-blockly-cond-nl
-
-de:
-  - name: Variables
-    id: 2016-FR-19-minmax-variables-de
-  - name: Mobiles
-    id: 2016-FR-20-mobiles-de
-  - name: Schneeflocke
-    id: 2016-FR-21-snowflake-de
-  - name: Dessin
-    id: 2016-FR-22-nested-pattern-de
-  - name: Leçon de pilotage
-    id: 2016-blockly-simple-de
-  - name: Das hängt ab von......
-    id: 2016-blockly-cond-de
+  -
+    name: Software-outwikkelaars
+    url: https://be-oi.be/demo/friendship/nl.html
+  -
+    name: Lengteverschillen
+    url: https://be-oi.be/demo/differences/nl.html
+  -
+    name: Peinture
+    url: https://be-oi.be/demo/peinture/nl.html
+  -
+    name: Gedeeld gereedschap
+    url: https://be-oi.be/demo/planning/nl.html
+  -
+    name: Vervuiling
+    url: https://be-oi.be/demo/pollution/nl.html
+  -
+    name: Tekenrobot
+    url: https://be-oi.be/demo/rectangles/nl.html
+  -
+    name: Afbeelding comprimeren
+    url: https://be-oi.be/demo/encoding/nl.html
+  -
+    name: Paint robot
+    url: https://be-oi.be/demo/paint-robot/nl.html
+  -
+    name: Sort robot
+    url: https://be-oi.be/demo/sorted/nl.html

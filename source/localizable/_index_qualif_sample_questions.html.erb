@@ -16,7 +16,7 @@
     <div class="row">
       <div class="col-sm-12 text-center">
         <% data.qualif_sample_tasks[lang].each do |e| %>
-        <%= link_to e.name, (development? ? 'http://beoi.be-oi.be' : '') + '/contest/sample-tasks/' + e.id, class:"btn btn-sm", target:"_blank" %>
+        <%= link_to e.name, e.url, class:"btn btn-sm", target:"_blank" %>
         <% end %>
       </div>
     </div>
