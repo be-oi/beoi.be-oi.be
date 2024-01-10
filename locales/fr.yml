@@ -187,9 +187,8 @@ fr:
   faq_title: Foire aux questions
   faq_subtitle: Questions fréquemment posées à propos de l'olympiade
   faq_morequestions: |
-      Vous avez d'autres questions ? Posez-les nous via <a href="mailto:info@be-oi.be">e-mail</a>,
-      <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> ou
-      <a href="https://twitter.com/beoi_fr" target="_blank">Twitter</a>.
+      Vous avez d'autres questions ? Posez-les nous via <a href="mailto:info@be-oi.be">e-mail</a> ou
+      <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a>.
 
   # About
   about_title: A propos de beOI
