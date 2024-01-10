@@ -56,12 +56,12 @@
 -
   city: Hasselt
   place: Universiteit Hasselt
-  # address: |
-  #   UHasselt - Campus Diepenbeek - Agoralaan gebouw D
-  #   Lokaal B17
-  #   3590 Diepenbeek
-  address: Te bepalen / A déterminer
-  # route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
+  address: |
+    Lokaal B17, Gebouw D
+    Agoralaan 1
+    Campus Diepenbeek
+    Hasselt
+  route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
   pos:
     lat: 50.9253703
     lng: 5.3912436
