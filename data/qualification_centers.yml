@@ -1,13 +1,13 @@
 -
   city: Antwerpen
   place: Universiteit Antwerpen
-  # address: |
-  #   Campus Groenenborger, gebouw Z
-  #   Lokaal G.Z.423
-  #   Groenenborgerlaan 171
-  #   2020 Antwerpen
-  address: Te bepalen / A déterminer
-  # route_link: https://www.uantwerpen.be/campus-groenenborger
+  address: |
+    Campus Groenenborger, gebouw Z
+    Lokaal G.Z.423
+    Groenenborgerlaan 171
+    2020 Antwerpen
+  # address: Te bepalen / A déterminer
+  route_link: https://www.uantwerpen.be/nl/overuantwerpen/campussen/campus-groenenborger/
   pos:
     lat: 51.17821
     lng: 4.41853
@@ -122,13 +122,13 @@
 -
   city: Louvain-la-Neuve
   place: Université Catholique de Louvain
-  # address: |
-  #   Salle Darwin
-  #   Bâtiment de Serres B -102
-  #   rue croix du SUD
-  #   1348 Louvain-la-Neuve
-  address: Te bepalen / A déterminer
-  # route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
+  address: |
+    Salle Darwin
+    Bâtiment de Serres B-102
+    rue de la Croix du Sud
+    1348 Louvain-la-Neuve
+  # address: Te bepalen / A déterminer
+  route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
   pos:
     lat: 50.6671189
     lng: 4.6195422
