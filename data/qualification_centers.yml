@@ -149,13 +149,13 @@
 -
   city: Namur
   place: Université de Namur
-  # address: |
-  #   Faculté d’informatique
-  #   Pool I35 (3ème étage)
-  #   Rue Grandgagnage, 21
-  #   5000 Namur
-  address: Te bepalen / A déterminer
-  # route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
+  address: |
+    Faculté d’informatique
+    Pool I35 (3ème étage)
+    Rue Grandgagnage, 21
+    5000 Namur
+  # address: Te bepalen / A déterminer
+  route_link: https://www.unamur.be/universite/acces/plan-campus-pdf
   pos:
     lat: 50.4658487
     lng: 4.8576964
