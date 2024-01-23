@@ -135,14 +135,14 @@
 -
   city: Mons
   place: Université de Mons
-  # address: |
-  #    Faculté des sciences
-  #    Salle Bertrand Russell (1er étage)
-  #    Bâtiment de Vinci-Mendeleïev
-  #    Avenue Victor Maistriau, 15
-  #    7000 Mons
-  address: Te bepalen / A déterminer
-  # route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
+  address: |
+     Faculté des sciences
+     Salle Bertrand Russell (1er étage)
+     Bâtiment de Vinci-Mendeleïev
+     Avenue Victor Maistriau, 15
+     7000 Mons
+  # address: Te bepalen / A déterminer
+  route_link: https://math.umons.ac.be/fr/contact/acces.html
   pos:
     lat: 50.465386309824076
     lng: 3.957460607554272
