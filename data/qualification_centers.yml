@@ -65,20 +65,20 @@
   pos:
     lat: 50.9253703
     lng: 5.3912436
--
-  city: Kortrijk
-  place: Hogeschool VIVES Kortrijk
-  # address: |
-  #   Doorniksesteenweg 145
-    # 8500 Kortrijk
-#   address: | Te bepalen / A déterminer
-#     Lokaal 61.09
-#     (via receptie in centrale gebouw 't Forum)
-  address: Te bepalen / A déterminer
-  # route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
-  pos:
-    lat: 50.8058796
-    lng: 3.2840281
+# -
+#   city: Kortrijk
+#   place: Hogeschool VIVES Kortrijk
+#   # address: |
+#   #   Doorniksesteenweg 145
+#     # 8500 Kortrijk
+# #   address: | Te bepalen / A déterminer
+# #     Lokaal 61.09
+# #     (via receptie in centrale gebouw 't Forum)
+#   address: Te bepalen / A déterminer
+#   # route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
+#   pos:
+#     lat: 50.8058796
+#     lng: 3.2840281
 -
   city: Leuven
   place: KU Leuven
