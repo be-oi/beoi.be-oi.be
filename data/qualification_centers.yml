@@ -31,12 +31,12 @@
     lng: 4.3618954
 -
   city: Charleroi
-  place: HELHA
-  # address: |
-  #   UCLouvain, Campus de Charleroi
-  #   136, Rue Trieu Kaisin
-  #   6061 Montignies-sur-Sambre
-  address: Te bepalen / A déterminer
+  place: UCLouvain
+  address: |
+    A6K
+    Square des Martyrs, 1
+    6000 Charleroi
+  # address: Te bepalen / A déterminer
   pos:
     lat: 50.473463
     lng: 4.436039
@@ -82,13 +82,13 @@
 -
   city: Leuven
   place: KU Leuven
-  # address: |
-  #   KU Leuven Department of Computer Science
-  #   Room 00.124
-  #   Celestijnenlaan 200A
-  #   3001 Leuven
-  address: Te bepalen / A déterminer
-  # route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
+  address: |
+    KU Leuven Department of Computer Science
+    Room 00.124
+    Celestijnenlaan 200A
+    3001 Leuven
+  # address: Te bepalen / A déterminer
+  route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
   pos:
     lat: 50.86411
     lng: 4.6786777
@@ -108,14 +108,13 @@
 -
   city: Liège
   place: Université de Liège
-  # address: |
-  #   B37 - Local 1/45
-  #   Institut Montefiore
-  #   Sart-Tilman, Quartier Polytech 1
-  #   Allée de la découverte, 10
-  #   4000 Liège
-  address: Te bepalen / A déterminer
-  # route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
+  address: |
+    Locaux -1.45, -1.48, -1.52 et -1.55
+    B37 (Institut de Mathématiques)
+    Allée de la découverte, 12
+    4000 Liège
+  # address: Te bepalen / A déterminer
+  route_link: https://www.campus.uliege.be/cms/c_1841523/fr/b37-institut-de-mathematiques
   pos:
     lat: 50.586300427727544
     lng: 5.5597130611686225
