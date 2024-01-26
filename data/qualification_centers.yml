@@ -109,12 +109,12 @@
   city: Liège
   place: Université de Liège
   address: |
-    Locaux -1.45, -1.48, -1.52 et -1.55
-    B37 (Institut de Mathématiques)
-    Allée de la découverte, 12
+    Locaux 1.132 et 1.99
+    Institut Montefiore (B28)
+    Allée de la découverte, 10
     4000 Liège
   # address: Te bepalen / A déterminer
-  route_link: https://www.campus.uliege.be/cms/c_1841523/fr/b37-institut-de-mathematiques
+  route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
   pos:
     lat: 50.586300427727544
     lng: 5.5597130611686225
