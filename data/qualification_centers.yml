@@ -43,13 +43,12 @@
 -
   city: Gent
   place: Universiteit Gent
-  # address: |
-  #   Campus Sterre
-  #   PC / laptoplokaal 1.1 Grace Hopper
-  #   Krijgslaan 281 - Gebouw S5
-  #   9000 Gent
-  address: Te bepalen / A déterminer
-  #   Faculteit Wetenschappen
+  address: |
+    Campus Sterre
+    PC / laptoplokaal 1.1 Grace Hopper
+    Krijgslaan 281 - Gebouw S5
+    9000 Gent
+  # address: Te bepalen / A déterminer
   pos:
     lat: 51.0227516
     lng: 3.7105733
