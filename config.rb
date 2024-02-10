@@ -11,7 +11,7 @@ set :beoi_year, 2024
 # - :qualif_results_published -- Qualif results available, final in future
 # - :waiting_final_results -- Final past, waiting for results to be available
 # - :final_results_published -- Final results available
-set :contest_state, :registration
+set :contest_state, :waiting_qualif_results
 set :becp_results_available, false
 
 # some config depending on the contest state
