@@ -12,9 +12,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-ruby@v1
-        with: # ruby version is inferred from `.ruby-version
+      - uses: ruby/setup-ruby@v1
+        with:
           ruby-version: 2.7
+          bundler-cache: true
       - run: ruby --version
       - name: Install dependencies
         run: |
