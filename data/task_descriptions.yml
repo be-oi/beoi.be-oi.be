@@ -306,3 +306,53 @@
         nl: beOI23-final-nl-senior-sol.pdf
         de: beOI23-final-de-senior-sol.pdf
         en: beOI23-final-en-senior-sol.pdf
+"2024":
+  final:
+    -
+      type: :task_description
+      category: :Cadet
+      file:
+        fr: beOI24-final-fr-cadet.pdf
+        nl: beOI24-final-nl-cadet.pdf
+        de: beOI24-final-de-cadet.pdf
+        en: beOI24-final-en-cadet.pdf
+    -
+      type: :task_description
+      category: :Junior
+      file:
+        fr: beOI24-final-fr-junior.pdf
+        nl: beOI24-final-nl-junior.pdf
+        de: beOI24-final-de-junior.pdf
+        en: beOI24-final-en-junior.pdf
+    -
+      type: :task_description
+      category: :Senior
+      file:
+        fr: beOI24-final-fr-senior.pdf
+        nl: beOI24-final-nl-senior.pdf
+        de: beOI24-final-de-senior.pdf
+        en: beOI24-final-en-senior.pdf
+    -
+      type: :solutions
+      category: :Cadet
+      file:
+        fr: beOI24-final-fr-cadet-sol.pdf
+        nl: beOI24-final-nl-cadet-sol.pdf
+        de: beOI24-final-de-cadet-sol.pdf
+        en: beOI24-final-en-cadet-sol.pdf
+    -
+      type: :solutions
+      category: :Junior
+      file:
+        fr: beOI24-final-fr-junior-sol.pdf
+        nl: beOI24-final-nl-junior-sol.pdf
+        de: beOI24-final-de-junior-sol.pdf
+        en: beOI24-final-en-junior-sol.pdf
+    -
+      type: :solutions
+      category: :Senior
+      file:
+        fr: beOI24-final-fr-senior-sol.pdf
+        nl: beOI24-final-nl-senior-sol.pdf
+        de: beOI24-final-de-senior-sol.pdf
+        en: beOI24-final-en-senior-sol.pdf
