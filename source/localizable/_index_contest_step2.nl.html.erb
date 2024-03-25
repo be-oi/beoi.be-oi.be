@@ -5,11 +5,13 @@
   <strong>VUB Main Campus Etterbeek, Aula Q</strong><br>
   <strong>Pleinlaan 2, 1050 Brussel</strong><br>
   <strong>Zaterdag 23 maart 2024 om 13.30 uur.</strong><br>
+</p>
+<% unless config.final_is_over %>
+<p>
   <%= ext_link_to "Plan met ingang 13, auditorium Q en de parkeerplaatsen (letters P)",  "https://www.vub.be/nl/over-de-vub/faculteiten-instituten-en-campussen/onze-campussen/vub-main-campus-brussel/campusplan"%><br>
   De gemakkelijkste parkeerplaats is op de begane grond onder gebouw C (ingang tussen gebouwen B en C). Deelnemers die op de campus willen parkeren, <strong style="color:red">MOETEN</strong> hun nummerplaat registreren. De link wordt per e-mail verstrekt.<br>
 </p>
 
-<% unless config.final_is_over %>
 <h4 class="mb8">Praktisch</h4>
 <p>
   Neem een pen, potlood, gum en niets anders mee.<br>
@@ -25,5 +27,5 @@ en de <%= link_to "vragen van de vorige finales", "#questions-solutions" %>.</p>
 
 <% end %>
 
-<% if has_current_year_solutions %><h4>Vragen en oplossingen 2023</h4><%= link_to "#{t("task_description")}#{t("solutions")}", "#questions-solutions", class:"btn btn-lg btn-filled" %><% end %>
+<% if has_current_year_solutions %><%= link_to "#{t("task_description")}#{t("solutions")}", "#questions-solutions", class:"btn btn-lg btn-filled" %><% end %>
 <% if config.show_final_results %><%= link_to t("Results"), "final_results", class:"btn btn-lg btn-filled" %><% end %>

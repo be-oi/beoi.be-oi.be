@@ -4,12 +4,14 @@
 <p>
   <strong>VUB Main Campus Etterbeek, Auditorium Q.</strong><br>
   <strong>Boulevard de la Plaine 2, 1050 Bruxelles.</strong><br>
-  <strong>Samedi 23 mars 2024 à 13h30.</strong><br>
+  <strong>Samedi 23 mars 2024 à 13h30.</strong>
+</p>
+<% unless config.final_is_over %>
+<p>
   <%= ext_link_to "Plan montrant l'entrée 13, l'auditoire Q et les parking (lettres P)", "https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/campus-map"%><br>
   Le parking le plus facile est au niveau du sol sous le bâtiment C (entrée entre les bâtiments B et C). Les participants qui souhaitent se garer sur le campus <strong style="color:red">DOIVENT</strong> enregistrer leur plaque d'immatriculation. Le lien sera fourni par e-mail.<br>
 </p>
 
-<% unless config.final_is_over %>
 <h4 class="mb8">Aspects pratiques</h4>
 <p>
   Apportez un bic, un crayon, une gomme et rien d'autre.<br>
@@ -25,5 +27,5 @@
 
 <% end %>
 
-<% if has_current_year_solutions %><h4>Questions et solutions 2023</h4><%= link_to "#{t("task_description")}#{t("solutions")}", "#questions-solutions", class:"btn btn-lg btn-filled" %><% end %>
+<% if has_current_year_solutions %><%= link_to "#{t("task_description")}#{t("solutions")}", "#questions-solutions", class:"btn btn-lg btn-filled" %><% end %>
 <% if config.show_final_results %><%= link_to t("Results"), "final_results", class:"btn btn-lg btn-filled" %><% end %>
