@@ -1,7 +1,7 @@
 ---
 title: Final Results
 trianglify_colors: '"RdYlGn"'
-result_file: results_2023_final
+result_file: results_2024_final
 ---
 <section class="page-title page-title-4 image-bg">
   <%=page_header_empty_image_holder %>
@@ -18,7 +18,7 @@ result_file: results_2023_final
 
 <section>
    <div class="container">
-      <%= image_tag "archives/2023/final.jpg", class:"cast-shadow", width:1512 %>
+      <%=image_tag "archives/2024/beoi24-final.jpg", class:"cast-shadow", width:1512 %>
    </div>
 </section>
 
@@ -26,9 +26,10 @@ result_file: results_2023_final
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2 text-center">
-        <!-- Commenter une des 2 lignes ci-dessous : top-10 à part (proclamation future ) OU classement complet (proclamation passée). -->
-        <!-- <p class="mb16 text-center lead"><%= t(:final_results_expl_future) %></p> -->
-        <p class="mb16 text-center lead"><%= t(:final_results_expl_past) %></p>
+        <!-- Commenter une des 2 lignes ci-dessous : top-10 à part (proclamation future ) OU classement complet (proclamation passée).
+             Modifier aussi les messages dans locales/fr.yml et locales nl.yml -->
+        <p class="mb16 text-center lead"><%= t(:final_results_expl_future) %></p>
+        <!-- <p class="mb16 text-center lead"><%= t(:final_results_expl_past) %></p> -->
       </div>
     </div>
   </div>
@@ -43,7 +44,9 @@ result_file: results_2023_final
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- -> Ajouter ou enlever un tiret pour compléter ou annuler la balise de fermeture de commentaire. Si ce commentaire est "fermé", le top-10 est publié séparément.
+        <!-- Ne PAS commenter entre ###Start-top### et ###End-top### pour afficher le top10 à part. -->
+        <!-- ###Start-top### -->
+        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! -->
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.cadet_top.length %></h5>
 
         <table class="table table-striped-cadet">
@@ -59,7 +62,7 @@ result_file: results_2023_final
         </table>
 
         <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.cadet_top.length %></h5>
-        <!-- -->
+        <!-- ###End-top### -->
 
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.cadet_max %></p>
 
@@ -93,7 +96,9 @@ result_file: results_2023_final
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- -> Ajouter ou enlever un tiret pour compléter ou annuler la balise de fermeture de commentaire. Si ce commentaire est "fermé", le top-10 est publié séparément.
+        <!-- Ne PAS commenter entre ###Start-top### et ###End-top### pour afficher le top10 à part. -->
+        <!-- ###Start-top### -->
+        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! -->
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.junior_top.length %></h5>
 
         <table class="table table-striped-junior">
@@ -109,7 +114,7 @@ result_file: results_2023_final
         </table>
 
         <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.junior_top.length %></h5>
-        <!-- -->
+        <!-- ###End-top### -->
 
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.junior_max %></p>
 
@@ -143,7 +148,9 @@ result_file: results_2023_final
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- -> Ajouter ou enlever un tiret pour compléter ou annuler la balise de fermeture de commentaire. Si ce commentaire est "fermé", le top-10 est publié séparément.
+        <!-- Ne PAS commenter entre ###Start-top### et ###End-top### pour afficher le top10 à part. -->
+        <!-- ###Start-top### -->
+        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! -->
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.senior_top.length %></h5>
 
         <table class="table table-striped-senior">
@@ -159,7 +166,7 @@ result_file: results_2023_final
         </table>
 
         <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.senior_top.length %></h5>
-        <!-- -->
+        <!-- ###End-top### -->
 
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.senior_max %></p>
 

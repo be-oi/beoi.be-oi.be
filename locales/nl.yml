@@ -246,15 +246,15 @@ nl:
 
   final_result_title: "Finale: resultaten"
   final_results_expl_past: |
-    De finale van de olympiade 2023 vond plaats op 18 maart in Brussel.<br>
-    Er deden 224 deelnemers mee.<br>
+    De finale van de olympiade 2024 vond plaats op 23 maart in Brussel (VUB, Aula Q).<br>
+    Er deden 201 deelnemers mee.<br>
     Hieronder staan, per categorie, de resultaten van de finale.<br>
   final_results_expl_future: |
-    De finale van de olympiade 2023 vond plaats op 18 maart in Brussel.<br>
-    Er deden 224 deelnemers mee.<br>
+    De finale van de olympiade 2024 vond plaats op 23 maart in Brussel (VUB, Aula Q).<br>
+    Er deden 201 deelnemers mee.<br>
     Hieronder staan, per categorie, de resultaten van de finale.<br>
     De eerste finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score.<br>
-    Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 13 mei in Brussel.<br>
+    Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 25 mei in Brussel.<br>
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
   qualif_intro_text: |
@@ -266,7 +266,7 @@ nl:
   qualif_chart_lang_nl: Nederlandstaligen
   qualif_chart_lang_de: Duitstaligen
   qualif_chart_lang_en: Engelstaligen
-  results_max_score: De maximumscore was %d punten.
+  results_max_score: De maximumscore was <strong>%d</strong>  punten.
   qualif_result_summary: Samenvatting
   qualif_result_stat_contestants: Aantal deelnemers
   qualif_result_stat_contestants_text: De editie %d telde %d leerlingen en %d deelnemende scholen.
