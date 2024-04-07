@@ -248,15 +248,15 @@ fr:
 
   final_result_title: "Finale: Résultats"
   final_results_expl_past: |
-    La finale de l'olympiade 2023 a eu lieu le 18 mars à Bruxelles.<br>
-    224 concurrents y ont participé.<br>
+    La finale de l'olympiade 2024 a eu lieu le 23 mars à Bruxelles (VUB, Auditorium Q).<br>
+    201 concurrents y ont participé.<br>
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
   final_results_expl_future: |
-    La finale de l'olympiade 2023 a eu lieu le 18 mars à Bruxelles.<br>
-    224 concurrents y ont participé.<br>
+    La finale de l'olympiade 2024 a eu lieu le 23 mars à Bruxelles (VUB, Auditorium Q).<br>
+    201 concurrents y ont participé.<br>
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
     Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score.<br>
-    Ils recevront leur classement final et un prix lors de la proclamation le 13 mai à Bruxelles.<br>
+    Ils recevront leur classement final et un prix lors de la proclamation le 25 mai à Bruxelles.<br>
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
@@ -268,7 +268,7 @@ fr:
   qualif_chart_lang_nl: Néerlandophones
   qualif_chart_lang_de: Germanophones
   qualif_chart_lang_en: Anglophones
-  results_max_score: Le score maximum possible était de %d points.
+  results_max_score: Le score maximum possible était de <strong>%d</strong> points.
   qualif_result_summary: En résumé
   qualif_result_stat_contestants: Nombre de participants
   qualif_result_stat_contestants_text: L'édition %d a compté %d élèves et %d écoles participantes.
