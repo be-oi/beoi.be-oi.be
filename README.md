@@ -25,3 +25,12 @@ To build:
 To deploy on S3 (requires AWS credentials in `.s3.sync` in the yaml format):
 
     bundle exec middleman s3_sync
+
+## Using Docker
+
+Install Docker.
+
+```
+docker build . -t beoiwebsite
+docker run -it -p 4567:4567 --mount type=bind,source="$(pwd)",target=/usr/src/app beoiwebsite
+```
