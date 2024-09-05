@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row mb64 mb-xs-32">
       <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-        <h4 class="uppercase large"><%= t(:ranking) %> beCP 2023</h4>
+        <h4 class="uppercase large"><%= t(:ranking) %> beCP 2024</h4>
       </div>
 
       <div class="col-sm-12 col-md-10 col-md-offset-1">
@@ -13,15 +13,15 @@
                <td>#</td>
                <td style="text-align:left"><%= t(:column_name) %></td>
                <td style="text-align:left"><%= t(:column_school) %></td>
-               <td>Q1 /100</td><td>Q2 /100</td><td>Q3 /100</td><td>Q4 /100</td><td>Q5 /100</td><td>Q6 /100</td>
+               <td>FARIO /100</td><td>Q1 /100</td><td>Q2 /100</td><td>Q3 /100</td><td>Q4 /100</td><td>Q5 /100</td><td>Q6 /100</td>
                <td><%= t(:column_score) %> /600</td>
             </tr>
-            <% data.results_2023_becp.each do |r| %>
+            <% data.results_2024_becp.each do |r| %>
             <tr style="text-align:right">
               <td><%= r.position %></td>
               <td style="text-align:left" nowrap="nowrap"><%= r.name %></td>
               <td style="text-align:left"><%= r.school %> <% if r.year %>(<%= t(r.year) %>)<% end %></td>
-              <td><%= r.q1 %></td><td><%= r.q2 %></td><td><%= r.q3 %></td><td><%= r.q4 %></td><td><%= r.q5 %></td><td><%= r.q6 %></td>
+              <td><%= r.fario %></td><td><%= r.q1 %></td><td><%= r.q2 %></td><td><%= r.q3 %></td><td><%= r.q4 %></td><td><%= r.q5 %></td><td><%= r.q6 %></td>
               <td><strong><%= r.score %></strong></td>
             </tr>
             <% end %>

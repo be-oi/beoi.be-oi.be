@@ -1,0 +1,132 @@
+- position: 1 
+  score: 587
+  name: Noé Zech 
+  school: Collège du Christ-Roi, Ottignies 
+  year: year_4th 
+  fario: 150
+  q1: 100
+  q2: 75
+  q3: 40
+  q4: 100
+  q5: 75
+  q6: 47
+- position: 2 
+  score: 501
+  name: Joaquim Schaeverbeke 
+  school: KA Etterbeek, Brussel 
+  year: year_4th
+  fario: 99
+  q1: 100
+  q2:  60
+  q3:  20
+  q4:  100
+  q5: 75
+  q6: 47
+- position: 3
+  score: 488
+  name: Alban Van Vyve 
+  school: Institut de la Vierge Fidèle, Bruxelles 
+  year: year_5th 
+  fario: 93
+  q1: 100
+  q2:  35
+  q3:  60
+  q4:  100
+  q5: 100
+  q6: 0
+- position: 4
+  score: 399
+  name: Akram Zakine 
+  school: Athénée Robert Catteau, Bruxelles 
+  year: year_6th 
+  fario: 73
+  q1: 100
+  q2:  20
+  q3:  40
+  q4:  100
+  q5: 66
+  q6: 0
+- position: 5
+  score: 368
+  name: Tibor Varga 
+  school: Ecole Internationale Montgomery 
+  year: year_5th 
+  fario: 73
+  q1: 100
+  q2:  20
+  q3:  0
+  q4:  100
+  q5: 75
+  q6: 0
+- position: 6
+  score: 239
+  name: Thomas De Bruyn 
+  school: ASO Spijker, Hoogstraten 
+  year: year_3rd 
+  fario: 73
+  q1: 100
+  q2:  10
+  q3:  0
+  q4:  50
+  q5: 6
+  q6: 0
+- position: 7
+  score: 165
+  name: Hasan Erdogan 
+  school: Oscar Romerocollege, Dendermonde 
+  year: year_5th 
+  fario: 45
+  q1: 100
+  q2:  20
+  q3:  0
+  q4:  0
+  q5: 0
+  q6: 0
+- position: 8
+  score: "-"
+  name: Edward Rosseel
+  school: Sint-Barbara Gent
+  year:  year_4th
+  fario: ""
+  q1: ""
+  q2:  ""
+  q3:  ""
+  q4:  ""
+  q5: ""
+  q6: ""
+- position: 9
+  score: "-"
+  name: Horia Antohi
+  school:  European School II, Woluwe St-Lambert
+  year:  year_2nd
+  fario: ""
+  q1: ""
+  q2:  ""
+  q3:  ""
+  q4:  ""
+  q5: ""
+  q6: ""
+- position: 10
+  score: "-"
+  name: Henri Delvenne
+  school:  European School III, Brussels
+  year:  year_1st
+  fario: ""
+  q1: ""
+  q2:  ""
+  q3:  ""
+  q4:  ""
+  q5: ""
+  q6: ""
+- position: 11
+  score: "-"
+  name: Chong Shan
+  school:  T.I. Don Bosco Halle
+  year:  year_4th
+  fario: ""
+  q1: ""
+  q2:  ""
+  q3:  ""
+  q4:  ""
+  q5: ""
+  q6: ""
