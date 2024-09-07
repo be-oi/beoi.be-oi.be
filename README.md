@@ -34,3 +34,4 @@ Install Docker.
 docker build . -t beoiwebsite
 docker run -it -p 4567:4567 --mount type=bind,source="$(pwd)",target=/usr/src/app beoiwebsite
 ```
+Then you can access the website on `http://localhost:4567/`.
