@@ -38,7 +38,7 @@ fr:
     à la programmation pour élèves du secondaire.
 
   members: Nos membres
-  sample_tasks_qualifying: "Exemples de question pour l'éliminatoire"
+  sample_tasks_qualifying: "Exemples de question pour la qualification"
   sample_tasks_final: "Exemples de question pour la finale"
   more_questions_soon: "Plus de questions et solutions d'ici peu ..."
   pseudocode_expl: "Le language informatique utilisé dans les questionnaires est un pseudo-code défini"
@@ -46,7 +46,7 @@ fr:
   questions: Des questions ?
   contact_us: Contactez-nous !
 
-  qualif_round: éliminatoire
+  qualif_round: qualification
   final_round: finale
   more_info_below: plus de détails ici
   more_info_later: à définir
@@ -55,14 +55,10 @@ fr:
 
   # index: overview module
   overview_title: Un concours accessible à tous
-  overview_desc: |
-    Le concours beOI a été rendu plus accessible
-    qu'auparavant afin que tout élève du secondaire puisse y
-    participer sans connaissance préalable.
 
-  overview_first_title: Aucune base nécessaire
+  overview_first_title: Aucun prérequis
   overview_first_desc: |
-    L'épreuve éliminatoire ne comporte pas de programmation,
+    L'épreuve qualificative ne comporte pas de programmation,
     uniquement des exercices de raisonnement informatique ne
     nécessitant aucune connaissance préalable. La finale
     comporte, elle, de la programmation, via des codes à
@@ -75,13 +71,13 @@ fr:
 
   overview_third_title: Guidage
   overview_third_desc: |
-    Les candidats passant les éliminatoires se verront proposer
+    Les candidats passant l'épreuve qualificative se verront proposer
     une formation et une série d'outils leur permettant d'apprendre les
     bases de la programmation. Les meilleurs pourront également
     intégrer la formation de l'équipe nationale (beCP).
 
   register_button: Je représente une école, je souhaite inscrire mon école
-  register_text: Inscrivez-vous aux éliminatoires !
+  register_text: Inscrivez-vous aux qualifications !
   register_school_text: |
     Même après leur avoir parlé du concours votre école ne souhaite pas participer à la beOI ?<br/>
     <a href="/fr/registration">Inscrivez-vous individuellement</a> pour passer l'épreuve dans l'un des centres près de chez vous.
@@ -139,10 +135,10 @@ fr:
   mailinglist_email_placeholder: Adresse e-mail
   mailinglist_submit_button: Tenez-moi informé
 
-  wait_for_qualif_results_title: Vous avez participé à l'éliminatoire ?
+  wait_for_qualif_results_title: Vous avez participé à la qualification ?
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochains jours.
 
-  index_qualif_result_title: "Éliminatoire"
+  index_qualif_result_title: "Qualification"
   index_final_result_title: "Finale"
   index_result_link: "Les résultats"
 
@@ -176,7 +172,6 @@ fr:
   route_instruct: Instructions
   center_in_your_school: "Nous vous encourageons à, si possible, passer l'épreuve dans votre école."
 
-  qualif_task_descriptions_title: Éliminatoire 2016
   final_task_descriptions_title: Finale %d
   task_description: "" #Énoncés
   solutions: Solutions
@@ -227,24 +222,21 @@ fr:
   rules_part_2: Belge ou dans une école belge
   Categories: Catégories
   rules_part_4: Concours gratuit
-  rules_part_5: 50 meilleurs (ou 15%) de l'éliminatoire en finale (par catégorie)
+  rules_part_5: meilleurs de la qualification en finale (par catégorie)
 
   # Archives
   previous_olympiad_edition_tile: beOI %d
 
   # Qualif result page
-  qualif_result_title: "Éliminatoire: Résultats"
+  qualif_result_title: "Qualifications: Résultats"
   qualif_topx: Top %d
   column_name: Nom
   column_school: "Ecole (année)"
   column_score: Score
   qualif_on_total: Sur un total de %d participants
   qualif_top_schools: Écoles
-  qualif_top_schools_count_expl: Classement des écoles par nombre de participants à l'éliminatoire
+  qualif_top_schools_count_expl: Classement des écoles par nombre de participants aux qualifications
   qualif_top_schools_score_expl: Classement des écoles par score moyen de leurs 5 meilleurs participants
-  qualif_top_girls: Top des filles
-  qualif_top_girls_expl: |
-    Dans un domaine par les hommes, %d filles participaient cette année à l'éliminatoire, un record ! Voici un classement des meilleures d'entre elles.
 
   final_result_title: "Finale: Résultats"
   final_results_expl_past: |
@@ -310,7 +302,7 @@ fr:
   year_5th: 5e
   year_6th: 6e
   year_7th: 7e
-  qualification_center_field: Centre pour l'éliminatoire
+  qualification_center_field: Centre pour la qualification
   registration_only_for_non_school: |
     Uniquement si vous NE participez PAS dans votre école. Pour participer dans votre école, demandez à l'un de vos professeurs de s'inscrire sur la plateforme du concours (expliqué sur la page principale).
   qualification_center_my_school: mon école

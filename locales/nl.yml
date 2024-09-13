@@ -55,10 +55,6 @@ nl:
 
   # index: overview module
   overview_title: Een toegankelijke wedstrijd voor iedereen
-  overview_desc: |
-    De beOI wedstrijd is toegankelijker dan ooit
-    tevoren: elke leerling uit het secundair kan
-    deelnemen zonder enige voorkennis.
 
   overview_first_title: Geen voorkennis nodig
   overview_first_desc: |
@@ -176,7 +172,6 @@ nl:
   route_instruct: Routebeschrijving
   center_in_your_school: "We moedigen je aan om de eerste ronde in je eigen school af te leggen, als dat mogelijk is."
 
-  qualif_task_descriptions_title: Eerste ronde 2016
   final_task_descriptions_title: Finale %d
   task_description: "" #Opgaven
   solutions: Oplossingen
@@ -225,7 +220,7 @@ nl:
   rules_part_2: Belg of in een Belgische school
   Categories: Categorieën
   rules_part_4: Gratis wedstrijd
-  rules_part_5: 50 besten (of 15%) van de eerste ronde naar de finale (per categorie)
+  rules_part_5: besten van de eerste ronde naar de finale (per categorie)
 
   # Archives
   previous_olympiad_edition_tile: beOI %d
@@ -240,9 +235,6 @@ nl:
   qualif_top_schools: Scholen
   qualif_top_schools_count_expl: Deelnemende scholen gerangschikt volgens aantal deelnemers aan de eerste ronde
   qualif_top_schools_score_expl: Klassement van scholen gerangschikt volgens gemiddelde score van hun 5 beste deelnemers
-  qualif_top_girls: De beste meisjes
-  qualif_top_girls_expl: |
-    In een (helaas en onterecht) vaak mannelijk gekleurd vak, hebben dit jaar %d meisjes deelgenomen aan de eerste ronde, een absoluut record! Dit zijn de besten onder hen.
 
   final_result_title: "Finale: resultaten"
   final_results_expl_past: |

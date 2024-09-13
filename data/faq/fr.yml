@@ -31,29 +31,29 @@
       question: Puis-je participer si je suis en échange dans un pays étranger lors du concours ?
       answer: |
         Nous réglons pour l'instant ce problème au cas par cas. Il peut être
-        possible de participer à l'éliminatoire à distance si nous avons un
+        possible de participer à la qualification à distance si nous avons un
         point de contact fiable (dans une école, université). Veuillez nous
         contacter à info@be-oi.be dans tous les cas.
 -
-  category_title: Éliminatoires
+  category_title: Qualifications
   questions:
     -
-      question: Où se déroulent les éliminatoires ?
+      question: Où se déroulent les qualifications ?
       answer: |
-        Les éliminatoires se déroulent dans les écoles (voir ci-dessous) et dans les
+        Les qualifications se déroulent dans les écoles (voir ci-dessous) et dans les
         <a href="/fr/#qualif-centers">centres régionaux que vous pourrez trouver sur notre page principale</a>.
         Les adresses précises seront disponibles à l'approche du concours.
     -
-      question: Puis-je passer l'éliminatoire dans un centre néerlandophone ?
+      question: Puis-je passer les qualifications dans un centre néerlandophone ?
       answer: |
         Vous pouvez passer l'épreuve en français dans l'ensemble des
         centre en Belgique. Sachez cependant que les surveillants des
         centres néerlandophones ne sauront peut-être pas vous répondre en français.
-        Les questions pouvant être posées à l'éliminatoire
+        Les questions pouvant être posées à la qualfication
         ne concernent pas l'épreuve mais uniquement des détails
         pratiques (temps restant, ...).
     -
-      question: Puis-je passer l'éliminatoire dans mon école ?
+      question: Puis-je passer l'épreuve qualificative dans mon école ?
       answer: |
         Oui, à condition d'avoir le support d'un enseignant. L'école doit également remplir
         un ensemble de conditions indiquées ci-dessous dans la catégorie "écoles". Dans le
@@ -109,9 +109,9 @@
         - Vu que nous savons qu'il peut être difficile de réserver des salles informatique,
           nous essayerons de donner le plus de souplesse dans l'organisation pratique.
     -
-      question: Sous quelles conditions mon école peut-elle organiser l'éliminatoire ?
+      question: Sous quelles conditions mon école peut-elle organiser l'épreuve qualificative ?
       answer: |
-        L'éliminatoire peut être organisée dans votre établissement à condition que l'ensemble de
+        La qualification peut être organisée dans votre établissement à condition que l'ensemble de
         ces critères soient remplis (note: il est possible que ces règles soient légèrement
         ajustées à l'ouverture des inscriptions):<br>
         - Avoir une salle informatique dans lequelle organiser l'épreuve avec un ordinateur par
