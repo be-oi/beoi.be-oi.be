@@ -55,6 +55,56 @@ contestants:
       year: year_2nd
       
   cadet:
+    - position: 1
+      score: 90
+      name: Paul Van Schaftingen
+      school: Collège du Christ Roi, Ottignies
+      year: year_1st
+    - position: 2
+      score: 82
+      name: Chong Shan
+      school: Don Bosco Technisch Instituut, Halle
+      year: year_2nd
+    - position: 3
+      score: 81
+      name: Seppe Vandenhoven
+      school: Sint-Lievenscollege Humaniora, Gent
+      year: year_2nd
+    - position: 4
+      score: 72
+      name: Tijs Van Nuffel
+      school: GO! Erasmus De Pinte, De Pinte
+      year: year_2nd
+    - position: 5
+      score: 71
+      name: Henri Delvenne
+      school: École Européenne III, Ixelles
+      year: year_1st
+    - position: "-"
+      score: 71
+      name: Jules Bresseleers
+      school: Collège Hagelstein, Sint-Katelijne-Waver
+      year: year_2nd
+    - position: 7
+      score: 68
+      name: Horia Antohi
+      school: École Européenne de Bruxelles 2, Woluwe-Saint-Lambert
+      year: year_2nd
+    - position: 8
+      score: 66
+      name: Arne Patroons
+      school: Sint-Gabrielcollege, Boechout
+      year: year_1st
+    - position: "-"
+      score: 66
+      name: Marlies Van Nuland
+      school: Sint-Lievenscollege Humaniora, Gent
+      year: year_2nd
+    - position: "-"
+      score: 66
+      name: Wout Brusselle
+      school: GO! Atheneum Voskenslaan, Gent
+      year: year_2nd
     - position: 11
       score: 63
       name: Elyas Terwagne
@@ -405,6 +455,61 @@ contestants:
       year: year_4th
 
   junior:
+    - position: 1
+      score: 122
+      name: Stijn Patroons
+      school: Sint-Gabrielcollege, Boechout
+      year: year_4th
+    - position: 2
+      score: 113
+      name: Noé Zech
+      school: Collège du Christ-Roi, Ottignies
+      year: year_4th
+    - position: 3
+      score: 111
+      name: Nikolay Voronin
+      school: Sint-Lievenscollege Humaniora, Gent
+      year: year_4th
+    - position: 4
+      score: 110
+      name: Mikhail Skvortsov
+      school: Athénée Royal Jules Bordet, Soignies
+      year: year_3rd
+    - position: 5
+      score: 103
+      name: Marius Leboutte
+      school: Institut Saint-Roch, Marche-en-Famenne
+      year: year_3rd
+    - position: 6
+      score: 101
+      name: Alexandru Nita
+      school: École Européenne de Bruxelles IV, Bruxelles
+      year: year_4th
+    - position: 7
+      score: 93
+      name: Edward Rosseel
+      school: Sint-Barbaracollege, Gent
+      year: year_4th
+    - position: 8
+      score: 85
+      name: Clément Dubois
+      school: Sint-Jan-Berchmanscollege, Brussel
+      year: year_3rd
+    - position: 9
+      score: 81
+      name: Benjamin De Walque
+      school: Institut de la Vierge Fidèle, Bruxelles
+      year: year_4th
+    - position: 10
+      score: 78
+      name: Emile De Bruyckere
+      school: Sint-Bavohumaniora, Gent
+      year: year_3rd
+    - position: "-"
+      score: 78
+      name: Adrien Michaux
+      school: Athénée Royal Air Pur de Seraing, Seraing
+      year: year_3rd
     - position: 12
       score: 77
       name: Gabriel Descamps
@@ -765,6 +870,56 @@ contestants:
       year: year_6th
 
   senior:
+    - position: 1
+      score: 124
+      name: Stefan Andrian Albescu
+      school: École Européenne III, Ixelles
+      year: year_5th
+    - position: 2
+      score: 122
+      name: Akram Zakine
+      school: Athénée Robert Catteau, Bruxelles
+      year: year_6th
+    - position: "-"
+      score: 122
+      name: Alban Van Vyve
+      school: Institut de la Vierge Fidèle, Bruxelles
+      year: year_5th
+    - position: 4
+      score: 121
+      name: Rares Bota
+      school: École Européenne de Bruxelles IV, Bruxelles
+      year: year_6th
+    - position: 5
+      score: 119
+      name: Nyo Thijs
+      school: Collège Hagelstein, Sint-Katelijne-Waver
+      year: year_5th
+    - position: 6
+      score: 112
+      name: Floris Rylant
+      school: College van het Eucharistisch Hart, Essen
+      year: year_5th
+    - position: 7
+      score: 109
+      name: San Diego Velz
+      school: Bischöfliches Institut Büllingen, Büllingen
+      year: year_5th
+    - position: 8
+      score: 106
+      name: Noah Nuelandt
+      school: Onze-Lieve-Vrouwinstituut, Sint-Genesius-Rode
+      year: year_6th
+    - position: "-"
+      score: 106
+      name: Wout Goethals
+      school: GO! Atheneum De Ring Leuven, Leuven
+      year: year_6th
+    - position: 10
+      score: 105
+      name: Casper Faulconer
+      school: Atheneum Dendermonde, Dendermonde
+      year: year_6th
     - position: 11
       score: 104
       name: Ulysse Van Damme
