@@ -257,8 +257,36 @@ trianglify_colors: '["#5e4fa2","#3288bd","#66c2a5","#abdda4","#e6f598","#ffffbf"
 <%= partial "becp_ranking" %>
 
 <a name="questions"></a>
-<!-- ################ 2023 ################ -->
+<!-- ################ 2024 ################ -->
 <section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase large mb80"><%= t(:task_descriptions) %> 2024</h4>
+        <!--end of button tabs-->
+      </div>
+    </div>
+    <!--end of row-->
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <% data.task_descriptions_becp[2024].each do |e| %>
+        <%= link_to  "#{e.title[lang]} (#{e.title.official}) ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+        <!-- files in english -->
+        <br><strong>English Files</strong><br>
+        <% data.task_descriptions_becp[2024].each do |e| %>
+        <%= link_to  "#{e.title['en']} ", "/archives/#{e.file['en']}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+
+<!-- ################ 2023 ################ -->
+<section class="bg-secondary">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">

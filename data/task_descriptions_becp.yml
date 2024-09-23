@@ -325,3 +325,34 @@
       fr: beCP23-movies-fr.pdf
       nl: beCP23-movies-nl.pdf
       en: beCP23-movies-en.pdf
+"2024":
+  -
+    title:
+      official: flood
+      fr: Q2 Inondations en ville
+      nl: Q2 Overstroomde stad
+      en: Q2 Flooded city
+    file:
+      fr: beCP24-flood-fr.pdf
+      nl: beCP24-flood-nl.pdf
+      en: beCP24-flood-en.pdf
+  -
+    title:
+      official: gifts
+      fr: Q3 Échange de Cadeaux
+      nl: Q3 Geschenken uitwisselen
+      en: Q3 Gift Exchange
+    file:
+      fr: beCP24-gifts-fr.pdf
+      nl: beCP24-gifts-nl.pdf
+      en: beCP24-gifts-en.pdf
+  -
+    title:
+      official: submission
+      fr: Q5 Historique des soumissions
+      nl: Q5 Inzendingshistoriek
+      en: Q5 Submission History
+    file:
+      fr: beCP24-submission-fr.pdf
+      nl: beCP24-submission-nl.pdf
+      en: beCP24-submission-en.pdf
