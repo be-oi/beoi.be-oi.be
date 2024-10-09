@@ -2319,7 +2319,10 @@ th {
   border-bottom-width: 2px;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
+  background-color: #f0f0ff;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #f8f8ff;
 }
 .table-striped-cadet > tbody > tr:nth-of-type(odd) {
   background-color: #fff0f0;

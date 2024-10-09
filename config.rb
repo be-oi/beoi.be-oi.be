@@ -2,7 +2,7 @@
 ###
 # Contest-related states
 ###
-set :beoi_year, 2024
+set :beoi_year, 2025
 
 # states:
 # - :preregistration -- Calendar on :beoi_year ready, but registrations not yet open
@@ -11,7 +11,7 @@ set :beoi_year, 2024
 # - :qualif_results_published -- Qualif results available, final in future
 # - :waiting_final_results -- Final past, waiting for results to be available
 # - :final_results_published -- Final results available
-set :contest_state, :final_results_published
+set :contest_state, :preregistration
 set :becp_results_available, false
 
 # some config depending on the contest state

@@ -108,7 +108,7 @@ nl:
     De Belgische delegatie - 4 deelne(e)m(st)ers en 2 begeleiders - neemt deel aan de Internationale Olympiade
     Informatica met meer dan 80 andere landen.
 
-  becp_registration_deadline: "beCP 2024 selectiewedstrijd: Inschrijvingstermijn is 1 mei!"
+  becp_registration_deadline: "beCP 2025 selectiewedstrijd: Inschrijvingstermijn is ... !"
 
   Calendar: Kalender
   training_camp: Trainingskamp
@@ -117,11 +117,11 @@ nl:
   selection_contest: Selectiewedstrijd voor de IOI
   selection_contest_details: Brussel
   ioi_full: Internationale Olympiade Informatica (IOI)
-  ioi_details: Alexandrië, Egypte
+  ioi_details: Bolivia
   weoi_full: West-Europese Olympiade Informatica
-  weoi_details: London (UK)
+  weoi_details: Italië
   ejoi_full: Europese Junior Olympiade in Informatica (EJOI)
-  ejoi_details: Chisinau, Moldavië
+  ejoi_details: ???
   selection_contest_link: Meer info over beCP
 
   ranking: Eindklassement
