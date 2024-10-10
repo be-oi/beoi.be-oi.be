@@ -1,12 +1,13 @@
-<h3>Finale 2024</h3>
+<h3>Finale 2025</h3>
 
 <h4 class="mb8">Plaats en datum</h4>
 <p>
-  <strong>VUB Main Campus Etterbeek, Aula Q</strong><br>
-  <strong>Pleinlaan 2, 1050 Brussel</strong><br>
-  <strong>Zaterdag 22 maart 2025 <!--om 13.30 uur.--></strong><br>
+  VUB Main Campus Etterbeek, Aula Q<br>
+  Pleinlaan 2, 1050 Brussel<br>
+  Zaterdag 22 maart 2025 <!--om 13.30 uur.--><br>
 </p>
 <% unless config.final_is_over %>
+<% if false %>
 <p>
   <%= ext_link_to "Plan met ingang 13, auditorium Q en de parkeerplaatsen (letters P)",  "https://www.vub.be/nl/over-de-vub/faculteiten-instituten-en-campussen/onze-campussen/vub-main-campus-brussel/campusplan"%><br>
   De gemakkelijkste parkeerplaats is op de begane grond onder gebouw C (ingang tussen gebouwen B en C). Deelnemers die op de campus willen parkeren, <strong style="color:red">MOETEN</strong> hun nummerplaat registreren. De link wordt per e-mail verstrekt.<br>
@@ -20,7 +21,7 @@
   Finalisten worden ter plaatse verwacht tegen 13u20.<br>-->
   De resultaten worden enkele weken nadien bekendgemaakt.
 </p>
-
+<% end %>
 <h4 class="mb8">Types van vragen</h4>
 <p>De finale is een proef op papier. Je vindt hieronder <%= link_to "enkele voorbeeldvragen", "#sample-questions-final" %>
 en de <%= link_to "vragen van de vorige finales", "#questions-solutions" %>.</p>
