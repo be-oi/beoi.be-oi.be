@@ -32,32 +32,15 @@
 </div>
 </section>
 
- <script type="text/javascript">
-
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 50.5644843, lng: 4.4025018},
-    zoom: 9,
-    disableDefaultUI: true,
-    zoomControl: true,
-    styles: [{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"stylers":[{"hue":"#00aaff"},{"saturation":-100},{"gamma":2.15},{"lightness":12}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":24}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}]
+<script src="/js/maplibre-gl.js"></script>
+<script type="text/javascript">
+  var map = new maplibregl.Map({
+      container: 'map', // container id
+      style: '/js/mapstyle.json', // 'https://demotiles.maplibre.org/style.json', // style URL /js/mapstyle.json
+      center: [4.4025018, 50.5644843], // [lng, lat]
+      zoom: 7,
   });
-  var markers = [
-    <% data.qualification_centers.select{|x|x.pos}.each do |c| %>
-    new google.maps.Marker({
-      position: {lat: <%= c.pos.lat %>, lng: <%= c.pos.lng %>},
-      map: map,
-      title: "<%= c.city %>"
-    }),
-    <% end %>
-  ];
-  var bounds = new google.maps.LatLngBounds();
-  for(i=0;i<markers.length;i++) {
-    bounds.extend(markers[i].getPosition());
-  }
-  map.fitBounds(bounds);
-}
-</script>
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX5Lbap5-RYJDTbqygzs3I-epMzNwFJgM&callback=initMap">
+  <% data.qualification_centers.select{|x|x.pos}.each do |c| %>
+  new maplibregl.Marker().setLngLat([ <%= c.pos.lng %> , <%= c.pos.lat %>]).addTo(map);
+  <% end %>
 </script>
