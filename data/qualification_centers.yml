@@ -1,26 +1,24 @@
 -
   city: Antwerpen
   place: Universiteit Antwerpen
-  address: |
-    Campus Groenenborger, gebouw Z
-    Lokaal G.Z.423
-    Groenenborgerlaan 171
-    2020 Antwerpen
-  # address: Te bepalen / A déterminer
-  route_link: https://www.uantwerpen.be/nl/overuantwerpen/campussen/campus-groenenborger/
+  # address: |
+  #   Campus Groenenborger, gebouw Z
+  #   Lokaal G.Z.423
+  #   Groenenborgerlaan 171
+  #   2020 Antwerpen
+  # route_link: https://www.uantwerpen.be/nl/overuantwerpen/campussen/campus-groenenborger/
   pos:
     lat: 51.17821
     lng: 4.41853
 -
   city: Brussel / Bruxelles
   place: VUB
-  address: |
-    VUB Campus Etterbeek
-    Local E.1.3 et E.1.4
-    Bd de la Plaine 2 / Pleinlaan 2
-    1050 Ixelles / 1050 Brussel
-  route_link: https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/campus-map
-  # address: Te bepalen / A déterminer
+  # address: |
+  #   VUB Campus Etterbeek
+  #   Local E.1.3 et E.1.4
+  #   Bd de la Plaine 2 / Pleinlaan 2
+  #   1050 Ixelles / 1050 Brussel
+  # route_link: https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/campus-map
   #   Département des Sciences Informatiques
   #   Campus HE2B–ESI
   #   Rue Royale 67
@@ -32,35 +30,33 @@
 -
   city: Charleroi
   place: UCLouvain
-  address: |
-    A6K (personne disponible à l'entrée)
-    Square des Martyrs, 1
-    6000 Charleroi
-  # address: Te bepalen / A déterminer
+  # address: |
+  #   A6K (personne disponible à l'entrée)
+  #   Square des Martyrs, 1
+  #   6000 Charleroi
   pos:
     lat: 50.473463
     lng: 4.436039
 -
   city: Gent
   place: Universiteit Gent
-  address: |
-    Campus Sterre
-    PC / laptoplokaal 1.1 Grace Hopper
-    Krijgslaan 281 - Gebouw S5
-    9000 Gent
-  # address: Te bepalen / A déterminer
+  # address: |
+  #   Campus Sterre
+  #   PC / laptoplokaal 1.1 Grace Hopper
+  #   Krijgslaan 281 - Gebouw S5
+  #   9000 Gent
   pos:
     lat: 51.0227516
     lng: 3.7105733
 -
   city: Hasselt
   place: Universiteit Hasselt
-  address: |
-    Lokaal B17, Gebouw D
-    Agoralaan 1
-    Campus Diepenbeek
-    Hasselt
-  route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
+  # address: |
+  #   Lokaal B17, Gebouw D
+  #   Agoralaan 1
+  #   Campus Diepenbeek
+  #   Hasselt
+  # route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
   pos:
     lat: 50.9253703
     lng: 5.3912436
@@ -70,10 +66,8 @@
 #   # address: |
 #   #   Doorniksesteenweg 145
 #     # 8500 Kortrijk
-# #   address: | Te bepalen / A déterminer
 # #     Lokaal 61.09
 # #     (via receptie in centrale gebouw 't Forum)
-#   address: Te bepalen / A déterminer
 #   # route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
 #   pos:
 #     lat: 50.8058796
@@ -81,13 +75,12 @@
 -
   city: Leuven
   place: KU Leuven
-  address: |
-    KU Leuven Department of Computer Science
-    Room 00.124
-    Celestijnenlaan 200A
-    3001 Leuven
-  # address: Te bepalen / A déterminer
-  route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
+  # address: |
+  #   KU Leuven Department of Computer Science
+  #   Room 00.124
+  #   Celestijnenlaan 200A
+  #   3001 Leuven
+  # route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
   pos:
     lat: 50.86411
     lng: 4.6786777
@@ -95,65 +88,60 @@
   city: Libramont
   place: Haute École Robert Schuman (HERS)
   # address: Geannuleerd / Annulé
-  address: |
-    Local B2
-    Rue de la Cité, 64
-    6800 Libramont
-  route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
-  # address: Te bepalen / A déterminer
+  # address: |
+  #   Local B2
+  #   Rue de la Cité, 64
+  #   6800 Libramont
+  # route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
   pos:
     lat: 49.9280097
     lng: 5.3788132
 -
   city: Liège
   place: Université de Liège
-  address: |
-    Locaux 1.132 et 1.99
-    Institut Montefiore (B28)
-    Allée de la découverte, 10
-    4000 Liège
-  # address: Te bepalen / A déterminer
-  route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
+  # address: |
+  #   Locaux 1.132 et 1.99
+  #   Institut Montefiore (B28)
+  #   Allée de la découverte, 10
+  #   4000 Liège
+  # route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
   pos:
     lat: 50.586300427727544
     lng: 5.5597130611686225
 -
   city: Louvain-la-Neuve
   place: Université Catholique de Louvain
-  address: |
-    Salle Darwin
-    Bâtiment de Serres B-102
-    rue de la Croix du Sud
-    1348 Louvain-la-Neuve
-  # address: Te bepalen / A déterminer
-  route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
+  # address: |
+  #   Salle Darwin
+  #   Bâtiment de Serres B-102
+  #   rue de la Croix du Sud
+  #   1348 Louvain-la-Neuve
+  # route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
   pos:
     lat: 50.6671189
     lng: 4.6195422
 -
   city: Mons
   place: Université de Mons
-  address: |
-     Faculté des sciences
-     Salle Bertrand Russell (1er étage)
-     Bâtiment de Vinci-Mendeleïev
-     Avenue Victor Maistriau, 15
-     7000 Mons
-  # address: Te bepalen / A déterminer
-  route_link: https://math.umons.ac.be/fr/contact/acces.html
+  # address: |
+  #    Faculté des sciences
+  #    Salle Bertrand Russell (1er étage)
+  #    Bâtiment de Vinci-Mendeleïev
+  #    Avenue Victor Maistriau, 15
+  #    7000 Mons
+  # route_link: https://math.umons.ac.be/fr/contact/acces.html
   pos:
     lat: 50.465386309824076
     lng: 3.957460607554272
 -
   city: Namur
   place: Université de Namur
-  address: |
-    Faculté d’informatique
-    Pool I35 (3ème étage)
-    Rue Grandgagnage, 21
-    5000 Namur
-  # address: Te bepalen / A déterminer
-  route_link: https://www.unamur.be/universite/acces/plan-campus-pdf
+  # address: |
+  #   Faculté d’informatique
+  #   Pool I35 (3ème étage)
+  #   Rue Grandgagnage, 21
+  #   5000 Namur
+  # route_link: https://www.unamur.be/universite/acces/plan-campus-pdf
   pos:
     lat: 50.4658487
     lng: 4.8576964
