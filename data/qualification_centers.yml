@@ -1,12 +1,12 @@
 -
   city: Antwerpen
   place: Universiteit Antwerpen
-  # address: |
-  #   Campus Groenenborger, gebouw Z
-  #   Lokaal G.Z.423
-  #   Groenenborgerlaan 171
-  #   2020 Antwerpen
-  # route_link: https://www.uantwerpen.be/nl/overuantwerpen/campussen/campus-groenenborger/
+  address: |
+    Campus Groenenborger, gebouw Z
+    Lokaal G.Z.423
+    Groenenborgerlaan 171
+    2020 Antwerpen
+  route_link: https://www.uantwerpen.be/nl/overuantwerpen/campussen/campus-groenenborger/
   pos:
     lat: 51.17821
     lng: 4.41853
