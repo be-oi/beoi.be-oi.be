@@ -51,12 +51,12 @@
 -
   city: Hasselt
   place: Universiteit Hasselt
-  # address: |
-  #   Lokaal B17, Gebouw D
-  #   Agoralaan 1
-  #   Campus Diepenbeek
-  #   Hasselt
-  # route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
+  address: |
+    Lokaal B17, Gebouw D
+    Agoralaan 1
+    Campus Diepenbeek
+    Hasselt
+  route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
   pos:
     lat: 50.9253703
     lng: 5.3912436
@@ -111,12 +111,12 @@
 -
   city: Louvain-la-Neuve
   place: Université Catholique de Louvain
-  # address: |
-  #   Salle Darwin
-  #   Bâtiment de Serres B-102
-  #   rue de la Croix du Sud
-  #   1348 Louvain-la-Neuve
-  # route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
+  address: |
+    Salle Darwin
+    Bâtiment de Serres B-102
+    rue de la Croix du Sud
+    1348 Louvain-la-Neuve
+  route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
   pos:
     lat: 50.6671189
     lng: 4.6195422
