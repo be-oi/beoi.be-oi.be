@@ -40,11 +40,12 @@
 -
   city: Gent
   place: Universiteit Gent
-  # address: |
-  #   Campus Sterre
-  #   PC / laptoplokaal 1.1 Grace Hopper
-  #   Krijgslaan 281 - Gebouw S5
-  #   9000 Gent
+  address: |
+    Lokaal 1.93
+    Boekentoren,
+    Campus Boekentoren
+    Sint-Hubertusstraat 8
+    9000 Gent
   pos:
     lat: 51.0227516
     lng: 3.7105733
@@ -136,12 +137,12 @@
 -
   city: Namur
   place: Université de Namur
-  # address: |
-  #   Faculté d’informatique
-  #   Pool I35 (3ème étage)
-  #   Rue Grandgagnage, 21
-  #   5000 Namur
-  # route_link: https://www.unamur.be/universite/acces/plan-campus-pdf
+  address: |
+    Salle I21 (2ième étage)
+    Rue Grandgagnage, 21
+    Faculté d’informatique
+    5000 Namur
+  route_link: https://www.unamur.be/sites/default/files/2023-12/plancampusaveclegende.pdf
   pos:
     lat: 50.4658487
     lng: 4.8576964
