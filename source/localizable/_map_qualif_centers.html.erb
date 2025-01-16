@@ -32,13 +32,15 @@
 </div>
 </section>
 
-<script src="https://unpkg.com/maplibre-gl@^4.7.1/dist/maplibre-gl.js"></script>
+<script src="/js/maplibre-gl.js"></script>
 <script type="text/javascript">
   var map = new maplibregl.Map({
       container: 'map', // container id
       style: '/js/mapstyle.json', // 'https://demotiles.maplibre.org/style.json', // style URL /js/mapstyle.json
       center: [4.4025018, 50.5644843], // [lng, lat]
       zoom: 7,
+      maxZoom: 7,
+      minZoom: 7,
       attributionControl: false,
   }).addControl(new maplibregl.AttributionControl({ compact: true }));
   <% data.qualification_centers.select{|x|x.pos}.each do |c| %>
