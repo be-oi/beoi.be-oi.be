@@ -134,13 +134,13 @@
 -
   city: Mons
   place: Université de Mons
-  # address: |
-  #    Faculté des sciences
-  #    Salle Bertrand Russell (1er étage)
-  #    Bâtiment de Vinci-Mendeleïev
-  #    Avenue Victor Maistriau, 15
-  #    7000 Mons
-  # route_link: https://math.umons.ac.be/fr/contact/acces.html
+  address: |
+     Faculté des sciences, Campus Plaine de Nimy
+     Salle Russell (1er étage)
+     Bâtiment De Vinci
+     Avenue Victor Maistriau, 15
+     7000 Mons
+  route_link: https://web.umons.ac.be/app/uploads/sites/10/2017/10/UMONS_Plan-du-campus-de-la-plaine-de-Nimy2019.pdf
   pos:
     lat: 50.465386309824076
     lng: 3.957460607554272
