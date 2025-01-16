@@ -24,19 +24,29 @@
   #   Rue Royale 67
   #   1000 Bruxelles
   # route_link: https://www.he2b.be/campus-esi
+  address: |
+    Campus ULB Plaine/Plein, yellow district
+    Room P.2 NO 4.008
+    "NO" building, 4th floor, left when exiting the lift 
+    batiment "NO", 4ième étage, à gauche en sortant de l'ascenceur
+    Gebouw “NO”, 4e verdieping, links bij het verlaten van de lift 
+    1050 Brussels
+  route_link: https://www.ulb.be/en/la-plaine/campus-map
   pos:
     lat: 50.8495931
     lng: 4.3618954
 -
   city: Charleroi
   place: UCLouvain
-  # address: |
-  #   A6K (personne disponible à l'entrée)
-  #   Square des Martyrs, 1
-  #   6000 Charleroi
+  address: |
+    Local 21.4, zone IFAPME (voir plan)
+    A6K (accès avec digicode fourni)
+    Square des Martyrs, 1
+    6000 Charleroi
   pos:
     lat: 50.473463
     lng: 4.436039
+  route_link: https://clusters.wallonie.be/tweed/sites/tweed/files/2022-03/Plan%20d%27acce%CC%80s%20A6K.pdf
 -
   city: Gent
   place: Universiteit Gent
