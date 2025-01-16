@@ -41,6 +41,10 @@
       zoom: 7,
       maxZoom: 7,
       minZoom: 7,
+      scrollZoom: false,
+      touchZoomRotate: false,
+      boxZoom: false,
+      doubleClickZoom: false,
       attributionControl: false,
   }).addControl(new maplibregl.AttributionControl({ compact: true }));
   <% data.qualification_centers.select{|x|x.pos}.each do |c| %>

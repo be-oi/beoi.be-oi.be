@@ -103,7 +103,7 @@
     Local B2
     Rue de la Cité, 64
     6800 Libramont
-  route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
+  route_link: https://cours.infohers.org/qualite/Locaux/MapB2.jpg
   pos:
     lat: 49.9280097
     lng: 5.3788132
