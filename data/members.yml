@@ -54,10 +54,10 @@
   name: ThomasMore
   href: https://www.thomasmore.be
   image: thomasmore-logo.svg
-#-
-#  name: KDG
-#  href: https://www.kdg.be/
-#  image: kdg-logo.jpg
+-
+  name: KDG
+  href: https://www.kdg.be/
+  image: kdg-logo.jpg
 -
   name: HE2B-ESI
   href: http://www.heb.be/esi/
