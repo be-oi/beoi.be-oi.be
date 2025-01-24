@@ -109,7 +109,12 @@
     lng: 5.3788132
 -
   city: Liège
-  place: Université de Liège
+  place: HELMO Campus Guillemins
+  address: |
+    Rendez-vous à l'accueil
+    Rue de Harlez, 25
+    4000 Liège
+  route_link: https://www.helmo.be/fr/campus/campus-guillemins/plan-acces#tab-content
   # address: |
   #   Locaux 1.132 et 1.99
   #   Institut Montefiore (B28)
@@ -117,8 +122,10 @@
   #   4000 Liège
   # route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
   pos:
-    lat: 50.586300427727544
-    lng: 5.5597130611686225
+    # lat: 50.586300427727544
+    # lng: 5.5597130611686225
+    lat: 50.6224027
+    lng: 5.5725331
 -
   city: Louvain-la-Neuve
   place: Université Catholique de Louvain
