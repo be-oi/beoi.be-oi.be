@@ -36,17 +36,18 @@
     lat: 50.8495931
     lng: 4.3618954
 -
-  city: Charleroi
+  city: Charleroi (annulé)
   place: UCLouvain
-  address: |
-    Local 21.4, zone IFAPME (voir plan)
-    A6K (accès avec digicode fourni)
-    Square des Martyrs, 1
-    6000 Charleroi
+  address: annulé
+  # address: |
+  #   Local 21.4, zone IFAPME (voir plan)
+  #   A6K (accès avec digicode fourni)
+  #   Square des Martyrs, 1
+  #   6000 Charleroi
   pos:
     lat: 50.4050522
     lng: 4.4387066
-  route_link: https://clusters.wallonie.be/tweed/sites/tweed/files/2022-03/Plan%20d%27acce%CC%80s%20A6K.pdf
+  # route_link: https://clusters.wallonie.be/tweed/sites/tweed/files/2022-03/Plan%20d%27acce%CC%80s%20A6K.pdf
 -
   city: Gent
   place: Universiteit Gent
@@ -96,14 +97,14 @@
     lat: 50.86411
     lng: 4.6786777
 -
-  city: Libramont
+  city: Libramont (Annulé)
   place: Haute École Robert Schuman (HERS)
-  # address: Geannuleerd / Annulé
-  address: |
-    Local B2
-    Rue de la Cité, 64
-    6800 Libramont
-  route_link: https://cours.infohers.org/qualite/Locaux/MapB2.jpg
+  address: Annulé
+  # address: |
+  #   Local B2
+  #   Rue de la Cité, 64
+  #   6800 Libramont
+  # route_link: https://cours.infohers.org/qualite/Locaux/MapB2.jpg
   pos:
     lat: 49.9280097
     lng: 5.3788132
