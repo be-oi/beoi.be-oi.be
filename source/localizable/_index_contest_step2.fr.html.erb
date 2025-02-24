@@ -4,21 +4,23 @@
 <p>
   VUB Main Campus Etterbeek, Auditorium Q<br>
   Boulevard de la Plaine 2, 1050 Bruxelles.<br>
-  Samedi 22 mars 2025 <!--à 13h30.-->
+  Samedi 22 mars 2025 à 13h30.
 </p>
 <% unless config.final_is_over %>
-<% if false %>
+<!-- % if false % -->
 <p>
   <%= ext_link_to "Plan montrant l'entrée 13, l'auditoire Q et les parking (lettres P)", "https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/campus-map"%><br>
-  Le parking le plus facile est au niveau du sol sous le bâtiment C (entrée entre les bâtiments B et C). Les participants qui souhaitent se garer sur le campus <strong style="color:red">DOIVENT</strong> enregistrer leur plaque d'immatriculation. Le lien sera fourni par e-mail.<br>
+  Le parking le plus facile est au niveau du sol sous le bâtiment C (entrée entre les bâtiments B et C).<br>
+  Les participants qui souhaitent se garer sur le campus <strong style="color:red">DOIVENT</strong> enregistrer leur plaque d'immatriculation.<br>
+  Le lien sera fourni par e-mail.
 </p>
 
 <h4 class="mb8">Aspects pratiques</h4>
 <p>
-  Apportez un bic, un crayon, une gomme et rien d'autre.<br>
-  Les sacs et téléphones seront posés sur l'estrade pendant le test.<br>
-  <!--<strong style="color:red">ATTENTION !</strong> L'épreuve commence à <strong style="color:red">13h30</strong> et dure 2 heures</strong>.<br>
-  Les finalistes sont attendus à 13h20.<br>-->
+  Apportez des bics, un crayon, une gomme, une latte et rien d'autre.<br>
+  <!-- Les sacs et téléphones seront posés sur l'estrade pendant le test.<br>-->
+  <strong style="color:red">ATTENTION !</strong> L'épreuve commence à <strong style="color:red">13h30</strong> et dure 2 heures</strong>.
+  Les finalistes sont attendus à 13h20.<br>
   Les résultats seront annoncés quelques semaines plus tard.
 </p>
 <% end %>
@@ -27,7 +29,7 @@
 <p>La finale se déroule sur papier. Vous pouvez consulter ci-dessous <%= link_to "quelques exemples de questions", "#sample-questions-final" %>
  et les <%= link_to "questions des finales précédentes", "#questions-solutions" %>.</p>
 
-<% end %>
+<!-- % end %-->
 
 <% if has_current_year_solutions %><%= link_to "#{t("task_description")}#{t("solutions")}", "#questions-solutions", class:"btn btn-lg btn-filled" %><% end %>
 <% if config.show_final_results %><%= link_to t("Results"), "final_results", class:"btn btn-lg btn-filled" %><% end %>
