@@ -34,6 +34,27 @@
 </section>
 
 <a name="questions-solutions"></a>
+<!-- Questions finale 2025 -->
+   <section class="altern">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb12"><%= t(:final_task_descriptions_title)%2025 %></h5>
+
+        <% data.task_descriptions[2025]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+
+		  <br><b>Dateien auf Deutsch</b><br>
+        <% data.task_descriptions[2025]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["de"]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+ 
+		  <br><b>English Files</b><br>
+        <% data.task_descriptions[2025]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file["en"]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+      </div>
+   </section>
+
 <!-- Questions finale 2024 -->
    <section class="altern">
       <div class="col-sm-12 text-center">
