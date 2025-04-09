@@ -1,0 +1,1241 @@
+---
+year: 2025
+contestants:
+  cadet_max: 120
+  cadet_top:
+    - position: 0
+      score: 999
+      name: Arne Patroons
+      school: Sint-Gabrielcollege
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Célestin Van Moeseke
+      school: Centres régionaux francophones
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Elyas Terwagne
+      school: Collège Hagelstein
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Henri Delvenne
+      school: École Européenne III
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Jef Van Der Haegen
+      school: GO! Atheneum Mariakerke
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Lars Verhaevert
+      school: Sint-Franciscusinstituut 
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Milan Barta
+      school: École Européenne de Bruxelles IV
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Paul Van Schaftingen
+      school: Centres régionaux francophones
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Simon Dalle
+      school: Sint-Barbaracollege
+      year: year_2nd
+    - position: 0
+      score: 999
+      name: Tibo Geeraerts
+      school: Sint-Lievenscollege Humaniora
+      year: year_2nd
+
+  cadet:
+    - position: 11
+      score: 103
+      name: Keitaro Kawai
+      school: SPRING-STOF vzw
+      year: year_2nd
+    - position: 12
+      score: 101
+      name: Tuur Van Den Bulck
+      school: Heilig Hart Van Maria Berlaar
+      year: year_2nd
+    - position: 13
+      score: 100
+      name: Raphaël Keppenne Radu
+      school: École Européenne de Bruxelles IV
+      year: year_6th_prim
+    - position: 14
+      score: 96
+      name: Aditya Matam
+      school: Centres régionaux francophones
+      year: year_2nd
+    - position: 15
+      score: 94
+      name: Arnav Hajarnavis
+      school: SPRING-STOF vzw
+      year: year_1st
+    - position: 15
+      score: 94
+      name: Sien Vervloet
+      school: Heilig Hart Van Maria Berlaar
+      year: year_2nd
+    - position: 17
+      score: 92
+      name: Anton Calaican
+      school: Sint-Barbaracollege
+      year: year_2nd
+    - position: 18
+      score: 88
+      name: Ruben Corné
+      school: Collège Hagelstein
+      year: year_2nd
+    - position: 18
+      score: 88
+      name: Marie Lefebre
+      school: SPRING-STOF vzw
+      year: year_1st
+    - position: 20
+      score: 86
+      name: Hanne Billiet
+      school: Sint-Gabrielcollege
+      year: year_2nd
+    - position: 21
+      score: 85
+      name: Nona Spiessens
+      school: Sint-Lievenscollege Humaniora
+      year: year_2nd
+    - position: 22
+      score: 84
+      name: Roderick Deroo
+      school: De Bron
+      year: year_2nd
+    - position: 23
+      score: 83
+      name: Oscar Ledeganck
+      school: Sint-Gabrielcollege
+      year: year_1st
+    - position: 24
+      score: 82
+      name: Daan Logé
+      school: GO! Atheneum Mariakerke
+      year: year_2nd
+    - position: 25
+      score: 81
+      name: Senne Blindeman
+      school: Óscar Romerocollege E&IT
+      year: year_1st
+    - position: 25
+      score: 81
+      name: Jul Lerouge
+      school: KA Zottegem
+      year: year_2nd
+    - position: 25
+      score: 81
+      name: Hannah Van Nuland
+      school: Sint-Lievenscollege Humaniora
+      year: year_2nd
+    - position: 28
+      score: 79
+      name: Camiel Lammertyn
+      school: De Bron
+      year: year_2nd
+    - position: 29
+      score: 78
+      name: Aurélio Gamboa Dos Santos
+      school: École Européenne III
+      year: year_1st
+    - position: 30
+      score: 77
+      name: Lore Fostier
+      school: Sint-Bavohumaniora
+      year: year_2nd
+    - position: 31
+      score: 74
+      name: Lars Bouckaert
+      school: De Bron
+      year: year_1st
+    - position: 32
+      score: 73
+      name: Irene Beyls
+      school: GO! Atheneum Mariakerke
+      year: year_2nd
+    - position: 33
+      score: 72
+      name: Jesse Deschryver
+      school: Sint-Lievenscollege Humaniora
+      year: year_2nd
+    - position: 33
+      score: 72
+      name: Gauvain Legay Hodoul
+      school: École Européenne III
+      year: year_6th_prim
+    - position: 33
+      score: 72
+      name: Lara Scalia
+      school: École Européenne III
+      year: year_2nd
+    - position: 33
+      score: 72
+      name: Arend Schepens
+      school: Sint-Franciscusinstituut 
+      year: year_2nd
+    - position: 37
+      score: 71
+      name: Aaron Taerwe
+      school: Sint-Lievenscollege Humaniora
+      year: year_2nd
+    - position: 38
+      score: 69
+      name: Anais Engelborghs
+      school: Nederlandstalige Regionale Centra
+      year: year_1st
+    - position: 38
+      score: 69
+      name: Mathieu Lippens
+      school: Collège Hagelstein
+      year: year_2nd
+    - position: 40
+      score: 67
+      name: Bas Vervoort
+      school: SPRING-STOF vzw
+      year: year_2nd
+    - position: 41
+      score: 66
+      name: Cyriel Billiet
+      school: Sint-Lievenscollege Humaniora
+      year: year_2nd
+    - position: 42
+      score: 65
+      name: Simon De Vos
+      school: Sint-Gabrielcollege
+      year: year_2nd
+    - position: 43
+      score: 64
+      name: Céline Freches
+      school: Bischöfliches Institut Büllingen
+      year: year_2nd
+    - position: 44
+      score: 63
+      name: Matteo Montanari
+      school: Collège Jean XXIII
+      year: year_1st
+    - position: 45
+      score: 60
+      name: Mathias Veyt
+      school: Heilig Hart Van Maria Berlaar
+      year: year_2nd
+    - position: 46
+      score: 58
+      name: Julie Kok
+      school: Sint-Bavohumaniora
+      year: year_1st
+    - position: 47
+      score: 56
+      name: Simon Van de Wauw
+      school: Sint-Lievenscollege Humaniora
+      year: year_2nd
+    - position: 48
+      score: 54
+      name: Jaan Calders
+      school: Sint-Gabrielcollege
+      year: year_2nd
+    - position: 48
+      score: 54
+      name: Jules Geysenbergh
+      school: Sint-Gabrielcollege
+      year: year_2nd
+    - position: 50
+      score: 53
+      name: Willem Brouwers
+      school: Novaplus
+      year: year_2nd
+    - position: 51
+      score: 52
+      name: Willemijn Bouche
+      school: Sint-Bavohumaniora
+      year: year_1st
+    - position: 51
+      score: 52
+      name: Jarne Verbeiren
+      school: Collège Hagelstein
+      year: year_1st
+    - position: 53
+      score: 50
+      name: Georgios Anastasiadis
+      school: Collège Jean XXIII
+      year: year_2nd
+    - position: 54
+      score: 49
+      name: Bruno Gerritsen
+      school: Sint-Bavohumaniora
+      year: year_1st
+    - position: 54
+      score: 49
+      name: Michael Hetel
+      school: École Européenne de Bruxelles IV
+      year: year_1st
+    - position: 56
+      score: 47
+      name: Louis Coussement
+      school: VTI Sint-Lucas Menen
+      year: year_1st
+    - position: 56
+      score: 47
+      name: Bram Magette
+      school: Collège Hagelstein
+      year: year_1st
+    - position: 58
+      score: 45
+      name: Arthur Van de Velde
+      school: Novaplus
+      year: year_2nd
+    - position: 59
+      score: 44
+      name: Louis Demoulin
+      school: Sint-Lievenscollege Humaniora
+      year: year_1st
+    - position: 59
+      score: 44
+      name: Kato Gorleer
+      school: Sint-Bavohumaniora
+      year: year_1st
+    - position: 61
+      score: 43
+      name: Remi Le Percq
+      school: Óscar Romerocollege E&IT
+      year: year_2nd
+    - position: 62
+      score: 42
+      name: Jakob Leveugle
+      school: Sint-Bavohumaniora
+      year: year_2nd
+    - position: 63
+      score: 41
+      name: Maia De Clercq
+      school: Óscar Romerocollege E&IT
+      year: year_2nd
+    - position: 64
+      score: 40
+      name: Rocco Debaere
+      school: Novaplus
+      year: year_2nd
+    - position: 64
+      score: 40
+      name: Lars Vansweevelt
+      school: Collège Hagelstein
+      year: year_1st
+    - position: 66
+      score: 39
+      name: Oskar Bauwens
+      school: Sint-Lievenscollege Humaniora
+      year: year_1st
+    - position: 67
+      score: 38
+      name: Aisa Jordens
+      school: Óscar Romerocollege E&IT
+      year: year_2nd
+    - position: 67
+      score: 38
+      name: Bjarne Onsea
+      school: Collège Hagelstein
+      year: year_1st
+    - position: 67
+      score: 38
+      name: Luis Schwall
+      school: Bischöfliches Institut Büllingen
+      year: year_2nd
+    - position: 67
+      score: 38
+      name: Thomas Ulenaers
+      school: Regina Pacis ASO
+      year: year_1st
+    - position: 71
+      score: 37
+      name: Robbe Jacobs
+      school: SPRING-STOF vzw
+      year: year_6th_prim
+    - position: 71
+      score: 37
+      name: Néo Pillot
+      school: Institut Notre-Dame de Bertrix
+      year: year_2nd
+    - position: 73
+      score: 36
+      name: Linus Spincemaille
+      school: SPRING-STOF vzw
+      year: year_4th_prim
+    - position: 74
+      score: 35
+      name: Leander Dols
+      school: Novaplus
+      year: year_2nd
+    - position: 74
+      score: 35
+      name: Nathan Dupont
+      school: Sint-Barbaracollege
+      year: year_2nd
+    - position: 74
+      score: 35
+      name: Lars Vercauteren
+      school: GO! Atheneum Mariakerke
+      year: year_2nd
+    - position: 77
+      score: 34
+      name: Noé Foucart
+      school: Athénée Royal Robert Campin
+      year: year_2nd
+    - position: 77
+      score: 34
+      name: Elliott Ristori
+      school: Novaplus
+      year: year_2nd
+    - position: 79
+      score: 33
+      name: Ines Merzak
+      school: École Européenne III
+      year: year_6th_prim
+    - position: 80
+      score: 31
+      name: Alexandros Stefan Roussos
+      school: École Européenne de Bruxelles IV
+      year: year_6th_prim
+    - position: 81
+      score: 29
+      name: Lucas Stols
+      school: Sint-Lievenscollege Humaniora
+      year: year_1st
+    - position: 82
+      score: 28
+      name: Lieze Dewitte
+      school: VTI Sint-Lucas Menen
+      year: year_1st
+    - position: 83
+      score: 27
+      name: Nikki Withoud
+      school: Collège Hagelstein
+      year: year_2nd
+    - position: 84
+      score: 26
+      name: Luca Pollet
+      school: Collège Hagelstein
+      year: year_1st
+    - position: 85
+      score: 25
+      name: Noa Perez Acuña
+      school: De Bron
+      year: year_1st
+    - position: 86
+      score: 21
+      name: Jules Gielis
+      school: SPRING-STOF vzw
+      year: year_6th_prim
+    - position: 86
+      score: 21
+      name: Noor Van Nuffel
+      school: De Blije School (Gemeentelijke Basisschool De Pinte)
+      year: year_2nd
+    - position: 88
+      score: 18
+      name: Marie-Alixe De Groote
+      school: Sint-Bavohumaniora
+      year: year_6th_prim
+    - position: 89
+      score: 14
+      name: Nolann Wlomainck
+      school: Athénée Royal Robert Campin
+      year: year_2nd
+    - position: 90
+      score: 9
+      name: Dylan Wauquaire
+      school: Institut Notre-Dame de Bertrix
+      year: year_2nd
+    - position: 91
+      score: 8
+      name: Noélie Segers
+      school: Athénée Royal Robert Campin
+      year: year_1st
+
+  junior_max: 160
+  junior_top:
+    - position: 0
+      score: 999
+      name: Caro Van Spitael
+      school: Sint-Lievenscollege Humaniora
+      year: year_4th
+    - position: 0
+      score: 999
+      name: Chong Shan
+      school: Nederlandstalige Regionale Centra
+      year: year_3rd
+    - position: 0
+      score: 999
+      name: Clément Dubois
+      school: Sint-Jan-Berchmanscollege
+      year: year_4th
+    - position: 0
+      score: 999
+      name: Jules Bresseleers
+      school: Collège Hagelstein
+      year: year_3rd
+    - position: 0
+      score: 999
+      name: Marius Leboutte
+      school: Institut Saint-Roch
+      year: year_4th
+    - position: 0
+      score: 999
+      name: Rube De Witte
+      school: Barnum
+      year: year_4th
+    - position: 0
+      score: 999
+      name: Stefan Boguslawski
+      school: École Européenne III
+      year: year_4th
+    - position: 0
+      score: 999
+      name: Sven Stipanov
+      school: École Européenne de Bruxelles IV
+      year: year_4th
+    - position: 0
+      score: 999
+      name: Thomas De Bruyn
+      school: Nederlandstalige Regionale Centra
+      year: year_4th
+    - position: 0
+      score: 999
+      name: Tijs Van Nuffel
+      school: GO! Erasmus De Pinte
+      year: year_3rd
+
+  junior:
+    - position: 11
+      score: 125
+      name: Korneel Priem
+      school: Nederlandstalige Regionale Centra
+      year: year_4th
+    - position: 11
+      score: 125
+      name: Marlies Van Nuland
+      school: Sint-Lievenscollege Humaniora
+      year: year_3rd
+    - position: 13
+      score: 123
+      name: Stan Van Looveren
+      school: Sint-Gabrielcollege
+      year: year_4th
+    - position: 14
+      score: 121
+      name: Febe Toortelboom
+      school: Nederlandstalige Regionale Centra
+      year: year_4th
+    - position: 15
+      score: 120
+      name: Abel Vandenbussche
+      school: PTI kortrijk 
+      year: year_4th
+    - position: 16
+      score: 119
+      name: Hugo Duvois
+      school: Collège Saint-Guibert de Gembloux
+      year: year_4th
+    - position: 16
+      score: 119
+      name: Clément Laurent
+      school: Collège Saint-Guibert de Gembloux
+      year: year_4th
+    - position: 16
+      score: 119
+      name: Seppe Vandenhoven
+      school: Sint-Lievenscollege Humaniora
+      year: year_3rd
+    - position: 19
+      score: 116
+      name: Maxime Ehret
+      school: École Européenne III
+      year: year_4th
+    - position: 20
+      score: 113
+      name: Juliano Gamboa Dos Santos
+      school: École Européenne III
+      year: year_4th
+    - position: 21
+      score: 111
+      name: Loïc Potums
+      school: Perspectief Stedelijk Onderwijs
+      year: year_4th
+    - position: 21
+      score: 111
+      name: Yves Tirtiaux
+      school: Sint-Jan-Berchmanscollege
+      year: year_4th
+    - position: 23
+      score: 110
+      name: Lars Verheye
+      school: Collège Ieper
+      year: year_3rd
+    - position: 24
+      score: 109
+      name: Horia Antohi
+      school: Centres régionaux francophones
+      year: year_3rd
+    - position: 24
+      score: 109
+      name: Elias Van de Wauw
+      school: Sint-Lievenscollege Humaniora
+      year: year_3rd
+    - position: 26
+      score: 108
+      name: Nand Floren
+      school: Nederlandstalige Regionale Centra
+      year: year_3rd
+    - position: 27
+      score: 107
+      name: Paul Florins
+      school: Collège Saint-Guibert de Gembloux
+      year: year_4th
+    - position: 28
+      score: 106
+      name: Ethan Peeters
+      school: College van het Eucharistisch Hart
+      year: year_3rd
+    - position: 28
+      score: 106
+      name: Sien Persyn
+      school: Sint-Lievenscollege Humaniora
+      year: year_4th
+    - position: 28
+      score: 106
+      name: Fonne Vervloet
+      school: Heilig Hart Van Maria Berlaar
+      year: year_4th
+    - position: 31
+      score: 105
+      name: Daniel Gaal-Kiss
+      school: École Européenne III
+      year: year_4th
+    - position: 32
+      score: 102
+      name: Toon Vertommen
+      school: Heilig Hart Van Maria Berlaar
+      year: year_4th
+    - position: 33
+      score: 100
+      name: Elise Bernagou
+      school: Institut de la Providence de Champion
+      year: year_3rd
+    - position: 33
+      score: 100
+      name: Léo Lacroix
+      school: Institut de la Providence de Champion
+      year: year_3rd
+    - position: 35
+      score: 98
+      name: Jelle Vereecke
+      school: Sint-Paulusschool Campus VTI
+      year: year_4th
+    - position: 35
+      score: 98
+      name: Jens Wilkehuysen
+      school: Nederlandstalige Regionale Centra
+      year: year_4th
+    - position: 37
+      score: 94
+      name: Zhiheng Luo
+      school: Nederlandstalige Regionale Centra
+      year: year_3rd
+    - position: 38
+      score: 93
+      name: Rhune Demey
+      school: Collège Ieper
+      year: year_3rd
+    - position: 39
+      score: 91
+      name: Juraj Prokopic
+      school: École Européenne III
+      year: year_4th
+    - position: 39
+      score: 91
+      name: Konstantinos Saragiotis
+      school: École Européenne III
+      year: year_4th
+    - position: 41
+      score: 89
+      name: Wout Spiessens
+      school: Sint-Lievenscollege Humaniora
+      year: year_4th
+    - position: 42
+      score: 88
+      name: Kobe Wyns
+      school: Collège Hagelstein
+      year: year_4th
+    - position: 43
+      score: 80
+      name: Emile De Bruyckere
+      school: Sint-Bavohumaniora
+      year: year_4th
+    - position: 44
+      score: 78
+      name: Noam Delsart
+      school: Institut Saint André de Charleroi
+      year: year_3rd
+    - position: 45
+      score: 71
+      name: Noah Detry
+      school: Collège Jean XXIII
+      year: year_4th
+    - position: 46
+      score: 69
+      name: Romain Staquet
+      school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
+      year: year_4th
+    - position: 47
+      score: 67
+      name: Lukas Fontaine
+      school: Institut Notre Dame de Beauraing-Gedinne
+      year: year_4th
+    - position: 48
+      score: 66
+      name: Auriane Saussez
+      school: Collège Saint-Guibert de Gembloux
+      year: year_4th
+    - position: 49
+      score: 65
+      name: Aurelio Valero-Peces
+      school: École Européenne III
+      year: year_4th
+    - position: 50
+      score: 64
+      name: Luca Heine
+      school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
+      year: year_4th
+    - position: 51
+      score: 62
+      name: Viktor De Feyter
+      school: Perspectief Stedelijk Onderwijs
+      year: year_4th
+    - position: 52
+      score: 59
+      name: Wodan Cox
+      school: TISM
+      year: year_3rd
+    - position: 53
+      score: 56
+      name: William Tomson
+      school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
+      year: year_4th
+    - position: 54
+      score: 55
+      name: Linus Bailleul
+      school: atheneum Dendermonde
+      year: year_4th
+    - position: 55
+      score: 53
+      name: Axel Staelens
+      school: VTI-Torhout Sint-Aloysius
+      year: year_3rd
+    - position: 56
+      score: 51
+      name: Tim Beaufils
+      school: Collège Saint-Guibert de Gembloux
+      year: year_4th
+    - position: 56
+      score: 51
+      name: Wiktor Jaworowicz
+      school: Sint-Paulusschool Campus VTI
+      year: year_3rd
+    - position: 58
+      score: 50
+      name: Abigael Nemry
+      school: Collège Saint-Guibert de Gembloux
+      year: year_4th
+    - position: 58
+      score: 50
+      name: Rani Van Huylenbrouck
+      school: De Bron
+      year: year_3rd
+    - position: 60
+      score: 49
+      name: Thomas Hermans
+      school: Scheppersinstituut Deurne en Antwerpen
+      year: year_4th
+    - position: 61
+      score: 48
+      name: Tom Lemoine
+      school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
+      year: year_4th
+    - position: 62
+      score: 47
+      name: Kristiyan Nikolov
+      school: Collège Saint-Guibert de Gembloux
+      year: year_3rd
+    - position: 63
+      score: 45
+      name: Cisse Vekeman
+      school: Nederlandstalige Regionale Centra
+      year: year_3rd
+    - position: 64
+      score: 43
+      name: Michail Fedoruk
+      school: Sint-Paulusschool Campus VTI
+      year: year_4th
+    - position: 65
+      score: 42
+      name: Jules Dusoleil
+      school: Collège Saint-Guibert de Gembloux
+      year: year_4th
+    - position: 66
+      score: 40
+      name: Jeremy Katalina
+      school: Athénée Royal de La Roche-en-Ardenne
+      year: year_3rd
+    - position: 67
+      score: 38
+      name: Clémence Alloin
+      school: Collège Saint-Guibert de Gembloux
+      year: year_3rd
+    - position: 68
+      score: 35
+      name: Louise Léonet
+      school: Collège Saint-Guibert de Gembloux
+      year: year_4th
+    - position: 69
+      score: 33
+      name: Yeva Chernobai
+      school: Collège Saint-Guibert de Gembloux
+      year: year_3rd
+    - position: 69
+      score: 33
+      name: Mathias Morreale
+      school: Collège Saint-Guibert de Gembloux
+      year: year_3rd
+    - position: 71
+      score: 29
+      name: Antoine Willemet
+      school: Institut Notre-Dame de Bertrix
+      year: year_3rd
+    - position: 72
+      score: 11
+      name: Philippe Libert
+      school: Collège des Aumôniers du travail de Charleroi
+      year: year_4th
+    - position: 73
+      score: 3
+      name: Alexandre Degand
+      school: Collège Saint-Guibert de Gembloux
+      year: year_3rd
+
+  senior_max: 170
+  senior_top:
+    - position: 0
+      score: 999
+      name: Alban Van Vyve
+      school: Institut de la Vierge Fidèle
+      year: year_6th
+    - position: 0
+      score: 999
+      name: Anatole Kiritchenko
+      school: Nederlandstalige Regionale Centra
+      year: year_6th
+    - position: 0
+      score: 999
+      name: Arthur Heureux
+      school: Collège Saint-Guibert de Gembloux
+      year: year_6th
+    - position: 0
+      score: 999
+      name: Floris Rylant
+      school: College van het Eucharistisch Hart
+      year: year_6th
+    - position: 0
+      score: 999
+      name: Leander Gabriël
+      school: atheneum Voskenslaan
+      year: year_6th
+    - position: 0
+      score: 999
+      name: Nikolay Voronin
+      school: Sint-Lievenscollege Humaniora
+      year: year_5th
+    - position: 0
+      score: 999
+      name: Noé Zech
+      school: Centres régionaux francophones
+      year: year_5th
+    - position: 0
+      score: 999
+      name: Rares Bota
+      school: École Européenne de Bruxelles IV
+      year: year_6th
+    - position: 0
+      score: 999
+      name: Stijn Patroons
+      school: Sint-Gabrielcollege
+      year: year_5th
+    - position: 0
+      score: 999
+      name: Titus Demey
+      school: GO! Atheneum Mariakerke
+      year: year_6th
+  senior:
+    - position: 11
+      score: 159
+      name: Yucheng Gan
+      school: Centres régionaux francophones
+      year: year_5th
+    - position: 11
+      score: 159
+      name: Mats Van Couteren
+      school: Heilig Hart Van Maria Berlaar
+      year: year_6th
+    - position: 13
+      score: 158
+      name: Alexandros Chytas
+      school: École Européenne III
+      year: year_6th
+    - position: 13
+      score: 158
+      name: Jarne Ongena
+      school: VLOT! Campus Sint-Lodewijk
+      year: year_6th
+    - position: 15
+      score: 157
+      name: Noam Van Eijmeren
+      school: GO! atheneum Ekeren
+      year: year_5th
+    - position: 15
+      score: 157
+      name: San Diego Velz
+      school: Bischöfliches Institut Büllingen
+      year: year_6th
+    - position: 17
+      score: 153
+      name: Jana Landrieu
+      school: Sint-Maarteninstituut
+      year: year_6th
+    - position: 18
+      score: 152
+      name: Brent Tirry
+      school: Sint-Jorisinstituut
+      year: year_6th
+    - position: 19
+      score: 151
+      name: Simon Capaert
+      school: Lycée Maria Assumpta
+      year: year_5th
+    - position: 19
+      score: 151
+      name: Jules Deblauwe
+      school: Guldensporencollege Kaai 3
+      year: year_5th
+    - position: 19
+      score: 151
+      name: Tijl Schonkeren
+      school: Wico Campus Lommel
+      year: year_6th
+    - position: 19
+      score: 151
+      name: Simon Yakovlev
+      school: Sint-Lievenscollege Humaniora
+      year: year_6th
+    - position: 23
+      score: 150
+      name: Timothée Mesnard
+      school: École Européenne III
+      year: year_6th
+    - position: 24
+      score: 148
+      name: Sil Nuyts
+      school: Kobos
+      year: year_6th
+    - position: 24
+      score: 148
+      name: Wout Van Driessche
+      school: VLOT! Campus Sint-Lodewijk
+      year: year_5th
+    - position: 26
+      score: 147
+      name: Simon Pieters
+      school: Sint-Bavohumaniora
+      year: year_6th
+    - position: 27
+      score: 146
+      name: Thomas Lesieur
+      school: Athénée Royal Robert Campin
+      year: year_6th
+    - position: 27
+      score: 146
+      name: Jiri Scheirs
+      school: Sint-Barbaracollege
+      year: year_6th
+    - position: 27
+      score: 146
+      name: Arthur Van Moeseke
+      school: Centres régionaux francophones
+      year: year_5th
+    - position: 30
+      score: 145
+      name: Niels Caljon
+      school: Broederschool Humaniora Sint-Niklaas
+      year: year_6th
+    - position: 31
+      score: 144
+      name: Marius Borgonie
+      school: Nederlandstalige Regionale Centra
+      year: year_6th
+    - position: 31
+      score: 144
+      name: Lander Mortier
+      school: VTI-Torhout Sint-Aloysius
+      year: year_6th
+    - position: 33
+      score: 143
+      name: Justin Kho
+      school: Kobos
+      year: year_6th
+    - position: 34
+      score: 141
+      name: Olajumoke Agboola
+      school: Sint-Bavohumaniora
+      year: year_5th
+    - position: 34
+      score: 141
+      name: Aythan Raherisoanjato
+      school: Collège Saint-Guibert de Gembloux
+      year: year_6th
+    - position: 36
+      score: 138
+      name: Noé Gueury
+      school: Collège Saint-Guibert de Gembloux
+      year: year_5th
+    - position: 37
+      score: 137
+      name: Jelle De Cock
+      school: atheneum Dendermonde
+      year: year_6th
+    - position: 38
+      score: 136
+      name: Ibe Boone
+      school: GO! atheneum Irishof Kapellen
+      year: year_5th
+    - position: 38
+      score: 136
+      name: Hasan Erdogan
+      school: Óscar Romerocollege E&IT
+      year: year_6th
+    - position: 38
+      score: 136
+      name: Nolan Greif
+      school: Institut Notre-Dame Malmedy 
+      year: year_6th
+    - position: 41
+      score: 134
+      name: Konstantin Vannson
+      school: Centres régionaux francophones
+      year: year_6th
+    - position: 42
+      score: 133
+      name: Aurélien Snappe
+      school: Communauté Scolaire Sainte-Marie Namur
+      year: year_6th
+    - position: 43
+      score: 131
+      name: Manu Strynckx
+      school: Sint-Paulusschool Campus VTI 2
+      year: year_5th
+    - position: 43
+      score: 131
+      name: Anaïssa Verbracke
+      school: GO! Atheneum Mariakerke
+      year: year_5th
+    - position: 45
+      score: 129
+      name: Flor Onselaere
+      school: KOHa Sint-Jozef Hamme
+      year: year_6th
+    - position: 46
+      score: 126
+      name: Aitor Vermassen Martin
+      school: Sint-Lievenscollege Humaniora
+      year: year_5th
+    - position: 46
+      score: 126
+      name: Nathan Willemet
+      school: Institut Notre-Dame de Bertrix
+      year: year_5th
+    - position: 48
+      score: 125
+      name: Casper Schepkens
+      school: Sint-Franciscus Xaveriusinstituut
+      year: year_5th
+    - position: 49
+      score: 124
+      name: Jens Adams
+      school: Sint-Lodewijkscollege
+      year: year_6th
+    - position: 49
+      score: 124
+      name: Noah Derck
+      school: Collège Saint-Guibert de Gembloux
+      year: year_6th
+    - position: 51
+      score: 123
+      name: Viggo Thielemans
+      school: Collège Hagelstein
+      year: year_6th
+    - position: 51
+      score: 123
+      name: Robbe Vansteenkiste
+      school: VTI-Torhout Sint-Aloysius
+      year: year_6th
+    - position: 53
+      score: 121
+      name: Job Vernik
+      school: École Européenne de Bruxelles IV
+      year: year_6th
+    - position: 54
+      score: 114
+      name: Alexandru Nita
+      school: École Européenne de Bruxelles IV
+      year: year_5th
+    - position: 55
+      score: 111
+      name: Nathan Cornelus
+      school: Institut Saint André
+      year: year_5th
+    - position: 56
+      score: 110
+      name: Kaylana Peeters
+      school: College van het Eucharistisch Hart
+      year: year_5th
+    - position: 57
+      score: 108
+      name: Lénaïc Roger
+      school: Institut Notre Dame de Beauraing-Gedinne
+      year: year_6th
+    - position: 58
+      score: 105
+      name: Luca D'Hooghe
+      school: Olvi-PiusX
+      year: year_6th
+    - position: 58
+      score: 105
+      name: Hannes Vanhaecke
+      school: De Bron
+      year: year_5th
+    - position: 60
+      score: 102
+      name: Romain Thibert
+      school: Centres régionaux francophones
+      year: year_5th
+    - position: 61
+      score: 100
+      name: Daphné Dos Santos
+      school: Collège Saint-Guibert de Gembloux
+      year: year_6th
+    - position: 61
+      score: 100
+      name: Julien Van Reybroeck
+      school: Collège Saint-Guibert de Gembloux
+      year: year_6th
+    - position: 63
+      score: 98
+      name: Jakub Trcka
+      school: Collège Jean XXIII
+      year: year_6th
+    - position: 64
+      score: 96
+      name: Mano Gomes Da Cruz
+      school: GO! Atheneum Mariakerke
+      year: year_6th
+    - position: 65
+      score: 94
+      name: Jolien Schepens
+      school: VLOT! Campus Sint-Lodewijk
+      year: year_6th
+    - position: 66
+      score: 92
+      name: Louis Bellière
+      school: Collège Saint-Guibert de Gembloux
+      year: year_6th
+    - position: 67
+      score: 91
+      name: Burak Alparslan Kaya
+      school: Centres régionaux francophones
+      year: year_6th
+    - position: 68
+      score: 89
+      name: Ethan De Bruin
+      school: Centre Scolaire Sainte Julienne
+      year: year_5th
+    - position: 69
+      score: 87
+      name: William De Ro
+      school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
+      year: year_5th
+    - position: 69
+      score: 87
+      name: Aidan Ryniers
+      school: Nederlandstalige Regionale Centra
+      year: year_6th
+    - position: 71
+      score: 84
+      name: Noah Vermeersch
+      school: Sint-Paulusschool Campus VTI
+      year: year_6th
+    - position: 72
+      score: 80
+      name: Joe Lemens
+      school: Sint-Paulusschool Campus VTI 2
+      year: year_6th
+    - position: 73
+      score: 79
+      name: Liv Avondstondt
+      school: Novaplus
+      year: year_5th
+    - position: 73
+      score: 79
+      name: Raphaël Mouton
+      school: Collège Saint-Guibert de Gembloux
+      year: year_5th
+    - position: 73
+      score: 79
+      name: Léo San Martin
+      school: Communauté Scolaire Sainte-Marie Namur
+      year: year_5th
+    - position: 76
+      score: 71
+      name: David Babczynski
+      school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
+      year: year_6th
+    - position: 77
+      score: 68
+      name: Noé Huybrechts
+      school: Collège Saint-Guibert de Gembloux
+      year: year_6th
+    - position: 78
+      score: 65
+      name: Cemal Tandir
+      school: Collège Roi Baudouin
+      year: year_5th
+    - position: 79
+      score: 59
+      name: Leon Anselin
+      school: atheneum Voskenslaan
+      year: year_6th
+    - position: 79
+      score: 59
+      name: Daan Vermeire
+      school: Sint-Paulusschool Campus VTI 2
+      year: year_5th
+    - position: 81
+      score: 49
+      name: Maé Pinera-Gonzalez
+      school: Collège Saint-Guibert de Gembloux
+      year: year_5th
