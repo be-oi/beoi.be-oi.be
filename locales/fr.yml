@@ -240,18 +240,18 @@ fr:
 
   final_result_title: "Finale: Résultats"
   final_results_expl_past: |
-    La finale de l'olympiade 2024 a eu lieu le 23 mars à Bruxelles (VUB, Auditorium Q).<br>
-    201 concurrents y ont participé.<br>
+    La finale de l'olympiade 2025 a eu lieu le 22 mars à Bruxelles (VUB, Auditorium Q).<br>
+    245 concurrents y ont participé,, c'est un nouveau record.<br>
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
-    Pour la première fois des médailles ont été distribuées.<br>
+    Des médailles ont été distribuées.<br>
     Or pour les 3 premiers, Argent pour les 3 suivants, Bronze pour les places 7 à 10.<br>
     
   final_results_expl_future: |
-    La finale de l'olympiade 2024 a eu lieu le 23 mars à Bruxelles (VUB, Auditorium Q).<br>
-    201 concurrents y ont participé.<br>
+    La finale de l'olympiade 2025 a eu lieu le 22 mars à Bruxelles (VUB, Auditorium Q).<br>
+    245 concurrents y ont participé, c'est un nouveau record.<br>
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
     Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score.<br>
-    Ils recevront leur classement final et un prix lors de la proclamation le 25 mai à Bruxelles.<br>
+    Ils recevront leur classement final et un prix lors de la proclamation le 19 avril à Bruxelles.<br>
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
