@@ -12,7 +12,7 @@ set :beoi_year, 2025
 # - :waiting_final_results -- Final past, waiting for results to be available
 # - :final_results_published -- Final results available
 set :contest_state, :final_results_published
-set :becp_results_available, false
+set :becp_results_available, true
 
 # some config depending on the contest state
 set :show_qualif_results, %i[qualif_results_published waiting_final_results final_results_published].include?(config.contest_state)

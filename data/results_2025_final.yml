@@ -53,8 +53,57 @@ contestants:
       name: Tibo Geeraerts
       school: Sint-Lievenscollege Humaniora
       year: year_2nd
-
   cadet:
+    - position: 1
+      score: 117
+      name: Milan Barta
+      school: École Européenne de Bruxelles IV
+      year: year_2nd
+    - position: 1
+      score: 117
+      name: Henri Delvenne
+      school: École Européenne III
+      year: year_2nd
+    - position: 1
+      score: 117
+      name: Elyas Terwagne
+      school: Collège Hagelstein
+      year: year_2nd
+    - position: 1
+      score: 117
+      name: Paul Van Schaftingen
+      school: Centres régionaux francophones
+      year: year_2nd
+    - position: 5
+      score: 110
+      name: Jef Van Der Haegen
+      school: GO! Atheneum Mariakerke
+      year: year_2nd
+    - position: 6
+      score: 109
+      name: Célestin Van Moeseke
+      school: Centres régionaux francophones
+      year: year_2nd
+    - position: 7
+      score: 108
+      name: Arne Patroons
+      school: Sint-Gabrielcollege
+      year: year_2nd
+    - position: 7
+      score: 108
+      name: Lars Verhaevert
+      school: Sint-Franciscusinstituut 
+      year: year_2nd
+    - position: 9
+      score: 106
+      name: Simon Dalle
+      school: Sint-Barbaracollege
+      year: year_2nd
+    - position: 9
+      score: 106
+      name: Tibo Geeraerts
+      school: Sint-Lievenscollege Humaniora
+      year: year_2nd
     - position: 11
       score: 103
       name: Keitaro Kawai
@@ -515,6 +564,56 @@ contestants:
       year: year_3rd
 
   junior:
+    - position: 1
+      score: 158
+      name: Stefan Boguslawski
+      school: École Européenne III
+      year: year_4th
+    - position: 2
+      score: 152
+      name: Chong Shan
+      school: Nederlandstalige Regionale Centra
+      year: year_3rd
+    - position: 3
+      score: 148
+      name: Clément Dubois
+      school: Sint-Jan-Berchmanscollege
+      year: year_4th
+    - position: 4
+      score: 146
+      name: Thomas De Bruyn
+      school: Nederlandstalige Regionale Centra
+      year: year_4th
+    - position: 5
+      score: 145
+      name: Marius Leboutte
+      school: Institut Saint-Roch
+      year: year_4th
+    - position: 6
+      score: 141
+      name: Sven Stipanov
+      school: École Européenne de Bruxelles IV
+      year: year_4th
+    - position: 7
+      score: 139
+      name: Tijs Van Nuffel
+      school: GO! Erasmus De Pinte
+      year: year_3rd
+    - position: 8
+      score: 136
+      name: Caro Van Spitael
+      school: Sint-Lievenscollege Humaniora
+      year: year_4th
+    - position: 9
+      score: 134
+      name: Rube De Witte
+      school: Barnum
+      year: year_4th
+    - position: 10
+      score: 128
+      name: Jules Bresseleers
+      school: Collège Hagelstein
+      year: year_3rd
     - position: 11
       score: 125
       name: Korneel Priem
@@ -884,6 +983,56 @@ contestants:
       school: GO! Atheneum Mariakerke
       year: year_6th
   senior:
+    - position: 1
+      score: 170
+      name: Rares Bota
+      school: École Européenne de Bruxelles IV
+      year: year_6th
+    - position: 2
+      score: 169
+      name: Arthur Heureux
+      school: Collège Saint-Guibert de Gembloux
+      year: year_6th
+    - position: 3
+      score: 168
+      name: Stijn Patroons
+      school: Sint-Gabrielcollege
+      year: year_5th
+    - position: 4
+      score: 166
+      name: Titus Demey
+      school: GO! Atheneum Mariakerke
+      year: year_6th
+    - position: 4
+      score: 166
+      name: Leander Gabriël
+      school: atheneum Voskenslaan
+      year: year_6th
+    - position: 4
+      score: 166
+      name: Noé Zech
+      school: Centres régionaux francophones
+      year: year_5th
+    - position: 7
+      score: 164
+      name: Anatole Kiritchenko
+      school: Nederlandstalige Regionale Centra
+      year: year_6th
+    - position: 7
+      score: 164
+      name: Alban Van Vyve
+      school: Institut de la Vierge Fidèle
+      year: year_6th
+    - position: 9
+      score: 163
+      name: Floris Rylant
+      school: College van het Eucharistisch Hart
+      year: year_6th
+    - position: 9
+      score: 163
+      name: Nikolay Voronin
+      school: Sint-Lievenscollege Humaniora
+      year: year_5th
     - position: 11
       score: 159
       name: Yucheng Gan
