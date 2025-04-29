@@ -1,0 +1,30 @@
+- position: 1 
+  score: 73
+  name: Noé Zech 
+  school: Collège du Christ-Roi, Ottignies 
+  year: year_5th 
+- position: 2 
+  score: 65
+  name: Joaquim Schaeverbeke 
+  school: KA Etterbeek, Brussel 
+  year: year_5th
+- position: 3
+  score: 56
+  name: Alban Van Vyve 
+  school: Institut de la Vierge Fidèle, Bruxelles 
+  year: year_6th 
+- position: 4
+  score: 52
+  name: Thomas De Bruyn 
+  school: ASO Spijker, Hoogstraten 
+  year: year_4th 
+- position: 5
+  score: 43
+  name: Edward Rosseel
+  school: Sint-Barbara Gent
+  year:  year_5th
+- position: 6
+  score: 34
+  name: Hasan Erdogan 
+  school: Oscar Romerocollege, Dendermonde 
+  year: year_6th 
