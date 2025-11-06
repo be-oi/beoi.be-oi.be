@@ -1,6 +1,6 @@
 ---
-title: beOI 2024
-result_file: results_2024_final
+title: beOI 2025
+result_file: results_2025_final
 trianglify_colors: '"RdBu"'
 ---
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -10,7 +10,7 @@ trianglify_colors: '"RdBu"'
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h3 class="uppercase mb0"><%= t(:previous_olympiad_edition_tile)%2024 %></h3>
+        <h3 class="uppercase mb0"><%= t(:previous_olympiad_edition_tile)%2025 %></h3>
       </div>
     </div>
     <!--end of row-->
@@ -26,27 +26,29 @@ trianglify_colors: '"RdBu"'
 		<h2 class="mt64">Olympiades nationales</h2>
         <p class="lead">
           Nouveau record de participation à l'Olympiade belge d'Informatique (beOI) !<br>
-          <b>3209 concurrents</b> de <b>109 écoles</b> ont participé aux <%= link_to "qualifications", "beoi24.html#beoi_r1" %> organisées début février 2024.<br>
-          <b>201 finalistes</b> sont venus à la VUB le samedi 23 mars 2024 pour la <%= link_to "finale sur papier", "beoi24.html#beoi_final" %>.<br>
-          Les 10 premiers de chaque catégorie ont reçu des prix, un diplôme et pour la première fois des médailles lors de la proclamation.
+          <b>4119 concurrents</b> de <b>122 écoles</b> ont participé aux <%= link_to "qualifications", "beoi25.html#beoi_r1" %> organisées début février 2025.<br>
+          <b>245 finalistes</b> sont venus à la VUB le samedi 22 mars 2025 pour la <%= link_to "finale sur papier", "beoi25.html#beoi_final" %>.<br>
+          Les 10 premiers de chaque catégorie ont reçu des prix, un diplôme et des médailles lors de la proclamation.
         </p>
          
         <p class="lead"> 
-          Le Concours de programmation belge (<%= link_to "beCP", "beoi24.html#becp" %>) se déroulait le samedi 25 mai 2024 à HE2B-ESI à Bruxelles.<br>
+          Le Concours de programmation belge (<%= link_to "beCP", "beoi25.html#becp" %>) se déroulait le samedi 19 avril 2025 à HE2B-ESI à Bruxelles.<br>
           Les résultats ont été proclamés sur place le jour même, après la proclamation de beOI.
 		  </p>
 
 		<h2 class="mt64">Compétitions internationales</h2>
 		  <p class="lead">
-          Noé Zech a obtenu une médaille de Bronze à l'<%= link_to t(:weoi_full).capitalize, "beoi24.html#weoi" %> à Londres.
+          L'équipe belge a obtenus des résultats impressionnants à l'<%= link_to t(:weoi_full).capitalize, "beoi25.html#weoi" %> à Volterra en Italie.<br>
+          Médaille d'Or pour Noé Zech, médaille d'Argent pour Alban Van Vyve et médaille de Bronze pour Joaquim Schaeverbeke.
 		  </p>
-        
+      <!--  
 		  <p class="lead">
-          Joaquim Schaeverbeke a reçu une médaille de Bronze et Thomas De Bruyn une mention honorable à l'<%= link_to t(:ejoi_full).capitalize, "beoi24.html#ejoi" %> en Moldavie.
+          Joaquim Schaeverbeke a reçu une médaille de Bronze et Thomas De Bruyn une mention honorable à l'<%= link_to t(:ejoi_full).capitalize, "beoi25.html#ejoi" %> en Moldavie.
 		  </p>
-        
+      -->  
 		  <p class="lead">
-		    Nous avons participé à l'<%= link_to t(:ioi_full).capitalize, "beoi24.html#ioi" %> en Égypte.
+		    Nous avons participé à l'<%= link_to t(:ioi_full).capitalize, "beoi25.html#ioi" %> en Bolivie.<br>
+        Félicitations à Noé Zech qui a obtenu une médaille de Bronze.
 		  </p>
 
       </div>
@@ -60,97 +62,29 @@ trianglify_colors: '"RdBu"'
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
-        <h2><%= t(:qualif_round).capitalize%> beOI 2024</h2>
+        <h2><%= t(:qualif_round).capitalize%> beOI 2025</h2>
          <p>
-            Les qualifications pour l'Olympiade belge d'Informatique (beOI) étaient organisées dans les écoles participantes durant la semaine du 5 au 9 février 2024 et dans les centres régionaux le mercredi 7 février.<br>
+            Les qualifications pour l'Olympiade belge d'Informatique (beOI) étaient organisées dans les écoles participantes durant la semaine du 3 au 7 février 2025 et dans les centres régionaux le mercredi 5 février.<br>
             Comme d'habitude, l'épreuve durait 75 minutes et était accessible à tous.<br>
             Il fallait résoudre des problèmes de logique et de programmation à l'aide de blocs graphiques à glisser avec la souris.<br>
-            Nouveau record : 3219 concurrents y ont participé, la plupart depuis une des 109 écoles participantes.
+            Nouveau record : 4119 concurrents y ont participé, la plupart depuis une des 122 écoles participantes.
          </p>
 
 		  <h3>Quelques chiffres</h3>
-         <p><%= t(:qualif_result_stat_thresholds) % [data.results_2024_qualif.stats.threshold_cadet, count_finalists(data.results_2024_qualif.charts.cadet, data.results_2024_qualif.stats.threshold_cadet) , data.results_2024_qualif.stats.threshold_junior, count_finalists(data.results_2024_qualif.charts.junior, data.results_2024_qualif.stats.threshold_junior), data.results_2024_qualif.stats.threshold_senior, count_finalists(data.results_2024_qualif.charts.senior, data.results_2024_qualif.stats.threshold_senior), data.results_2024_qualif.stats.max_possible_score] %></p>
+         <p><%= t(:qualif_result_stat_thresholds) % [data.results_2025_qualif.stats.threshold_cadet, count_finalists(data.results_2025_qualif.charts.cadet, data.results_2025_qualif.stats.threshold_cadet) , data.results_2025_qualif.stats.threshold_junior, count_finalists(data.results_2025_qualif.charts.junior, data.results_2025_qualif.stats.threshold_junior), data.results_2025_qualif.stats.threshold_senior, count_finalists(data.results_2025_qualif.charts.senior, data.results_2025_qualif.stats.threshold_senior), data.results_2025_qualif.stats.max_possible_score] %></p>
       </div>
     </div>
 
-	<div class="row">
-      <div id="chart-cat" class="col-md-4" style="height: 200px;"></div>
-      <div id="chart-lang" class="col-md-4" style="height: 200px;"></div>
-      <div id="chart-gender" class="col-md-4" style="height: 200px;"></div>
+	  <div class="row">
+      <div id="chart-cat" class="col-md-6" style="height: 200px;"></div>
+      <div id="chart-lang" class="col-md-6" style="height: 200px;"></div>
+      <!-- <div id="chart-gender" class="col-md-4" style="height: 200px;"></div> -->
     </div>
   </div><!--end of container-->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1 text-center">
-        <h4 class="uppercase mb16 text-center"><%=t(:qualif_round)%> <%=t(:Cadet)%> 2024</h4>
-        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2024_qualif.contestants.cadet.size %> - <%= t(:qualif_on_total)%data.results_2024_qualif.stats.count_cadet %></h5>
-      </div>
-      <div class="col-sm-12 col-md-10 col-md-offset-1">
-        <table class="table table-striped-cadet">
-          <tbody>
-            <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2024_qualif.contestants.cadet.each do |r| %>
-            <tr>
-              <td><%= r.position %></td>
-              <td nowrap="nowrap"><%= r.name %></td>
-              <td><%= r.school %> (<%= t(r.year) %>)</td>
-              <td><strong><%= r.score %></strong></td>
-            </tr>
-            <% end %>
-          </tbody>
-        </table>
-      </div>
-    </div><!--end of row-->
-  </div><!--end of container-->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1 text-center">
-        <h4 class="uppercase mb16 text-center"><%=t(:qualif_round)%> <%=t(:Junior)%> 2024</h4>
-        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2024_qualif.contestants.junior.size %> - <%= t(:qualif_on_total)%data.results_2024_qualif.stats.count_junior %></h5>
-      </div>
-      <div class="col-sm-12 col-md-10 col-md-offset-1">
-        <table class="table table-striped-junior">
-          <tbody>
-            <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2024_qualif.contestants.junior.each do |r| %>
-            <tr>
-              <td><%= r.position %></td>
-              <td nowrap="nowrap"><%= r.name %></td>
-              <td><%= r.school %> (<%= t(r.year) %>)</td>
-              <td><strong><%= r.score %></strong></td>
-            </tr>
-            <% end %>
-          </tbody>
-        </table>
-      </div>
-    </div><!--end of row-->
-  </div><!--end of container-->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1 text-center">
-        <h4 class="uppercase mb16 text-center"><%=t(:qualif_round)%> <%=t(:Senior)%> 2024</h4>
-        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2024_qualif.contestants.senior.size %> - <%= t(:qualif_on_total)%data.results_2024_qualif.stats.count_senior %></h5>
-      </div>
-      <div class="col-sm-12 col-md-10 col-md-offset-1">
-        <table class="table table-striped-senior">
-          <tbody>
-            <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2024_qualif.contestants.senior.each do |r| %>
-            <tr>
-              <td><%= r.position %></td>
-              <td nowrap="nowrap"><%= r.name %></td>
-              <td><%= r.school %> (<%= t(r.year) %>)</td>
-              <td><strong><%= r.score %></strong></td>
-            </tr>
-            <% end %>
-          </tbody>
-        </table>
-      </div>
-    </div><!--end of row-->
-  </div><!--end of container-->
+  
+<!-- No top contestants for qualifications this year
+SEE FILE beoi25.removed.html.erb
+-->
 
   <div class="container">
     <div class="row">
@@ -162,7 +96,7 @@ trianglify_colors: '"RdBu"'
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3 feature bordered" style="padding-bottom:8px;">
         <ol class="dl-horizontal category-list">
-          <% data.results_2024_qualif.schools.nb_contestants.each do |s| %>
+          <% data.results_2025_qualif.schools.nb_contestants.each do |s| %>
           <li><%= s.name %>: <%= s.value %> <%= t(:participants) %></li>
           <% end %>
         </ol>
@@ -179,17 +113,17 @@ trianglify_colors: '"RdBu"'
     <div class="row ">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
 
-        <h2><%= t(:final_round).capitalize%> beOI 2024</h2>
+        <h2><%= t(:final_round).capitalize%> beOI 2025</h2>
         
-        <p><%= image_tag "archives/2024/beoi24-final.jpg", class:"cast-shadow", width:740 %></p>
+        <p><%= image_tag "archives/2025/beoi25-final.jpg", class:"cast-shadow", width:740 %></p>
         <p>
           Les mieux classés lors des qualifications ont été invités à la finale sur papier.<br>
-          Elle était organisée le samedi 23 mars 2024 dans l'aula Q de la VUB.<br>
-          316 candidats ont été invités et 201 sont venus: 68 cadets, 72 juniors et 61 seniors.
+          Elle était organisée le samedi 22 mars 2025 dans l'aula Q de la VUB.<br>
+          330 candidats ont été invités et 245 sont venus: 91 cadets, 73 juniors et 81 seniors.
         </p>
  
-        <p>Le classement et les résultats complets sont disponibles <%= link_to "ci-dessous", "beoi24.html#results" %>.<br>
-        Pour la première fois des médailles ont été distribuées.<br>
+        <p>Le classement et les résultats complets sont disponibles <%= link_to "ci-dessous", "beoi25.html#results" %>.<br>
+        Pour la deuxième fois des médailles ont été distribuées.<br>
         Or pour les 3 premiers, Argent pour les 3 suivants, Bronze pour les places 7 à 10.</p>
 
       </div>
@@ -204,9 +138,9 @@ trianglify_colors: '"RdBu"'
     <div class="row">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
 
-        <h2>beCP 2024</h2>
+        <h2>beCP 2025</h2>
 
-        <p>Le Concours de programmation belge (beCP) s'est déroulé et a été proclamé le samedi 25 mai 2024 à HE2B-ESI à Bruxelles.<br>
+        <p>Le Concours de programmation belge (beCP) s'est déroulé et a été proclamé le samedi 19 avril 2025 à HE2B-ESI à Bruxelles.<br>
         La proclamation et la remise des prix de beOI avaient lieu sur place le même jour.</p>
 
         <p>Les résultats officiels de la beCP sont disponibles <a href="#results_becp">ci-dessous</a>.<br>
@@ -224,64 +158,66 @@ trianglify_colors: '"RdBu"'
     <div class="row ">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
 
-         <h2><%= t(:weoi_full).capitalize %></h2>
+        <h2><%= t(:weoi_full).capitalize %></h2>
+        
+        <p><%= image_tag "archives/2025/weoi_2025.jpg", class:"cast-shadow", width:740 %></p>
          
-		   <p>
-		     La deuxième Olympiade d'informatique d'Europe de l'Ouest (<%= link_to "weoi 2024", "https://weoi.org/weoi-2024/", target:"_blank" %>) était organisée du 28 au 30 juin 2024 à Londres.<br>
-		     Elle réunissait 69 participants de 10 pays : Belgique, France, Irlande, Italie, Luxembourg, Pays-Bas, Portugal, Espagne, Suisse, Royaume-Uni.<br>
-           Il fallait résoudre 4 problèmes, pour un total de 400 points.<br>
-           Félicitations à Noé Zech qui a obtenu une médaille de Bronze.
-         </p>
+		    <p>
+		     La troisième Olympiade d'informatique d'Europe de l'Ouest (<%= link_to "weoi 2025", "https://weoi.org/weoi-2025/", target:"_blank" %>) était organisée du 27 au 29 juin 2025 à Volterra en Italie.<br>
+		     Elle réunissait 67 participants de 10 pays : Belgique, France, Irlande, Italie, Luxembourg, Pays-Bas, Portugal, Espagne, Suisse, Royaume-Uni.<br>
+         Il fallait résoudre 4 problèmes, pour un total de 400 points.<br>
+         L'équipe belge a obtenu d'excellents résultats et décroché 3 médailles.
+        </p>
           
          <p class="mb16 text-center">Voici la composition et les résultats de la délégation belge.</p>
 
          <table class="table table-striped">
             <tbody>
                <tr style="text-align:center; font-weight: bold">
-                  <td>Place /69</td>
+                  <td>Place /67</td>
                   <td style="text-align:left">Nom (année)</td>
                   <td><%= t(:column_score) %> /400</td>
                   <td>&nbsp;</td>
                </tr>
                <tr style="text-align:center; font-weight: bold">
-                  <td>29</td>
-                  <td style="text-align:left">Noé Zech (4e)</td>
-                  <td>203</td>
+                  <td>3</td>
+                  <td style="text-align:left">Noé Zech (5e)</td>
+                  <td>341,83</td>
+                  <td>Médaille d'Or</td>
+               </tr>
+               <tr style="text-align:center; font-weight: bold">
+                  <td>9</td>
+                  <td style="text-align:left">Alban Van Vyve (6e)</td>
+                  <td>257</td>
+                  <td>Médaille d'Argent</td>
+               </tr>
+               <tr style="text-align:center; font-weight: bold">
+                  <td>18</td>
+                  <td style="text-align:left">Joaquim Schaeverbeke (5e)</td>
+                  <td>221.71</td>
                   <td>Médaille de Bronze</td>
                </tr>
                <tr style="text-align:center; font-weight: bold">
-                  <td>36</td>
-                  <td style="text-align:left">Thomas De Bruyn (3e)</td>
-                  <td>161</td>
+                  <td>45</td>
+                  <td style="text-align:left">Edward Rosseel (5e)</td>
+                  <td>112</td>
+                  <td>&nbsp;</td>
+               </tr>               
+               <tr style="text-align:center; font-weight: bold">
+                  <td>46</td>
+                  <td style="text-align:left">Thomas De Bruyn (4e)</td>
+                  <td>102.51</td>
                   <td>&nbsp;</td>
                </tr>
                <tr style="text-align:center; font-weight: bold">
-                  <td>39</td>
-                  <td style="text-align:left">Joaquim Schaeverbeke (4e)</td>
-                  <td>150</td>
-                  <td>&nbsp;</td>
-               </tr>
-               <tr style="text-align:center; font-weight: bold">
-                  <td>42</td>
-                  <td style="text-align:left">Tibor Varga (5e)</td>
-                  <td>137</td>
-                  <td>&nbsp;</td>
-               </tr>
-               <tr style="text-align:center; font-weight: bold">
-                  <td>49</td>
-                  <td style="text-align:left">Akram Zakine (6e)</td>
-                  <td>103</td>
-                  <td>&nbsp;</td>
-               </tr>
-               <tr style="text-align:center; font-weight: bold">
-                  <td>52</td>
-                  <td style="text-align:left">Alban Van Vyve (5e)</td>
-                  <td>98</td>
+                  <td>61</td>
+                  <td style="text-align:left">Hasan Erdogan (6e)</td>
+                  <td>25</td>
                   <td>&nbsp;</td>
                </tr>
             </tbody>
          </table>
-         <p>Nos concurrents étaient accompagnés et encadrés par Petar Vitorac et Thibaut Van Vyve.</p>
+         <p>Nos concurrents étaient accompagnés et encadrés par Petar Vitorac et Robin Jadoul.</p>
       </div>        
     </div><!--end of row-->
   </div><!--end of container-->
@@ -289,6 +225,7 @@ trianglify_colors: '"RdBu"'
 
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- NO BELGIAN TEAM FOR EJOI in 2025
 <section class="altern" id="ejoi">
   <div class="container">
     <div class="row ">
@@ -297,11 +234,11 @@ trianglify_colors: '"RdBu"'
         <h2><%= t(:ejoi_full).capitalize %></h2>
 
 		  <p>
-          La huitième Olympiade européenne Junior d'Informatique (<%= link_to "eJOI 2024", "https://ejoi2024.gov.md", target:"_blank" %>) était organisée à Chisinau en Moldavie du 16 au 22 août 2024.
+          La huitième Olympiade européenne Junior d'Informatique (<%= link_to "eJOI 2025", "https://ejoi2025.gov.md", target:"_blank" %>) était organisée à Chisinau en Moldavie du 16 au 22 août 2025.
           Elle réunissait 98 candidats de 26 pays, majoritairement d'Europe de l'Est.
         </p>
         <p>
-          <%= image_tag "archives/2024/ejoi24-team.jpg", class:"img-polaroid center cast-shadow", width:740, title:"Délégation belge à l'ejoi 2024"  %>
+          <%= image_tag "archives/2025/ejoi24-team.jpg", class:"img-polaroid center cast-shadow", width:740, title:"Délégation belge à l'ejoi 2025"  %>
         </p>
         <p>
           L’équipe belge était composée de Thomas De Bruyn (à gauche) et Joaquim Schaeverbeke (à droite).<br>
@@ -332,12 +269,12 @@ trianglify_colors: '"RdBu"'
                </tr>
             </tbody>
          </table>
-         <p>Les résultats complets sont <%= link_to "ici", "https://ejoi2024.gov.md/results/", target:"_blank" %>.</p>
+         <p>Les résultats complets sont <%= link_to "ici", "https://ejoi2025.gov.md/results/", target:"_blank" %>.</p>
       </div>
-    </div><!--end of row-->
-  </div><!--end of container-->
+    </div><!--end of row #->
+  </div><!--end of container #->
 </section>
-
+-->
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <section class="altern" id="ioi">
@@ -347,50 +284,52 @@ trianglify_colors: '"RdBu"'
 
         <h2><%= t(:ioi_full).capitalize %></h2>
 
-        <p><%= image_tag "archives/2024/ioi24-logo.svg", class:"cast-shadow", width:740 %></p>
-		  <p>La 36e Olympiade Internationale d'Informatique (<%= link_to "IOI 2024", "https://www.ioi2024.eg/", target:"_blank" %>) a eu lieu à Alexandrie en Égypte du 1 au 8 septembre 2024.</p>
+        <!-- <p><%= image_tag "archives/2025/ioi_2025.jpg", class:"cast-shadow", width:740 %></p> -->
+		  <p>La 37e Olympiade Internationale d'Informatique (<%= link_to "IOI 2025", "https://ioi2025.obi.org.bo/", target:"_blank" %>) a eu lieu à Sucre en Bolivie du 27 juillet au 3 août 2025.</p>
 		
-        <p><%= image_tag "archives/2024/ioi24-team-with-leaders-2.jpg", class:"img-polaroid center cast-shadow", width:740, title:"Délégation belge à l'IOI 2024"  %></p>
-        
-        <p>La délégation belge était composée (derrière le drapeau, de gauche à droite) de Joaquim Schaeverbeke (4e), Alban Van Vyve (5e), Noé Zech (4e),  Akram Zakine (6e) encadrés par Damien Leroy (à gauche) et Petar Vitorac (à droite).</p>
+        <p><%= image_tag "archives/2025/ioi_2025_full_team.jpg", class:"img-polaroid center cast-shadow", width:740, title:"Délégation belge à l'IOI 2025"  %></p>
+         
+        <p>La délégation belge était composée (derrière le O, de gauche à droite) de Thomas De Bruyn (4e), Noé Zech (5e), Joaquim Schaeverbeke (5e), Alban Van Vyve (6e), encadrés par Robin Jadoul (à gauche) et Damien Leroy (à droite).</p>
            
 		  <p>
-          362 participants issus de 91 pays participaient à l'IOI 2024.<br>
-          <b>Les <%= link_to "résultats de l'équipe belge", "https://stats.ioinformatics.org/delegations/BEL/2024", target:"_blank" %> sont les suivants (sur un total possible de 600 points) :
+          330 participants issus de 84 pays participaient à l'IOI 2025.<br>
+          <b>Les <%= link_to "résultats de l'équipe belge", "https://stats.ioinformatics.org/delegations/BEL/2025", target:"_blank" %> sont les suivants (sur un total possible de 600 points) :
          <table class="table table-striped">
             <tbody>
                <tr style="text-align:center; font-weight: bold">
-                  <td>Place /362</td>
+                  <td>Place /330</td>
                   <td style="text-align:left">Nom (année)</td>
                   <td><%= t(:column_score) %> /600</td>
+                  <td>&nbsp;</td>
                </tr>
                <tr style="text-align:center; font-weight: bold">
-                  <td>213</td>
-                  <td style="text-align:left">Noé Zech (4e)</td>
-                  <td>187,81</td>
+                  <td>130</td>
+                  <td style="text-align:left">Noé Zech (5e)</td>
+                  <td>289,10</td>
+                  <td>Médaille de Bronze</td>
                </tr>
                <tr style="text-align:center; font-weight: bold">
-                  <td>241</td>
-                  <td style="text-align:left">Joaquim Schaeverbeke (4e)</td>
-                  <td>172,50</td>
+                  <td>195</td>
+                  <td style="text-align:left">Joaquim Schaeverbeke (5e)</td>
+                  <td>223,42</td>
+                  <td>Mention honorable</td>
                </tr>
                <tr style="text-align:center; font-weight: bold">
-                  <td>263</td>
-                  <td style="text-align:left">Alban Van Vyve (5e)</td>
-                  <td>147,11</td>
+                  <td>230</td>
+                  <td style="text-align:left">Alban Van Vyve (6e)</td>
+                  <td>182,21</td>
+                  <td>&nbsp;</td>
                </tr>
                <tr style="text-align:center; font-weight: bold">
-                  <td>288</td>
-                  <td style="text-align:left">Akram Zakine (6e)</td>
-                  <td>110,85</td>
-                </tr>
+                  <td>264</td>
+                  <td style="text-align:left">Thomas De Bruyn (4e)</td>
+                  <td>143,43</td>
+                  <td>&nbsp;</td>
+               </tr>
             </tbody>
          </table>
 		   </b>
-        </p>
-
-        <p>Nous n'ayons pas remporté de médailles ou de mentions honorables à l'IOI 2024, mais certains de nos participants n'en étaient pas loin et l'expérience restera inoubliable. Par ailleurs, trois de nos quatre participants seront à nouveau éligibles pour l'IOI 2025 en Bolivie.</p>
-        
+      </p>       
       </div>
     </div><!--end of row-->
   </div><!--end of container-->
@@ -426,8 +365,8 @@ trianglify_colors: '"RdBu"'
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
-        <h4 class="uppercase mb16 text-center">Finale beOI 2024 - Cadet</h4>
-        <%=image_tag "archives/2024/top-10-cadets.jpg", class:"cast-shadow" %>
+        <h4 class="uppercase mb16 text-center">Finale beOI 2025 - Cadet</h4>
+        <%=image_tag "archives/2025/cadets_2025.jpg", class:"cast-shadow" %>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.cadet_max %></p>
@@ -453,8 +392,8 @@ trianglify_colors: '"RdBu"'
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
-        <h4 class="uppercase mb16 text-center">Finale beOI 2024 - Junior</h4>
-        <%=image_tag "archives/2024/top-10-juniors.jpg", class:"cast-shadow" %>
+        <h4 class="uppercase mb16 text-center">Finale beOI 2025 - Junior</h4>
+        <%=image_tag "archives/2025/juniors_2025.jpg", class:"cast-shadow" %>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.junior_max %></p>
@@ -480,8 +419,8 @@ trianglify_colors: '"RdBu"'
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
-        <h4 class="uppercase mb16 text-center">Finale beOI 2024 - Senior</h4>
-        <%=image_tag "archives/2024/top-10-seniors.jpg", class:"cast-shadow" %>
+        <h4 class="uppercase mb16 text-center">Finale beOI 2025 - Senior</h4>
+        <%=image_tag "archives/2025/seniors_2025.jpg", class:"cast-shadow" %>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.senior_max %></p>
@@ -511,26 +450,22 @@ trianglify_colors: '"RdBu"'
 <section class="altern" id="results_becp">
   <div class="container">
     <div class="row mb64 mb-xs-32">
+      <h4 class="uppercase mb16 text-center"><%= t(:Cadet) %></h4>
       <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-        <h4 class="uppercase large"><%= t(:ranking) %> beCP 2024</h4>
+        <h4 class="uppercase large"><%= t(:ranking) %> beCP 2025</h4>
       </div>
-
+      
       <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <%=image_tag "archives/2025/becp_2025.jpg", class:"cast-shadow", width:1512 %>
+        <br><br>
         <table class="table table-striped">
           <tbody>
-            <tr style="text-align:right; font-weight: bold">
-               <td>#</td>
-               <td style="text-align:left"><%= t(:column_name) %></td>
-               <td style="text-align:left"><%= t(:column_school) %></td>
-               <td>FARIO /150</td><td>Q1 /100</td><td>Q2 /100</td><td>Q3 /100</td><td>Q4 /100</td><td>Q5 /100</td><td>Q6 /100</td>
-               <td><%= t(:column_score) %> /750</td>
-            </tr>
-            <% data.results_2024_becp.each do |r| %>
-            <tr style="text-align:right">
+            <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %> /100</th></tr>
+            <% data.results_2025_becp.each do |r| %>
+            <tr>
               <td><%= r.position %></td>
-              <td style="text-align:left" nowrap="nowrap"><%= r.name %></td>
-              <td style="text-align:left"><%= r.school %> <% if r.year %>(<%= t(r.year) %>)<% end %></td>
-              <td><%= r.fario %></td><td><%= r.q1 %></td><td><%= r.q2 %></td><td><%= r.q3 %></td><td><%= r.q4 %></td><td><%= r.q5 %></td><td><%= r.q6 %></td>
+              <td nowrap="nowrap"><%= r.name %></td>
+              <td><%= r.school %> <% if r.year %>(<%= t(r.year) %>)<% end %></td>
               <td><strong><%= r.score %></strong></td>
             </tr>
             <% end %>
@@ -538,7 +473,9 @@ trianglify_colors: '"RdBu"'
         </table>
 
       </div>
+
     </div><!--end of row-->
+
   </div><!--end of container-->
 </section>
 
@@ -549,9 +486,9 @@ google.charts.load('current', {'packages':['corechart','bar']});
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:Categories) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
-    ['<%= t(:Cadet) %>',     804],
-    ['<%= t(:Junior) %>',    977],
-    ['<%= t(:Senior) %>',    933]
+    ['<%= t(:Cadet) %>',     1194],
+    ['<%= t(:Junior) %>',    1464],
+    ['<%= t(:Senior) %>',    1461]
   ]);
   var options = {
     slices: {
@@ -567,10 +504,10 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:qualif_chart_lang) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
-    ['<%= t(:qualif_chart_lang_fr) %>', 1055],
-    ['<%= t(:qualif_chart_lang_nl) %>', 1485],
-    ['<%= t(:qualif_chart_lang_de) %>',   85],
-    ['<%= t(:qualif_chart_lang_en) %>',   89]
+    ['<%= t(:qualif_chart_lang_fr) %>', 1817],
+    ['<%= t(:qualif_chart_lang_nl) %>', 2019],
+    ['<%= t(:qualif_chart_lang_de) %>',  173],
+    ['<%= t(:qualif_chart_lang_en) %>',  110]
   ]);
   var options = {
     slices: {
@@ -586,8 +523,8 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:gender_field) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
-    ['<%= t(:gender_men) %>',     2028],
-    ['<%= t(:gender_women) %>',    686],
+    ['<%= t(:gender_men) %>',     1],
+    ['<%= t(:gender_women) %>',   1],
   ]);
   var options = {
     slices: {
