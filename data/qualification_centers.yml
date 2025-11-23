@@ -1,11 +1,11 @@
 -
   city: Antwerpen
   place: Universiteit Antwerpen
-  address: |
-    Campus Groenenborger, gebouw Z
-    Lokaal G.Z.423
-    Groenenborgerlaan 171
-    2020 Antwerpen
+  # address: |
+  #   Campus Groenenborger, gebouw Z
+  #   Lokaal G.Z.423
+  #   Groenenborgerlaan 171
+  #   2020 Antwerpen
   route_link: https://www.uantwerpen.be/nl/overuantwerpen/campussen/campus-groenenborger/
   pos:
     lat: 51.17821
@@ -24,13 +24,13 @@
   #   Rue Royale 67
   #   1000 Bruxelles
   # route_link: https://www.he2b.be/campus-esi
-  address: |
-    Campus ULB Plaine/Plein, yellow district
-    Room P.2 NO 4.008
-    "NO" building, 4th floor, left when exiting the lift 
-    batiment "NO", 4ième étage, à gauche en sortant de l'ascenceur
-    Gebouw “NO”, 4e verdieping, links bij het verlaten van de lift 
-    1050 Brussels
+  # address: |
+  #   Campus ULB Plaine/Plein, yellow district
+  #   Room P.2 NO 4.008
+  #   "NO" building, 4th floor, left when exiting the lift 
+  #   batiment "NO", 4ième étage, à gauche en sortant de l'ascenceur
+  #   Gebouw “NO”, 4e verdieping, links bij het verlaten van de lift 
+  #   1050 Brussels
   route_link: https://www.ulb.be/en/la-plaine/campus-map
   pos:
     lat: 50.8495931
@@ -38,7 +38,7 @@
 -
   city: Charleroi (annulé)
   place: UCLouvain
-  address: annulé
+  # address: annulé
   # address: |
   #   Local 21.4, zone IFAPME (voir plan)
   #   A6K (accès avec digicode fourni)
@@ -51,23 +51,23 @@
 -
   city: Gent
   place: Universiteit Gent
-  address: |
-    Lokaal 1.93
-    Boekentoren,
-    Campus Boekentoren
-    Sint-Hubertusstraat 8
-    9000 Gent
+  # address: |
+  #   Lokaal 1.93
+  #   Boekentoren,
+  #   Campus Boekentoren
+  #   Sint-Hubertusstraat 8
+  #   9000 Gent
   pos:
     lat: 51.0227516
     lng: 3.7105733
 -
   city: Hasselt
   place: Universiteit Hasselt
-  address: |
-    Lokaal B17, Gebouw D
-    Agoralaan 1
-    Campus Diepenbeek
-    Hasselt
+  # address: |
+  #   Lokaal B17, Gebouw D
+  #   Agoralaan 1
+  #   Campus Diepenbeek
+  #   Hasselt
   route_link: https://www.google.com/maps/d/u/0/edit?hl=en&mid=1MSTT0VnA2Rj8vgGJBuNrAXcabO8-DAA&ll=50.9254195292936%2C5.391170023105261&z=19
   pos:
     lat: 50.9253703
@@ -87,11 +87,11 @@
 -
   city: Leuven
   place: KU Leuven
-  address: |
-    KU Leuven Departement Computerwetenschappen
-    Room 00.124 ("PC-leslokaal")
-    Celestijnenlaan 200A
-    3001 Leuven
+  # address: |
+  #   KU Leuven Departement Computerwetenschappen
+  #   Room 00.124 ("PC-leslokaal")
+  #   Celestijnenlaan 200A
+  #   3001 Leuven
   route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
   pos:
     lat: 50.86411
@@ -99,7 +99,7 @@
 -
   city: Libramont (Annulé)
   place: Haute École Robert Schuman (HERS)
-  address: Annulé
+  # address: Annulé
   # address: |
   #   Local B2
   #   Rue de la Cité, 64
@@ -111,10 +111,10 @@
 -
   city: Liège
   place: HELMO Campus Guillemins
-  address: |
-    Rendez-vous à l'accueil
-    Rue de Harlez, 25
-    4000 Liège
+  # address: |
+  #   Rendez-vous à l'accueil
+  #   Rue de Harlez, 25
+  #   4000 Liège
   route_link: https://www.helmo.be/fr/campus/campus-guillemins/plan-acces#tab-content
   # address: |
   #   Locaux 1.132 et 1.99
@@ -130,11 +130,11 @@
 -
   city: Louvain-la-Neuve
   place: Université Catholique de Louvain
-  address: |
-    Salle Darwin
-    Bâtiment de Serres B-102
-    rue de la Croix du Sud
-    1348 Louvain-la-Neuve
+  # address: |
+  #   Salle Darwin
+  #   Bâtiment de Serres B-102
+  #   rue de la Croix du Sud
+  #   1348 Louvain-la-Neuve
   route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
   pos:
     lat: 50.6671189
@@ -142,12 +142,12 @@
 -
   city: Mons
   place: Université de Mons
-  address: |
-     Faculté des sciences, Campus Plaine de Nimy
-     Salle Russell (1er étage)
-     Bâtiment De Vinci
-     Avenue Victor Maistriau, 15
-     7000 Mons
+  # address: |
+  #    Faculté des sciences, Campus Plaine de Nimy
+  #    Salle Russell (1er étage)
+  #    Bâtiment De Vinci
+  #    Avenue Victor Maistriau, 15
+  #    7000 Mons
   route_link: https://web.umons.ac.be/app/uploads/sites/10/2017/10/UMONS_Plan-du-campus-de-la-plaine-de-Nimy2019.pdf
   pos:
     lat: 50.465386309824076
@@ -155,11 +155,11 @@
 -
   city: Namur
   place: Université de Namur
-  address: |
-    Salle I21 (2ième étage)
-    Rue Grandgagnage, 21
-    Faculté d’informatique
-    5000 Namur
+  # address: |
+  #   Salle I21 (2ième étage)
+  #   Rue Grandgagnage, 21
+  #   Faculté d’informatique
+  #   5000 Namur
   route_link: https://www.unamur.be/sites/default/files/2023-12/plancampusaveclegende.pdf
   pos:
     lat: 50.4658487
