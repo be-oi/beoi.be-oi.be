@@ -30,6 +30,54 @@
         deel te nemen vanop afstand, als we een betrouwbare contactpersoon
         hebben (in een school of universiteit) om de deelname te superviseren.
         Contacteer ons in elk geval via info@be-oi.be .
+    -
+      question: Tot wanneer kan ik me inschrijven?
+      answer: |
+        Het wordt aanbevolen om je in te schrijven vóór de zondag die voorafgaat aan de proef.
+        Hoe langer je wacht, hoe groter het risico dat het centrum dat je hebt gekozen
+        wordt geannuleerd wegens gebrek aan deelnemers of geen plaats meer heeft.
+    -
+      question: Kan ik deelnemen in mijn school én in een regionaal centrum?
+      answer: |
+        Neen, dit zal beschouwd worden als een poging tot valsspelen.
+-
+  category_title: Voor scholen
+  questions:
+    -
+      question: Onder welke voorwaarden kan de eerste ronde in de school doorgaan ?
+      answer: |
+        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan (noot: door de vele wijzigingen dit jaar is het mogelijk dat dit bij de start van de inschrijvingen nog licht wordt aangepast):<br>
+        - Er moet een computerlokaal beschikbaar zijn, met een internetverbinding en 1 computer voor iedere deelnemer.<br>
+        - Er moet constant toezicht zijn tijdens de volledige proef.<br>
+        - De proef moet doorgaan tijdens de proefweek (begin van de proef tussen 8h30 en 15h30).<br>
+        - Alle deelnemers van eenzelfde school die in eenzelfde categorie deelnemen, moeten de eerste ronde op dezelfde plaats en op hetzelfde tijdstip afleggen. Hiervan afwijken is enkel toegestaan als de begeleidende leerkrachten kunnen garanderen dat de contacten tussen leerlingen van eenzelfde categorie die op verschillende locaties of tijdstippen deelnemen tot een minimum wordt beperkt.<br>
+    -
+      question: Moeten mijn leerlingen zich op uw site inschrijven?
+      answer: |
+        Vanaf dit jaar niet meer. De inschrijving van uw leerlingen gebeurt door de school. Later volgt meer informatie.
+    -
+      question: Hoe schrijf ik mijn school in?
+      answer: |
+        Vanaf dit jaar zal uw school zich moeten registeren op het wedstrijdplatform. Details van de inschrijvingsprocedure volgen later.
+    -
+      question: Is een computerklas noodzakelijk?
+      answer: De eerste ronde is gepland als een wedstrijd via de computer. De wedstrijd zal dus in een computerklas met internetverbinding moeten plaatsvinden.
+    -
+      question: Is een goede internetverbinding noodzakelijk?
+      answer: |
+        Neen, het wedstrijdplatform is erg licht en de wedstrijd kan zelfs met een slechte inbelverbinding worden gerealiseerd.
+    -
+      question: Moeten de computers beschikken over specifieke software?
+      answer: Nee, er is enkel een browser nodig.
+    -
+      question: Wat als mijn computerklas te klein is?
+      answer: Je kan de proef in meerdere groepen laten doorgaan zonder enig probleem (uitgelegd op het coördinatorenplatform).
+    -
+      question: Moet ik elke leerling één voor één inschrijven?
+      answer: Nee, je ontvangt een code per groep en de leerlingen geven zelf hun naam in (uitgelegd op het coördinatorenplatform).
+    -
+      question: Tot wanneer kan ik mijn groepen inschrijven?
+      answer: Er is geen limiet. Je kan ze 2 minuten voor de proef nog aanmaken als je dat wilt, maar het zal moeilijker zijn om je te helpen bij problemen in dat geval.
 -
   category_title: Eerste ronde
   questions:
@@ -73,46 +121,3 @@
       answer: |
         België mag elk jaar een ploeg van 4 leerlingen naar de Internationale Olympiade in Informatica sturen. De ploeg wordt samengesteld na een aparte programmeerwedstrijd die georganiseerd wordt in mei voor de leden van de beCP groep.
         Daarom moet je dus eerst en vooral zelf lid worden van beCP.
--
-  category_title: Voor scholen
-  questions:
-    - question: Wat verandert er in 2017?
-      answer: |
-        In grote lijnen:<br>
-        - Dit jaar willen we de eerste ronde via de computer doen verlopen. <br>
-        - We trachten het inschrijvingsproces zo goed mogelijk te automatiseren. <br>
-        - Om onze groei te kunnen opvangen, zullen dit jaar enkele tientallen deelnemers in elke categorie tot de finale worden toegelaten.<br>
-        - De finale blijft dit jaar een proef op papier.<br>
-        - Er wordt een betere inschatting van vereiste tijdsduur en moeilijkheidsgraad nagestreefd voor de vragen.<br>
-        - Omdat computerklassen moeilijker te reserveren zijn, zullen we soepeler proberen zijn betreffende de praktische organisatie.<br>
-        - Er is geen minimum voor het aantal deelnemende leerlingen meer.
-    -
-      question: Onder welke voorwaarden kan de eerste ronde in de school doorgaan ?
-      answer: |
-        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan (noot: door de vele wijzigingen dit jaar is het mogelijk dat dit bij de start van de inschrijvingen nog licht wordt aangepast):<br>
-        - Er moet een computerlokaal beschikbaar zijn, met een internetverbinding en 1 computer voor iedere deelnemer.<br>
-        - Er moet constant toezicht zijn tijdens de volledige proef.<br>
-        - De proef moet doorgaan tijdens de proefweek (begin van de proef tussen 8h30 en 15h30).<br>
-        - Alle deelnemers van eenzelfde school die in eenzelfde categorie deelnemen, moeten de eerste ronde op dezelfde plaats en op hetzelfde tijdstip afleggen. Hiervan afwijken is enkel toegestaan als de begeleidende leerkrachten kunnen garanderen dat de contacten tussen leerlingen van eenzelfde categorie die op verschillende locaties of tijdstippen deelnemen tot een minimum wordt beperkt.<br>
-    -
-      question: Moeten mijn leerlingen zich op uw site inschrijven?
-      answer: |
-        Vanaf dit jaar niet meer. De inschrijving van uw leerlingen gebeurt door de school. Later volgt meer informatie.
-    -
-      question: Hoe schrijf ik mijn school in?
-      answer: |
-        Vanaf dit jaar zal uw school zich moeten registeren op het wedstrijdplatform. Details van de inschrijvingsprocedure volgen later.
-    -
-      question: Is een computerklas noodzakelijk?
-      answer: De eerste ronde is in 2017 gepland als een wedstrijd via de computer. De wedstrijd zal dus in een computerklas met internetverbinding moeten plaatsvinden.
-    -
-      question: Is een goede internetverbinding noodzakelijk?
-      answer: |
-        Neen, het wedstrijdplatform is erg licht en de wedstrijd kan zelfs met een slechte inbelverbinding worden gerealiseerd.
-    -
-      question: Moeten de computers beschikken over specifieke software?
-      answer: Nee, er is enkel een browser nodig.
-    -
-      question: Is er een oplossing voor de overlap met een andere wedstrijd?
-      answer: |
-        Dit jaar valt de eerste ronde van de Informatica-olympiade samen met die van de Biologie-olympiade. De biologie-olympiade gaat ook door op school in een computerklas, op vaste tijdstippen. We laten deelname aan de Informatica-olympiade gedurende de hele dag toe, zodat u hier gemakkelijk omheen kan werken.

@@ -35,86 +35,15 @@
         point de contact fiable (dans une école, université). Veuillez nous
         contacter à info@be-oi.be dans tous les cas.
 -
-  category_title: Qualifications
-  questions:
-    -
-      question: Où se déroulent les qualifications ?
-      answer: |
-        Les qualifications se déroulent dans les écoles (voir ci-dessous) et dans les
-        <a href="/fr/#qualif-centers">centres régionaux que vous pourrez trouver sur notre page principale</a>.
-        Les adresses précises seront disponibles à l'approche du concours.
-    -
-      question: Puis-je passer les qualifications dans un centre néerlandophone ?
-      answer: |
-        Vous pouvez passer l'épreuve en français dans l'ensemble des
-        centre en Belgique. Sachez cependant que les surveillants des
-        centres néerlandophones ne sauront peut-être pas vous répondre en français.
-        Les questions pouvant être posées à la qualfication
-        ne concernent pas l'épreuve mais uniquement des détails
-        pratiques (temps restant, ...).
-    -
-      question: Puis-je passer l'épreuve qualificative dans mon école ?
-      answer: |
-        Oui, à condition d'avoir le support d'un enseignant. L'école doit également remplir
-        un ensemble de conditions indiquées ci-dessous dans la catégorie "écoles". Dans le
-        cas contraire, passez l'épreuve dans le centre régional le plus proche.
--
-  category_title: Finale et la suite ...
-  questions:
-    -
-      question: Où la finale a-t-elle lieu ?
-      answer: |
-        La finale aura lieu dans un lieu central pour les participants, typiquement Bruxelles.
-        Le lieu exact sera indiqué sur notre site dès qu'il sera connu.
-    -
-      question: Dois-je savoir programmer pour la finale ?
-      answer: |
-        La finale est une épreuve papier. Les questions comporteront des extraits de code
-        simples à compléter. Il est donc nécessaire de savoir programmer dans un language
-        de programmation commun.
-        Tous les finalistes auront l'occasion de participer à une formation d'introduction à la
-        programmation donnée durant les vacances du Carnaval. Les dates et lieux exacts
-        seront annoncés à l'approche de la formation.
-    -
-      question: Et si je sais déjà bien programmer ?
-      answer: |
-        Nous vous invitons alors à participer à la beCP. Il s'agit du groupe de nos
-        programmeurs les plus talentueux, ils participent à des formations avancées
-        d'algorithmique.
-        La beCP permet de s'entraîner et de participer à des compétitions de niveau
-        international, telles que l'Olympiade Internationale d'Informatique.
-        Toutes les infos a propos de la beCP (y compris comment la rejoindre) se trouvent
-        sur notre site <a href="https://www.be-oi.be/fr/becp/">beCP</a>.
-    -
-      question:  Comment puis-je participer à l'Olympiade Internationale ?
-      answer: |
-        La Belgique envoie chaque année une délégation de quatre étudiants à l'Olympiade Internationale
-        d'Informatique. L'équipe est composée suite à un concours de sélection
-        parmi les participants du groupe beCP.
-        Pour y participer, vous devez donc commencer par rejoindre la beCP.
--
   category_title: Écoles
   questions:
-    -
-      question: Qu'est-ce qui a changé à partir de 2017 ?
-      answer: |
-        Dans les grandes lignes, depuis 2017:<br>
-        - La qualification a lieu sur ordinateur via une plate-forme en ligne.<br>
-        - Notre objectif est d'automatiser les inscriptions autant que possible.<br>
-        - Afin de répondre à la croissance du concours, quelques dizaines de participants de chaque catégorie
-          sont qualifiés pour la finale.<br>
-        - La finale reste sur papier.<br>
-        - Un effort est mis sur une meilleure estimation du temps et de la difficulté de
-          l'épreuve.<br>
-        - Vu que nous savons qu'il peut être difficile de réserver des salles informatique,
-          nous essayerons de donner le plus de souplesse dans l'organisation pratique.
     -
       question: Sous quelles conditions mon école peut-elle organiser l'épreuve qualificative ?
       answer: |
         La qualification peut être organisée dans votre établissement à condition que l'ensemble de
         ces critères soient remplis (note: il est possible que ces règles soient légèrement
         ajustées à l'ouverture des inscriptions):<br>
-        - Avoir une salle informatique dans lequelle organiser l'épreuve avec un ordinateur par
+        - Avoir une salle informatique dans laquelle organiser l'épreuve avec un ordinateur par
           participant et une connexion Internet.<br>
         - Avoir une surveillance constante pendant toute l'épreuve.<br>
         - Organiser l'épreuve durant la semaine de l'épreuve (début de l'épreuve entre 8h30 et 15h30).<br>
@@ -139,4 +68,81 @@
     -
       question: Des programmes en particulier sont-ils nécessaires sur les ordinateurs ?
       answer: Non, le concours n'a besoin que d'un navigateur Internet.
-
+    -
+      question: Que faire si ma salle informatique est trop petite ?
+      answer: Vous pouvez faire passer l'épreuve en plusieurs groupes sans aucun problème (expliqué la plateforme pour coordinateurs).
+    -
+      question: Devrai-je inscrire chaque élève un à un ?
+      answer: Non, vous recevrez un code par groupe de passage et les élèves indiqueront eux-même leur nom (expliqué la plateforme pour coordinateurs).
+    -
+      question: Jusqu'à quand puis-je inscrire mes groupes ?
+      answer: Il n'y a pas de limite. Vous pouvez les créer 2 minutes avant l'épreuve si vous le souhaitez mais il sera plus difficile de vous aider en cas de problème dans ce cas.
+-
+  category_title: Qualifications
+  questions:
+    -
+      question: Où se déroulent les qualifications ?
+      answer: |
+        Les qualifications se déroulent dans les écoles (voir ci-dessous) et dans les
+        <a href="/fr/#qualif-centers">centres régionaux que vous pourrez trouver sur notre page principale</a>.
+        Les adresses précises seront disponibles à l'approche du concours.
+    -
+      question: Puis-je passer les qualifications dans un centre néerlandophone ?
+      answer: |
+        Vous pouvez passer l'épreuve en français dans l'ensemble des
+        centre en Belgique. Sachez cependant que les surveillants des
+        centres néerlandophones ne sauront peut-être pas vous répondre en français.
+        Les questions pouvant être posées à la qualfication
+        ne concernent pas l'épreuve mais uniquement des détails
+        pratiques (temps restant, ...).
+    -
+      question: Puis-je passer l'épreuve qualificative dans mon école ?
+      answer: |
+        Oui, à condition d'avoir le support d'un enseignant. L'école doit également remplir
+        un ensemble de conditions indiquées ci-dessous dans la catégorie "écoles". Dans le
+        cas contraire, passez l'épreuve dans le centre régional le plus proche.
+    -
+      question: Jusqu'à quand puis-je m'inscrire ?
+      answer: |
+        Il est recommandé de s'inscrire avant le dimanche précédent l'épreuve.
+        Plus vous attendez, plus vous risquez que le centre que
+        vous avez choisi soit annulé faute de participants ou
+        n'ait plus de place disponible.
+    -
+      question: Puis-je participer dans mon école et dans un centre régional ?
+      answer: |
+        Non, cela sera considéré comme une tentative de triche.
+-
+  category_title: Finale et la suite ...
+  questions:
+    -
+      question: Où la finale a-t-elle lieu ?
+      answer: |
+        La finale aura lieu dans un lieu central pour les participants, typiquement Bruxelles.
+        Le lieu exact sera indiqué sur notre site dès qu'il sera connu.
+    -
+      question: Dois-je savoir programmer pour la finale ?
+      answer: |
+        La finale est une épreuve papier. Les questions comporteront des extraits de code
+        simples à compléter. Il est donc nécessaire de savoir programmer dans un language
+        de programmation commun.
+        Tous les finalistes auront l'occasion de participer à une formation d'introduction à la
+        programmation donnée entre les deux épreuves si nous avons les ressources nécessaires pour l'organiser cette année). 
+        Les dates et lieux exacts seront annoncés à l'approche de la formation.
+    -
+      question: Et si je sais déjà bien programmer ?
+      answer: |
+        Nous vous invitons alors à participer à la beCP. Il s'agit du groupe de nos
+        programmeurs les plus talentueux, ils participent à des formations avancées
+        d'algorithmique.
+        La beCP permet de s'entraîner et de participer à des compétitions de niveau
+        international, telles que l'Olympiade Internationale d'Informatique.
+        Toutes les infos à propos de la beCP (y compris comment la rejoindre) se trouvent
+        sur notre site <a href="https://www.be-oi.be/fr/becp/">beCP</a>.
+    -
+      question:  Comment puis-je participer à l'Olympiade Internationale ?
+      answer: |
+        La Belgique envoie chaque année une délégation de quatre étudiants à l'Olympiade Internationale
+        d'Informatique. L'équipe est composée suite à un concours de sélection
+        parmi les participants du groupe beCP.
+        Pour y participer, vous devez donc commencer par rejoindre la beCP.
