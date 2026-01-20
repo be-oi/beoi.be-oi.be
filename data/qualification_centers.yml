@@ -97,14 +97,14 @@
     lat: 50.86411
     lng: 4.6786777
 -
-  city: Libramont 
+  city: Libramont
   place: Haute École Robert Schuman (HERS)
   # address: Annulé
-  # address: |
-  #   Local B2
-  #   Rue de la Cité, 64
-  #   6800 Libramont
-  # route_link: https://cours.infohers.org/qualite/Locaux/MapB2.jpg
+  address: |
+    Local B2
+    Rue de la Cité, 64
+    6800 Libramont
+  route_link: https://cours.infohers.org/qualite/Locaux/MapB2.jpg
   pos:
     lat: 49.9280097
     lng: 5.3788132
