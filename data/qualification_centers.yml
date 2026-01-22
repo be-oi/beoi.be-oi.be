@@ -36,9 +36,9 @@
     lat: 50.8495931
     lng: 4.3618954
 -
-  city: Charleroi
+  city: Charleroi (annulé)
   place: UCLouvain
-  # address: annulé
+  address: annulé
   # address: |
   #   Local 21.4, zone IFAPME (voir plan)
   #   A6K (accès avec digicode fourni)
