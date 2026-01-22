@@ -87,11 +87,11 @@
 -
   city: Leuven
   place: KU Leuven
-  # address: |
-  #   KU Leuven Departement Computerwetenschappen
-  #   Room 00.124 ("PC-leslokaal")
-  #   Celestijnenlaan 200A
-  #   3001 Leuven
+  address: |
+    KU Leuven Departement Computerwetenschappen
+    Room 00.124 ("PC-leslokaal")
+    Celestijnenlaan 200A
+    3001 Leuven
   route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
   pos:
     lat: 50.86411
