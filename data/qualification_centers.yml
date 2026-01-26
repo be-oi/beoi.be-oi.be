@@ -51,6 +51,12 @@
 -
   city: Gent
   place: Universiteit Gent
+  address: |
+    Lokaal -1.10
+    Technicum Blok 2
+    Campus Ufo
+    Sint-Pietersnieuwstraat 41
+    Gent
   # address: |
   #   Lokaal 1.93
   #   Boekentoren,
