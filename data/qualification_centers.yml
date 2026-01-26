@@ -155,11 +155,11 @@
 -
   city: Namur
   place: Université de Namur
-  # address: |
-  #   Salle I21 (2ième étage)
-  #   Rue Grandgagnage, 21
-  #   Faculté d’informatique
-  #   5000 Namur
+  address: |
+    Salle I21 (2ième étage)
+    Rue Grandgagnage, 21
+    Faculté d’informatique
+    5000 Namur
   route_link: https://www.unamur.be/sites/default/files/2023-12/plancampusaveclegende.pdf
   pos:
     lat: 50.4658487
