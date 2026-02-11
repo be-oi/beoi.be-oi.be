@@ -1,7 +1,7 @@
 ---
 title: Qualification Results
 trianglify_colors: '"RdYlGn"'
-result_file: results_2025_qualif
+result_file: results_2026_qualif
 ---
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <section class="page-title page-title-4 image-bg">
@@ -42,7 +42,7 @@ result_file: results_2025_qualif
     <div class="row">
       <div class="col-md-12">
         <p class="text-center"><%=
-          t(:qualif_result_stat_contestants_text) % [results.year, results.stats.count_cadet+results.stats.count_junior+results.stats.count_senior, results.stats.school_org_total]
+          t(:qualif_result_stat_contestants_text) % [results.year, results.stats.count_prim+results.stats.count_cadet+results.stats.count_junior+results.stats.count_senior, results.stats.school_org_total]
         %></p>
       </div>
       <div id="chart-cat" class="col-md-6" style="height: 200px;"></div>
@@ -57,7 +57,13 @@ result_file: results_2025_qualif
     <div class="row">
       <div class="col-md-12">
         <p class="text-center"><%= t(:qualif_result_stat_graph_expl) %></p>
-        <p class="text-center"><%= t(:qualif_result_stat_thresholds) % [results.stats.threshold_cadet, count_finalists(results.charts.cadet, results.stats.threshold_cadet) , results.stats.threshold_junior, count_finalists(results.charts.junior, results.stats.threshold_junior), results.stats.threshold_senior, count_finalists(results.charts.senior, results.stats.threshold_senior), results.stats.max_possible_score] %></p>
+        <p class="text-center"><%= t(:qualif_result_stat_thresholds) % [results.stats.threshold_prim, count_finalists(results.charts.prim, results.stats.threshold_prim), results.stats.threshold_cadet, count_finalists(results.charts.cadet, results.stats.threshold_cadet) , results.stats.threshold_junior, count_finalists(results.charts.junior, results.stats.threshold_junior), results.stats.threshold_senior, count_finalists(results.charts.senior, results.stats.threshold_senior), results.stats.max_possible_score] %></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <h5 class="uppercase mb16 text-center mt16" style=" margin-bottom: -10px;"><%= t(:Prim) %></h5>
+        <div id="chart-scores-prim" class="col-md-12" ></div>
       </div>
     </div>
     <div class="row">
@@ -110,6 +116,7 @@ google.charts.load('current', {'packages':['corechart','bar']});
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:Categories) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
+    ['<%= t(:Prim) %>',     <%= results.stats.count_prim %>],
     ['<%= t(:Cadet) %>',     <%= results.stats.count_cadet %>],
     ['<%= t(:Junior) %>',    <%= results.stats.count_junior %>],
     ['<%= t(:Senior) %>',    <%= results.stats.count_senior %>]
@@ -162,6 +169,27 @@ google.charts.setOnLoadCallback(function() {
   var chart = new google.visualization.PieChart(document.getElementById('chart-gender'));
   chart.draw(data, options);
 });*/
+
+google.charts.setOnLoadCallback(function() {
+  var data = google.visualization.arrayToDataTable([
+    ['', 'Score','Score'],
+    <%= score_list_to_js_chart(results.charts.prim, results.stats.threshold_prim) %>
+  ]);
+
+  var options = {
+    stacked: true,
+    bars: 'vertical', // Required for Material Bar Charts.
+    height: 150,
+    series: { 0: {color: '#f46d43'}, 1: {color: '#66c2a5'} },
+    legend: { position: "none" },
+    bar: { groupWidth: "100%" },
+    backgroundColor: "transparent",
+    chartArea: { backgroundColor: "transparent" },
+    vAxis: { viewWindow: {max: <%= results.stats.max_possible_score %>} }
+  };
+  var chart = new google.charts.Bar(document.getElementById('chart-scores-prim'));
+  chart.draw(data, google.charts.Bar.convertOptions(options));
+});
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['', 'Score','Score'],

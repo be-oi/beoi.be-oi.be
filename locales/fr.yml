@@ -1,6 +1,7 @@
 ---
 fr:
   default_page_title: "Olympiade belge d'Informatique"
+  Prim: Primaire
   Cadet: Cadet
   Junior: Junior
   Senior: Senior
@@ -255,7 +256,7 @@ fr:
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
-    La qualification de l'olympiade 2025 a eu lieu la semaine du 5 février dans les écoles et centre régionaux. Cette page résume les
+    La qualification de l'olympiade 2026 a eu lieu la semaine du 4 février dans les écoles et centre régionaux. Cette page résume les
     principaux résultats.
   qualif_chart_nbcontestants: Nombre de participants
   qualif_chart_lang: Langue
@@ -274,8 +275,11 @@ fr:
     trouvez votre score, plus il est a gauche plus vous êtes dans les premières positions.
     La zone verte correspond aux candidats sélectionnés pour la finale.
   qualif_result_stat_thresholds: |
-    Le score minimal pour être qualifié pour la finale est de <strong>%d points pour la catégorie cadet</strong> (%d candidats),
-    <strong>%d points pour la catégorie junior</strong> (%d candidats) et <strong>%d points pour la catégorie senior</strong> (%d candidats).
+    Le score minimal pour être qualifié pour la finale est de
+    <strong>%d points pour la catégorie primaire</strong> (%d candidats), 
+    <strong>%d points pour la catégorie cadet</strong> (%d candidats), 
+    <strong>%d points pour la catégorie junior</strong> (%d candidats) et
+    <strong>%d points pour la catégorie senior</strong> (%d candidats).
     Le score maximum possible était de %d points.
 
   # Registrations

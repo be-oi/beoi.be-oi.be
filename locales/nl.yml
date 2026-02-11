@@ -1,6 +1,7 @@
 ---
 nl:
   default_page_title: "Belgische Informatica-olympiade"
+  Prim: Basisschool
   Cadet: Belofte
   Junior: Junior
   Senior: Senior
@@ -252,7 +253,7 @@ nl:
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
   qualif_intro_text: |
-    De eerste ronde van de olympiade 2025 vond plaats op 5 februari in verschillende scholen en regionale centra.
+    De eerste ronde van de olympiade 2026 vond plaats op 4 februari in verschillende scholen en regionale centra.
     Op deze pagina staan de resultaten van en enkele statistieken over deze ronde.
   qualif_chart_nbcontestants: Aantal deelnemers
   qualif_chart_lang: Taal
@@ -271,7 +272,9 @@ nl:
     en hoe verder links die zich bevindt, hoe hoger jouw positie.
     De groene zone komt overeen met de geselecteerden voor de finale.
   qualif_result_stat_thresholds: |
-    De minimumscore om gekwalificeerd te zijn voor de finale is <strong>%d punten voor de categorie Beloften</strong> (%d finalisten),
+    De minimumscore om gekwalificeerd te zijn voor de finale is 
+    <strong>%d punten voor de categorie Basisschool</strong> (%d finalisten),
+    <strong>%d punten voor de categorie Beloften</strong> (%d finalisten),
     <strong>%d punten voor de categorie Junior</strong> (%d finalisten) en
     <strong>%d punten voor de categorie Senior</strong> (%d finalisten). De maximumscore was %d punten.
 
