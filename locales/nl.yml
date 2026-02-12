@@ -277,6 +277,11 @@ nl:
     <strong>%d punten voor de categorie Beloften</strong> (%d finalisten),
     <strong>%d punten voor de categorie Junior</strong> (%d finalisten) en
     <strong>%d punten voor de categorie Senior</strong> (%d finalisten). De maximumscore was %d punten.
+  qualif_result_stat_thresholds_3cat: |
+    De minimumscore om gekwalificeerd te zijn voor de finale is 
+    <strong>%d punten voor de categorie Beloften</strong> (%d finalisten),
+    <strong>%d punten voor de categorie Junior</strong> (%d finalisten) en
+    <strong>%d punten voor de categorie Senior</strong> (%d finalisten). De maximumscore was %d punten.
 
   # Registrations
   registration_title: Inschrijven voor beOI %s

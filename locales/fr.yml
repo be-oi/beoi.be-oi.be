@@ -281,6 +281,12 @@ fr:
     <strong>%d points pour la catégorie junior</strong> (%d candidats) et
     <strong>%d points pour la catégorie senior</strong> (%d candidats).
     Le score maximum possible était de %d points.
+  qualif_result_stat_thresholds_3cat: |
+    Le score minimal pour être qualifié pour la finale est de
+    <strong>%d points pour la catégorie cadet</strong> (%d candidats), 
+    <strong>%d points pour la catégorie junior</strong> (%d candidats) et
+    <strong>%d points pour la catégorie senior</strong> (%d candidats).
+    Le score maximum possible était de %d points.
 
   # Registrations
   registration_title: Inscription à la beOI %s
