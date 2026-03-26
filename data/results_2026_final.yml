@@ -5,6 +5,11 @@ contestants:
   prim_top:
     - position: 0
       score: 999
+      name: Luna Grandjean
+      school: École Européenne III Ixelles
+      year: year_6th_prim
+    - position: 0
+      score: 999
       name: Jakob Himpens
       school: SPRING-STOF vzw Kessel-Lo
       year: year_6th_prim
@@ -14,11 +19,6 @@ contestants:
       school: SPRING-STOF vzw Kessel-Lo
       year: year_5th_prim
   prim:
-    - position: 3
-      score: 45
-      name: Luna Grandjean
-      school: École Européenne III Ixelles
-      year: year_6th_prim
     - position: 4
       score: 44
       name: Victoria Dediste
@@ -98,15 +98,15 @@ contestants:
       year: year_1st
     - position: 0
       score: 999
+      name: Thomas Van Herck
+      school: Collège Hagelstein Sint-Katelijne-Waver
+      year: year_2nd
+    - position: 0
+      score: 999
       name: Wout De Preetere
       school: Sint-Lievenscollege Humaniora Gent
       year: year_1st
   cadet:
-    - position: 10
-      score: 67
-      name: Thomas Van Herck
-      school: Collège Hagelstein Sint-Katelijne-Waver
-      year: year_2nd
     - position: 11
       score: 66
       name: Senne Blindeman
