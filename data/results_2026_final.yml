@@ -1,6 +1,59 @@
 ---
 year: 2026
 contestants:
+  prim_max: 86
+  prim_top:
+    - position: 0
+      score: 999
+      name: Jakob Himpens
+      school: SPRING-STOF vzw Kessel-Lo
+      year: year_6th_prim
+    - position: 0
+      score: 999
+      name: Linus Spincemaille
+      school: SPRING-STOF vzw Kessel-Lo
+      year: year_5th_prim
+  prim:
+    - position: 50
+      score: 45
+      name: Luna Grandjean
+      school: École Européenne III Ixelles
+      year: year_6th_prim
+    - position: 51
+      score: 44
+      name: Victoria Dediste
+      school: École Européenne III Ixelles
+      year: year_6th_prim
+    - position: 58
+      score: 43
+      name: Ana Cremarenco
+      school: École Européenne III Ixelles
+      year: year_6th_prim
+    - position: 66
+      score: 39
+      name: Miel Vannieuwenborg
+      school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
+      year: year_6th_prim
+    - position: 67
+      score: 38
+      name: Robin Sals
+      school: SPRING-STOF vzw Kessel-Lo
+      year: year_6th_prim
+    - position: 70
+      score: 37
+      name: Noor Van Nuffel
+      school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
+      year: year_6th_prim
+    - position: 79
+      score: 31
+      name: Alisa Kubareva
+      school: SPRING-STOF vzw Kessel-Lo
+      year: year_5th_prim
+    - position: 92
+      score: 13
+      name: Flynn Liebaert
+      school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
+      year: year_6th_prim
   cadet_max: 86
   cadet_top:
     - position: 0
@@ -23,11 +76,6 @@ contestants:
       name: Aurélio Gamboa Dos Santos
       school: École Européenne III Ixelles
       year: year_2nd
-    - position: 0
-      score: 999
-      name: Linus Spincemaille
-      school: SPRING-STOF vzw Kessel-Lo
-      year: year_5th_prim
     - position: 0
       score: 999
       name: Maxime Adelmann
@@ -124,11 +172,6 @@ contestants:
       name: Dorian Dos Santos
       school: Collège Saint-Guibert de Gembloux (Belgique) LAURENT Cédric Gembloux
       year: year_1st
-    - position: 21
-      score: 60
-      name: Jakob Himpens
-      school: SPRING-STOF vzw Kessel-Lo
-      year: year_6th_prim
     - position: 21
       score: 60
       name: Julie Kok
@@ -249,16 +292,6 @@ contestants:
       name: Julian Torfs
       school: Sint - Pieterscollege Leuven
       year: year_1st
-    - position: 50
-      score: 45
-      name: Luna Grandjean
-      school: École Européenne III Ixelles
-      year: year_6th_prim
-    - position: 51
-      score: 44
-      name: Victoria Dediste
-      school: École Européenne III Ixelles
-      year: year_6th_prim
     - position: 51
       score: 44
       name: Xant Henderyckx
@@ -301,11 +334,6 @@ contestants:
       year: year_1st
     - position: 58
       score: 43
-      name: Ana Cremarenco
-      school: École Européenne III Ixelles
-      year: year_6th_prim
-    - position: 58
-      score: 43
       name: Liam Duquesne
       school: VTI Sint-Lucas Menen Menen
       year: year_2nd
@@ -329,21 +357,11 @@ contestants:
       name: Arthur Willems
       school: Atheneum GO! Geel Geel
       year: year_2nd
-    - position: 66
-      score: 39
-      name: Miel Vannieuwenborg
-      school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
-      year: year_6th_prim
     - position: 67
       score: 38
       name: Simon Buts
       school: Nederlandstalige Regionale Centra Geen
       year: year_2nd
-    - position: 67
-      score: 38
-      name: Robin Sals
-      school: SPRING-STOF vzw Kessel-Lo
-      year: year_6th_prim
     - position: 67
       score: 38
       name: Lou Van Reeth
@@ -354,11 +372,6 @@ contestants:
       name: Nolhan Desmet
       school: Institut Provincial d'Enseignement Technique de Nivelles (IPET) Nivelles
       year: year_1st
-    - position: 70
-      score: 37
-      name: Noor Van Nuffel
-      school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
-      year: year_6th_prim
     - position: 70
       score: 37
       name: Gino Wolff
@@ -394,11 +407,6 @@ contestants:
       name: Shemar Delforge
       school: Centre Scolaire Saint-Michel Benoît Michel Bruxelles
       year: year_1st
-    - position: 79
-      score: 31
-      name: Alisa Kubareva
-      school: SPRING-STOF vzw Kessel-Lo
-      year: year_5th_prim
     - position: 79
       score: 31
       name: Briek Van Damme
@@ -459,17 +467,11 @@ contestants:
       name: Ferre Wouters
       school: Atheneum GO! Geel Geel
       year: year_2nd
-    - position: 92
-      score: 13
-      name: Flynn Liebaert
-      school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
-      year: year_6th_prim
     - position: 93
       score: 11
       name: Sami Lambrechts
       school: Collège Hagelstein Sint-Katelijne-Waver
       year: year_2nd
-
   junior_max: 121
   junior_top:
     - position: 0
@@ -522,7 +524,6 @@ contestants:
       name: Tijs Van Nuffel
       school: GO! Erasmus De Pinte De Pinte
       year: year_4th
-
   junior:
     - position: 11
       score: 84
@@ -1004,7 +1005,6 @@ contestants:
       name: Nikolas Thijs
       school: Hasp-o centrum Sint-Truiden
       year: year_3rd
-
   senior_max: 124
   senior_top:
     - position: 0
