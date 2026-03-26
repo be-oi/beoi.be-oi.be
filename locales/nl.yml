@@ -239,17 +239,17 @@ nl:
 
   final_result_title: "Finale: resultaten"
   final_results_expl_past: |
-    De finale van de olympiade 2024 vond plaats op 22 maart in Brussel (VUB, Aula Q).<br>
-    Er deden 245 deelnemers mee, een nieuw record.<br>
+    De finale van de olympiade 2026 vond plaats op 14 maart in Brussel (VUB, Aula Q).<br>
+    Er deden 258 deelnemers mee, een nieuw record.<br>
     Hieronder staan, per categorie, de resultaten van de finale.<br>
     Er werden medailles uitgedeeld.<br>
     Goud voor de eerste 3, zilver voor de volgende 3 en brons voor de plaatsen 7 tot en met 10.<br>
   final_results_expl_future: |
-    De finale van de olympiade 2025 vond plaats op 22 maart in Brussel (VUB, Aula Q).<br>
-    Er deden 245 deelnemers mee, een nieuw record.<br>
+    De finale van de olympiade 2026 vond plaats op 14 maart in Brussel (VUB, Aula Q).<br>
+    Er deden 258 deelnemers mee, een nieuw record.<br>
     Hieronder staan, per categorie, de resultaten van de finale.<br>
     De eerste finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score.<br>
-    Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 19 april in Brussel.<br>
+    Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 18 april in Brussel.<br>
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
   qualif_intro_text: |
@@ -302,7 +302,9 @@ nl:
   select_make_choice: Selecteer een waarde
   primary: lagere school
   secondary: middelbaar
-  year_6th_prim: 6e (lager)
+  year_4th_prim: 4e lager
+  year_5th_prim: 5e lager
+  year_6th_prim: 6e lager
   year_1st: 1e
   year_2nd: 2e
   year_3rd: 3e

@@ -2324,6 +2324,12 @@ th {
 .table-striped > tbody > tr:nth-of-type(even) {
   background-color: #f8f8ff;
 }
+.table-striped-prim > tbody > tr:nth-of-type(odd) {
+  background-color: #f0f0ff;
+}
+.table-striped-prim > tbody > tr:nth-of-type(even) {
+  background-color: #f8f8ff;
+}
 .table-striped-cadet > tbody > tr:nth-of-type(odd) {
   background-color: #fff0f0;
 }
