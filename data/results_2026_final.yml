@@ -64,7 +64,7 @@ contestants:
     - position: 0
       score: 999
       name: Anais Engelborghs
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_2nd
     - position: 0
       score: 999
@@ -84,12 +84,12 @@ contestants:
     - position: 0
       score: 999
       name: Mikhail Skovpen
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_2nd
     - position: 0
       score: 999
       name: Subhayan Dey
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_1st
     - position: 0
       score: 999
@@ -225,7 +225,7 @@ contestants:
     - position: 34
       score: 56
       name: Lucas Bartholome
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_2nd
     - position: 34
       score: 56
@@ -325,7 +325,7 @@ contestants:
     - position: 54
       score: 43
       name: Clara Antohi
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_1st
     - position: 54
       score: 43
@@ -340,7 +340,7 @@ contestants:
     - position: 54
       score: 43
       name: Iurii Gubin
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_1st
     - position: 54
       score: 43
@@ -360,7 +360,7 @@ contestants:
     - position: 61
       score: 38
       name: Simon Buts
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_2nd
     - position: 61
       score: 38
@@ -400,7 +400,7 @@ contestants:
     - position: 69
       score: 33
       name: Joachim Reginster
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_1st
     - position: 70
       score: 32
@@ -487,12 +487,12 @@ contestants:
     - position: 0
       score: 999
       name: Célestin Van Moeseke
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_3rd
     - position: 0
       score: 999
       name: Chong Shan
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_4th
     - position: 0
       score: 999
@@ -502,7 +502,7 @@ contestants:
     - position: 0
       score: 999
       name: Horia Antohi
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_4th
     - position: 0
       score: 999
@@ -512,7 +512,7 @@ contestants:
     - position: 0
       score: 999
       name: Paul Van Schaftingen
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_3rd
     - position: 0
       score: 999
@@ -643,7 +643,7 @@ contestants:
     - position: 33
       score: 62
       name: Rogier Van Den Keybus
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_3rd
     - position: 35
       score: 61
@@ -668,7 +668,7 @@ contestants:
     - position: 35
       score: 61
       name: Aleksandr Gubin
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_4th
     - position: 35
       score: 61
@@ -708,7 +708,7 @@ contestants:
     - position: 46
       score: 58
       name: Wout Peeters
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_4th
     - position: 46
       score: 58
@@ -828,7 +828,7 @@ contestants:
     - position: 69
       score: 49
       name: Bram Peeters
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_4th
     - position: 69
       score: 49
@@ -913,7 +913,7 @@ contestants:
     - position: 87
       score: 40
       name: Calogero Romano
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_3rd
     - position: 87
       score: 40
@@ -983,7 +983,7 @@ contestants:
     - position: 101
       score: 31
       name: Merlin Van Cranem
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_4th
     - position: 103
       score: 26
@@ -1071,7 +1071,7 @@ contestants:
     - position: 13
       score: 95
       name: Pieter Jacobs
-      school: Nederlandstalige Regionale Centra Geen
+      school: Nederlandstalige Regionale Centra
       year: year_6th
     - position: 14
       score: 91
