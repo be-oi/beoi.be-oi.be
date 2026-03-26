@@ -14,42 +14,42 @@ contestants:
       school: SPRING-STOF vzw Kessel-Lo
       year: year_5th_prim
   prim:
-    - position: 50
+    - position: 3
       score: 45
       name: Luna Grandjean
       school: École Européenne III Ixelles
       year: year_6th_prim
-    - position: 51
+    - position: 4
       score: 44
       name: Victoria Dediste
       school: École Européenne III Ixelles
       year: year_6th_prim
-    - position: 58
+    - position: 5
       score: 43
       name: Ana Cremarenco
       school: École Européenne III Ixelles
       year: year_6th_prim
-    - position: 66
+    - position: 6
       score: 39
       name: Miel Vannieuwenborg
       school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
       year: year_6th_prim
-    - position: 67
+    - position: 7
       score: 38
       name: Robin Sals
       school: SPRING-STOF vzw Kessel-Lo
       year: year_6th_prim
-    - position: 70
+    - position: 8
       score: 37
       name: Noor Van Nuffel
       school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
       year: year_6th_prim
-    - position: 79
+    - position: 9
       score: 31
       name: Alisa Kubareva
       school: SPRING-STOF vzw Kessel-Lo
       year: year_5th_prim
-    - position: 92
+    - position: 10
       score: 13
       name: Flynn Liebaert
       school: De Blije School (Gemeentelijke Basisschool De Pinte) De Pinte
@@ -102,372 +102,372 @@ contestants:
       school: Sint-Lievenscollege Humaniora Gent
       year: year_1st
   cadet:
-    - position: 11
+    - position: 10
       score: 67
       name: Thomas Van Herck
       school: Collège Hagelstein Sint-Katelijne-Waver
       year: year_2nd
-    - position: 12
+    - position: 11
       score: 66
       name: Senne Blindeman
       school: Óscar Romerocollege E&IT Dendermonde
       year: year_2nd
-    - position: 12
+    - position: 11
       score: 66
       name: Alexandre Sainz Miranda
       school: École Européenne III Ixelles
       year: year_2nd
-    - position: 14
+    - position: 13
       score: 65
       name: Stefan-Alexendru Pavel
       school: Lycée Maria Assumpta Laeken
       year: year_1st
-    - position: 15
+    - position: 14
       score: 64
       name: Oscar Ledeganck
       school: Sint-Gabrielcollege Boechout
       year: year_2nd
-    - position: 16
+    - position: 15
       score: 63
       name: Lars Vandewiele
       school: De Bron Tielt
       year: year_1st
-    - position: 17
+    - position: 16
       score: 62
       name: Maxim Szekacs
       school: École Européenne de Bruxelles IV Bruxelles
       year: year_2nd
-    - position: 18
+    - position: 17
       score: 61
       name: Simon Adem
       school: Óscar Romerocollege E&IT Dendermonde
       year: year_2nd
-    - position: 18
+    - position: 17
       score: 61
       name: Briek Buekers
       school: Sint - Pieterscollege Leuven
       year: year_2nd
-    - position: 18
+    - position: 17
       score: 61
       name: Matteo Montanari
       school: Collège Jean XXIII Bruxelles
       year: year_2nd
-    - position: 21
+    - position: 20
       score: 60
       name: Nora Bouwens
       school: De MET Leuven Kessel-Lo
       year: year_2nd
-    - position: 21
+    - position: 20
       score: 60
       name: Kamiel Buys
       school: Novaplus 2060
       year: year_2nd
-    - position: 21
+    - position: 20
       score: 60
       name: Louis Demoulin
       school: Sint-Lievenscollege Humaniora Gent
       year: year_2nd
-    - position: 21
+    - position: 20
       score: 60
       name: Dorian Dos Santos
       school: Collège Saint-Guibert de Gembloux (Belgique) LAURENT Cédric Gembloux
       year: year_1st
-    - position: 21
+    - position: 20
       score: 60
       name: Julie Kok
       school: Sint-Bavohumaniora Gent
       year: year_2nd
-    - position: 21
+    - position: 20
       score: 60
       name: Laure Vanden Berghe
       school: Barnum Roeselare
       year: year_2nd
-    - position: 28
+    - position: 26
       score: 59
       name: Ruben Dhondt
       school: GO! Erasmus De Pinte De Pinte
       year: year_2nd
-    - position: 28
+    - position: 26
       score: 59
       name: Andrii Drivinskyi
       school: VTI Sint-Lucas Menen Menen
       year: year_2nd
-    - position: 28
+    - position: 26
       score: 59
       name: Jasper Maes
       school: De Bron Tielt
       year: year_2nd
-    - position: 28
+    - position: 26
       score: 59
       name: Luca Pollet
       school: Collège Hagelstein Sint-Katelijne-Waver
       year: year_2nd
-    - position: 28
+    - position: 26
       score: 59
       name: Aaren Schuurmans
       school: OLVA Assebroek
       year: year_1st
-    - position: 33
+    - position: 31
       score: 58
       name: Nore Arnauts
       school: De MET Leuven Kessel-Lo
       year: year_2nd
-    - position: 34
+    - position: 32
       score: 57
       name: Alexandre Blain
       school: École Européenne de Bruxelles IV Bruxelles
       year: year_1st
-    - position: 34
+    - position: 32
       score: 57
       name: Alessandro Cominotti
       school: Institut des Dames de Marie Woluwe-Saint-Lambert
       year: year_1st
-    - position: 36
+    - position: 34
       score: 56
       name: Lucas Bartholome
       school: Centres régionaux francophones Null
       year: year_2nd
-    - position: 36
+    - position: 34
       score: 56
       name: Jun Choi
       school: Sint - Pieterscollege Leuven
       year: year_2nd
-    - position: 36
+    - position: 34
       score: 56
       name: Andreas Claessens
       school: Collège Hagelstein Sint-Katelijne-Waver
       year: year_1st
-    - position: 39
+    - position: 37
       score: 55
       name: Wolf Mengde
       school: Novaplus 2060
       year: year_2nd
-    - position: 39
+    - position: 37
       score: 55
       name: Jacob Van Caenegem
       school: De Bron Tielt
       year: year_1st
-    - position: 41
+    - position: 39
       score: 53
       name: Aimé Cornelis Lassmann
       school: Institut de la Vierge Fidèle Bruxelles
       year: year_2nd
-    - position: 41
+    - position: 39
       score: 53
       name: Louis Naert
       school: VTI Sint-Lucas Menen Menen
       year: year_2nd
-    - position: 43
+    - position: 41
       score: 52
       name: Hugo Kux
       school: Institut des Dames de Marie Woluwe-Saint-Lambert
       year: year_2nd
-    - position: 44
+    - position: 42
       score: 51
       name: Lander Van Goethem
       school: BA Caputsteen Mechelen
       year: year_1st
-    - position: 45
+    - position: 43
       score: 49
       name: Lars Bouckaeert
       school: De Bron Tielt
       year: year_2nd
-    - position: 45
+    - position: 43
       score: 49
       name: Michael Hetel
       school: École Européenne de Bruxelles IV Bruxelles
       year: year_2nd
-    - position: 45
+    - position: 43
       score: 49
       name: Bas Vervoort
       school: SPRING-STOF vzw Kessel-Lo
       year: year_2nd
-    - position: 48
+    - position: 46
       score: 47
       name: Bjarne Onsea
       school: Collège Hagelstein Sint-Katelijne-Waver
       year: year_2nd
-    - position: 48
+    - position: 46
       score: 47
       name: Julian Torfs
       school: Sint - Pieterscollege Leuven
       year: year_1st
-    - position: 51
+    - position: 48
       score: 44
       name: Xant Henderyckx
       school: Novaplus 2060
       year: year_2nd
-    - position: 51
+    - position: 48
       score: 44
       name: Samuël Herkul
       school: Atheneum GO! Geel Geel
       year: year_2nd
-    - position: 51
+    - position: 48
       score: 44
       name: Basile Lornet
       school: Novaplus 2060
       year: year_1st
-    - position: 51
+    - position: 48
       score: 44
       name: Elvin Schumacher
       school: Bischöfliches Institut Büllingen Büllingen
       year: year_2nd
-    - position: 51
+    - position: 48
       score: 44
       name: Timothée Stevens
       school: Institut de la Vierge Fidèle Bruxelles
       year: year_2nd
-    - position: 51
+    - position: 48
       score: 44
       name: Lars Vansweevelt
       school: Collège Hagelstein Sint-Katelijne-Waver
       year: year_2nd
-    - position: 58
+    - position: 54
       score: 43
       name: Clara Antohi
       school: Centres régionaux francophones Null
       year: year_1st
-    - position: 58
+    - position: 54
       score: 43
       name: Simon Chen
       school: Centre Scolaire Saint-Michel Benoît Michel Bruxelles
       year: year_1st
-    - position: 58
+    - position: 54
       score: 43
       name: Liam Duquesne
       school: VTI Sint-Lucas Menen Menen
       year: year_2nd
-    - position: 58
+    - position: 54
       score: 43
       name: Iurii Gubin
       school: Nederlandstalige Regionale Centra Geen
       year: year_1st
-    - position: 58
+    - position: 54
       score: 43
       name: Seppe Leyssens
       school: Sint-Lievenscollege Humaniora Gent
       year: year_1st
-    - position: 64
+    - position: 59
       score: 42
       name: Shanaya Dhaked
       school: Centre Scolaire Saint-Michel Benoît Michel Bruxelles
       year: year_1st
-    - position: 65
+    - position: 60
       score: 40
       name: Arthur Willems
       school: Atheneum GO! Geel Geel
       year: year_2nd
-    - position: 67
+    - position: 61
       score: 38
       name: Simon Buts
       school: Nederlandstalige Regionale Centra Geen
       year: year_2nd
-    - position: 67
+    - position: 61
       score: 38
       name: Lou Van Reeth
       school: Novaplus 2060
       year: year_2nd
-    - position: 70
+    - position: 63
       score: 37
       name: Nolhan Desmet
       school: Institut Provincial d'Enseignement Technique de Nivelles (IPET) Nivelles
       year: year_1st
-    - position: 70
+    - position: 63
       score: 37
       name: Gino Wolff
       school: Bischöfliches Institut Büllingen Büllingen
       year: year_2nd
-    - position: 73
+    - position: 65
       score: 34
       name: Viktor De Meyer
       school: École Européenne de Bruxelles IV Bruxelles
       year: year_2nd
-    - position: 73
+    - position: 65
       score: 34
       name: Arthur Knuts
       school: Heilig Hart Van Maria Berlaar Berlaar
       year: year_1st
-    - position: 73
+    - position: 65
       score: 34
       name: Tijl Van de Leest
       school: Regina Pacis ASO 2540
       year: year_2nd
-    - position: 73
+    - position: 65
       score: 34
       name: Tayler Van Der Biest
       school: Sint-Jozefscollege Aalst
       year: year_2nd
-    - position: 77
+    - position: 69
       score: 33
       name: Joachim Reginster
       school: Centres régionaux francophones Null
       year: year_1st
-    - position: 78
+    - position: 70
       score: 32
       name: Shemar Delforge
       school: Centre Scolaire Saint-Michel Benoît Michel Bruxelles
       year: year_1st
-    - position: 79
+    - position: 71
       score: 31
       name: Briek Van Damme
       school: Sint-Jozefscollege Aalst
       year: year_1st
-    - position: 81
+    - position: 72
       score: 30
       name: Robbe Priem
       school: Leiepoort campus Sint-Hendrik Deinze
       year: year_1st
-    - position: 82
+    - position: 73
       score: 29
       name: Leon De Baets
       school: De Bron Tielt
       year: year_1st
-    - position: 83
+    - position: 74
       score: 28
       name: Arno Weverbergh
       school: Novaplus 2060
       year: year_2nd
-    - position: 84
+    - position: 75
       score: 26
       name: Eva Astrovaite
       school: Collège Jean XXIII Bruxelles
       year: year_2nd
-    - position: 84
+    - position: 75
       score: 26
       name: Thomas Lhaut Retamal
       school: Lycée Martin V Louvain-la-Neuve
       year: year_1st
-    - position: 86
+    - position: 77
       score: 25
       name: Lou Arnauts
       school: Sint-Jozefscollege Aalst
       year: year_1st
-    - position: 87
+    - position: 78
       score: 23
       name: Romeo Auzouy Ceravolo
       school: École Européenne de Bruxelles IV Bruxelles
       year: year_2nd
-    - position: 88
+    - position: 79
       score: 21
       name: Milenko Tiebos
       school: Collège Hagelstein Sint-Katelijne-Waver
       year: year_2nd
-    - position: 89
+    - position: 80
       score: 19
       name: Anaelle Fourtado
       school: École Européenne III Ixelles
       year: year_1st
-    - position: 90
+    - position: 81
       score: 18
       name: Eliza Giec
       school: VTI Sint-Lucas Menen Menen
       year: year_2nd
-    - position: 91
+    - position: 82
       score: 15
       name: Ferre Wouters
       school: Atheneum GO! Geel Geel
       year: year_2nd
-    - position: 93
+    - position: 83
       score: 11
       name: Sami Lambrechts
       school: Collège Hagelstein Sint-Katelijne-Waver
