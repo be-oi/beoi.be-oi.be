@@ -19,6 +19,21 @@ contestants:
       school: École Européenne III Ixelles
       year: year_6th_prim
   prim:
+    - position: 1
+      score: 68
+      name: Linus Spincemaille
+      school: SPRING-STOF vzw Kessel-Lo
+      year: year_5th_prim
+    - position: 2
+      score: 60
+      name: Jakob Himpens
+      school: SPRING-STOF vzw Kessel-Lo
+      year: year_6th_prim
+    - position: 3
+      score: 45
+      name: Luna Grandjean
+      school: École Européenne III Ixelles
+      year: year_6th_prim
     - position: 4
       score: 44
       name: Victoria Dediste
@@ -107,6 +122,56 @@ contestants:
       school: Sint-Lievenscollege Humaniora Gent
       year: year_1st
   cadet:
+    - position: 1
+      score: 77
+      name: Arnav Hajarnavis
+      school: SPRING-STOF vzw Kessel-Lo
+      year: year_2nd
+    - position: 2
+      score: 73
+      name: Anais Engelborghs
+      school: Nederlandstalige Regionale Centra Geen
+      year: year_2nd
+    - position: 2
+      score: 73
+      name: Subhayan Dey
+      school: Centres régionaux francophones Null
+      year: year_1st
+    - position: 4
+      score: 70
+      name: Alexander Catoor
+      school: SPRING-STOF vzw Kessel-Lo
+      year: year_2nd
+    - position: 4
+      score: 70
+      name: Mikhail Skovpen
+      school: Centres régionaux francophones Null
+      year: year_2nd
+    - position: 6
+      score: 69
+      name: Warre Vandenhoven
+      school: Sint-Lievenscollege Humaniora Gent
+      year: year_1st
+    - position: 7
+      score: 68
+      name: Aurélio Gamboa Dos Santos
+      school: École Européenne III Ixelles
+      year: year_2nd
+    - position: 7
+      score: 68
+      name: Maxime Adelmann
+      school: Sint - Pieterscollege Leuven
+      year: year_1st
+    - position: 7
+      score: 68
+      name: Wout De Preetere
+      school: Sint-Lievenscollege Humaniora Gent
+      year: year_1st
+    - position: 10
+      score: 67
+      name: Thomas Van Herck
+      school: Collège Hagelstein Sint-Katelijne-Waver
+      year: year_2nd
     - position: 11
       score: 66
       name: Senne Blindeman
@@ -525,6 +590,56 @@ contestants:
       school: GO! Erasmus De Pinte De Pinte
       year: year_4th
   junior:
+    - position: 1
+      score: 115
+      name: Seppe Vandenhoven
+      school: Sint-Lievenscollege Humaniora Gent
+      year: year_4th
+    - position: 2
+      score: 113
+      name: Paul Van Schaftingen
+      school: Centres régionaux francophones Null
+      year: year_3rd
+    - position: 3
+      score: 106
+      name: Chong Shan
+      school: Nederlandstalige Regionale Centra Geen
+      year: year_4th
+    - position: 4
+      score: 99
+      name: Tijs Van Nuffel
+      school: GO! Erasmus De Pinte De Pinte
+      year: year_4th
+    - position: 5
+      score: 98
+      name: Célestin Van Moeseke
+      school: Centres régionaux francophones Null
+      year: year_3rd
+    - position: 5
+      score: 98
+      name: Horia Antohi
+      school: Centres régionaux francophones Null
+      year: year_4th
+    - position: 5
+      score: 98
+      name: Jef Van Der Haegen
+      school: GO! Atheneum Mariakerke Mariakerke
+      year: year_4th
+    - position: 8
+      score: 95
+      name: Arend Schepens
+      school: Sint-Franciscusinstituut Brakel
+      year: year_3rd
+    - position: 9
+      score: 86
+      name: Arne Patroons
+      school: Sint-Gabrielcollege Boechout
+      year: year_3rd
+    - position: 10
+      score: 85
+      name: Clément Durdu
+      school: Centre Scolaire Saint-Michel Benoît Michel Bruxelles
+      year: year_4th
     - position: 11
       score: 84
       name: Victor Kerkhof
@@ -1058,6 +1173,56 @@ contestants:
       school: Sint-Jan-Berchmanscollege Brussel
       year: year_5th
   senior:
+    - position: 1
+      score: 123
+      name: Stijn Patroons
+      school: Sint-Gabrielcollege Boechout
+      year: year_6th
+    - position: 2
+      score: 117
+      name: Stefan Boguslawski
+      school: École Européenne III Ixelles
+      year: year_5th
+    - position: 3
+      score: 112
+      name: Edward Rosseel
+      school: Sint-Barbaracollege Gent
+      year: year_6th
+    - position: 4
+      score: 111
+      name: Bowen Xie
+      school: Sint - Pieterscollege Leuven
+      year: year_5th
+    - position: 5
+      score: 110
+      name: Nikolay Voronin
+      school: Sint-Lievenscollege Humaniora Gent
+      year: year_6th
+    - position: 6
+      score: 105
+      name: Sander De Smet
+      school: Regina Pacis Tielt
+      year: year_5th
+    - position: 7
+      score: 104
+      name: Léo San Martin
+      school: Communauté Scolaire Sainte-Marie Namur 5000
+      year: year_6th
+    - position: 7
+      score: 104
+      name: Yves Tirtiaux
+      school: Sint-Jan-Berchmanscollege Brussel
+      year: year_5th
+    - position: 9
+      score: 98
+      name: Korneel Priem
+      school: Leiepoort campus Sint-Hendrik Deinze
+      year: year_5th
+    - position: 9
+      score: 98
+      name: Noam Van Eijmeren
+      school: GO! atheneum Ekeren Ekeren
+      year: year_6th
     - position: 11
       score: 96
       name: Luca D'Hooghe

@@ -356,3 +356,25 @@
       fr: beCP24-submission-fr.pdf
       nl: beCP24-submission-nl.pdf
       en: beCP24-submission-en.pdf
+"2026":
+  -
+    title:
+      official: rotation
+      fr: Tâche 1.1 Les Serrures Tournantes
+      nl: Taak 1.1 De Verdraaide Sloten
+      en: Task 1.1 The Rotated Locks
+    file:
+      fr: beCP26-rotation-fr.pdf
+      nl: beCP26-rotation-nl.pdf
+      en: beCP26-rotation-en.pdf
+  -
+    title:
+      official: silk-road
+      fr: Tâche 2.1 Route de la Soie en ville
+      nl: Taak 2.1 Zijderoute
+      en: Task 2.1 Silk Road
+    file:
+      fr: beCP26-silk-road-fr.pdf
+      nl: beCP26-silk-road-nl.pdf
+      en: beCP26-silk-road-en.pdf
+      
