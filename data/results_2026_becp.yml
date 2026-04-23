@@ -1,0 +1,45 @@
+- position: 1
+  score: 77.21
+  name: Noé Zech 
+  school: Collège du Christ-Roi, Ottignies 
+  year: year_6th 
+- position: 2
+  score: 76.05
+  name: Joaquim Schaeverbeke 
+  school: KA Etterbeek, Brussel 
+  year: year_6th
+- position: 3
+  score: 40.09
+  name: Edward Rosseel
+  school: Sint-Barbara Gent
+  year:  year_6th
+- position: 4
+  score: 40.05
+  name: Thomas De Bruyn 
+  school: ASO Spijker, Hoogstraten 
+  year: year_5th 
+- position: 5
+  score: 35.36
+  name: Paul Van Schaftingen
+  school: Collège du Christ-Roi, Ottignies
+  year: year_3rd
+- position: 6
+  score: 29.28
+  name: Chong Shan
+  school: T.I. Don Bosco Halle
+  year: year_4th
+- position: 7
+  score: 26.68
+  name: Célestin Van Moeseke
+  school: ""
+  year: year_3rd
+- position: 8
+  score: 24.93
+  name: Lars Verhaevert
+  school: Sint-Franciscusinstituut Brakel
+  year: year_3rd
+- position: 9
+  score: 14.90
+  name: Romain Thibert
+  school: ""
+  year: year_5th

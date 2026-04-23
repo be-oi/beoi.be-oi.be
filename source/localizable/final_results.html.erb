@@ -41,12 +41,13 @@ result_file: results_2026_final
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <h4 class="uppercase mb16 text-center"><%= t(:Prim) %></h4>
+        <%=image_tag "archives/2026/basis_2026.jpg", class:"cast-shadow" %>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- Ne PAS commenter entre ###Start-top### et ###End-top### pour afficher le top10 à part. -->
+        <!-- Ne PAS commenter entre ###Start-top### et ###End-top### pour afficher le top3 à part. -->
         <!-- ###Start-top### -->
-        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! -->
+        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top3 en ordre alphabétique et sans points ! - ->
          
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.prim_top.length %></h5>
 
@@ -64,7 +65,7 @@ result_file: results_2026_final
 
         <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.prim_top.length %></h5>
         
-        <!-- ###End-top### -->
+        <!- - ###End-top### -->
 
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.prim_max %></p>
 
@@ -95,13 +96,13 @@ result_file: results_2026_final
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <h4 class="uppercase mb16 text-center"><%= t(:Cadet) %></h4>
-        <!-- < %=image_tag "archives/2026/cadets_2026.jpg", class:"cast-shadow" %> -->
+        <%=image_tag "archives/2026/cadets_2026.jpg", class:"cast-shadow" %>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
         <!-- Ne PAS commenter entre ###Start-top### et ###End-top### pour afficher le top10 à part. -->
         <!-- ###Start-top### -->
-        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! -->
+        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! - ->
          
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.cadet_top.length %></h5>
 
@@ -119,7 +120,7 @@ result_file: results_2026_final
 
         <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.cadet_top.length %></h5>
         
-        <!-- ###End-top### -->
+        <!- - ###End-top### -->
 
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.cadet_max %></p>
 
@@ -150,13 +151,13 @@ result_file: results_2026_final
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <h4 class="uppercase mb16 text-center"><%= t(:Junior) %></h4>
-        <!-- < %=image_tag "archives/2026/juniors_2026.jpg", class:"cast-shadow" %> -->
+        <%=image_tag "archives/2026/juniors_2026.jpg", class:"cast-shadow" %>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
         <!-- Ne PAS commenter entre ###Start-top### et ###End-top### pour afficher le top10 à part. -->
         <!-- ###Start-top### -->
-        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! -->
+        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! - ->
         
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.junior_top.length %></h5>
 
@@ -174,7 +175,7 @@ result_file: results_2026_final
 
         <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.junior_top.length %></h5>
         
-        <!-- ###End-top### -->
+        <!- - ###End-top### -->
 
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.junior_max %></p>
 
@@ -205,13 +206,13 @@ result_file: results_2026_final
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <h4 class="uppercase mb16 text-center"><%= t(:Senior) %></h4>
-        <!-- < %=image_tag "archives/2026/seniors_2026.jpg", class:"cast-shadow" %> -->
+        <%=image_tag "archives/2026/seniors_2026.jpg", class:"cast-shadow" %>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
         <!-- Ne PAS commenter entre ###Start-top### et ###End-top### pour afficher le top10 à part. -->
         <!-- ###Start-top### -->
-        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! -->
+        <!-- Attention: data/results_20xy_final.yml doit seulement contenir le top10 en ordre alphabétique et sans points ! - ->
         
         <h5 class="uppercase mb16 text-center"><%= t(:final_top) % results.contestants.senior_top.length %></h5>
 
@@ -229,7 +230,7 @@ result_file: results_2026_final
 
         <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % results.contestants.senior_top.length %></h5>
         
-        <!-- ###End-top### -->
+        <!- - ###End-top### -->
 
         <p class="mb16 text-center"><%= t(:results_max_score)%results.contestants.senior_max %></p>
 
