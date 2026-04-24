@@ -135,7 +135,7 @@ contestants:
     - position: 2
       score: 73
       name: Subhayan Dey
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_1st
     - position: 4
       score: 70
@@ -145,7 +145,7 @@ contestants:
     - position: 4
       score: 70
       name: Mikhail Skovpen
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_2nd
     - position: 6
       score: 69
@@ -598,7 +598,7 @@ contestants:
     - position: 2
       score: 113
       name: Paul Van Schaftingen
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_3rd
     - position: 3
       score: 106
@@ -613,12 +613,12 @@ contestants:
     - position: 5
       score: 98
       name: Célestin Van Moeseke
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_3rd
     - position: 5
       score: 98
       name: Horia Antohi
-      school: Centres régionaux francophones Null
+      school: Centres régionaux francophones
       year: year_4th
     - position: 5
       score: 98
